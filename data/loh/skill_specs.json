@@ -1,0 +1,143 @@
+{
+ "verified_from_user_screenshots": {
+  "202551 Divine Speed": {
+   "condition": "distance_rate_after_random==50",
+   "wit_check": true,
+   "duration_s": 3,
+   "effects": [
+    "current speed +0.35",
+    "recovery 0.015"
+   ],
+   "legacy_match": true
+  },
+  "202531 Superb Gait": {
+   "condition": "distance_type==2&phase_random==1@distance_type==3&phase_random==1",
+   "wit_check": true,
+   "duration_s": 2.4,
+   "effects": [
+    "target speed +0.35"
+   ],
+   "legacy_match": true
+  },
+  "210261 Wisdom of the Sun": {
+   "condition": "phase==1&blocked_side_continuetime>=2",
+   "wit_check": true,
+   "duration_s": 1.8,
+   "effects": [
+    "target speed 0.35*(1+0.01*min(skills,20))"
+   ],
+   "legacy_match": "legacy fixed 0.42 = 20+ skills; scale if fewer"
+  },
+  "103102111 Perfect ♪ Order Up! (Ines evo, from Concentration)": {
+   "condition": "always==1",
+   "wit_check": true,
+   "duration": "infinite",
+   "effects": [
+    "start reaction 0.4",
+    "all stats +10"
+   ],
+   "legacy_match": true,
+   "note": "type 32 AllStatusUp implemented in engine"
+  },
+  "103102211 Slick Serving (Ines evo, from Crescent Gale)": {
+   "condition": "running_style==1&all_corner_random==1",
+   "wit_check": true,
+   "duration_s": 3,
+   "effects": [
+    "target speed +0.35",
+    "accel +0.2"
+   ],
+   "legacy_match": true
+  },
+  "106802111 Leap Ahead to the Future (Kitasan evo, from Escape Artist)": {
+   "condition": "running_style==1&phase_random==1&order_rate<=50",
+   "wit_check": true,
+   "duration_s": 4,
+   "effects": [
+    "target speed +0.35"
+   ],
+   "legacy_match": true,
+   "note": "LoH 12-runner field -> order<=6"
+  },
+  "106802211 Introducing the Victor! (Kitasan evo, from Taking the Lead)": {
+   "condition": "running_style==1&always==1",
+   "wit_check": true,
+   "duration_s": 1.2,
+   "effects": [
+    "accel +0.5"
+   ],
+   "legacy_match": true
+  },
+  "110501111 Beyond the Stars with You (Neo evo, from Come What May)": {
+   "condition": "distance_type==3&phase>=2&is_last_straight==1&order_rate>=20&order_rate<=60",
+   "wit_check": true,
+   "duration_s": 3,
+   "effects": [
+    "target speed +0.45"
+   ],
+   "legacy_match": true
+  },
+  "110501211 Cross the Sea of Stars (Neo evo, from Luminescence)": {
+   "condition": "distance_type==3&activate_count_all>=13",
+   "wit_check": true,
+   "duration_s": 4,
+   "effects": [
+    "current speed +0.35"
+   ],
+   "legacy_match": true
+  },
+  "102602111 Malfunction Mitigation (Bourbon evo, from Escape Artist)": {
+   "condition": "running_style==1&phase_random==1&order_rate<=50",
+   "wit_check": true,
+   "duration_s": 3,
+   "effects": [
+    "target speed +0.35",
+    "recovery 0.015"
+   ],
+   "legacy_match": true
+  },
+  "102602211 Perfect Boost (Bourbon evo, from Concentration)": {
+   "condition": "always==1",
+   "wit_check": true,
+   "duration": "infinite",
+   "effects": [
+    "start reaction 0.4",
+    "all stats +10"
+   ],
+   "legacy_match": true
+  },
+  "110311 Fresh☆Parlor (Ines unique)": {
+   "condition": "phase_firsthalf_random==1&order_rate<=30",
+   "wit_check": false,
+   "duration_s": 6,
+   "effects": [
+    "target speed +0.25",
+    "recovery 0.035"
+   ],
+   "legacy_match": true,
+   "note": "needs standard unique levelModifiers added on conversion"
+  },
+  "110681 Bring on the Banquet! (Kitasan unique)": {
+   "condition": "phase>=2&corner!=0&remain_distance>=600&order<=3",
+   "wit_check": false,
+   "duration_s": 4,
+   "effects": [
+    "current speed +0.35",
+    "accel +0.1"
+   ],
+   "legacy_match": true
+  },
+  "910681 Bring on the Banquet! (inherited)": {
+   "condition": "same",
+   "wit_check": true,
+   "cost": 200,
+   "duration_s": 2.4,
+   "effects": [
+    "current speed +0.15",
+    "accel +0.05"
+   ],
+   "legacy_match": true
+  }
+ },
+ "status": "all 13 non-validated opponent skills verified against user screenshots (Wisdom of the Sun fixed at 0.42 = 20+ skills)"
+}

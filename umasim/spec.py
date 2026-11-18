@@ -33,7 +33,7 @@ from pathlib import Path
 from . import catalog as C
 
 STAT_KEYS = ["speed", "stamina", "power", "guts", "wisdom"]
-_PASSTHROUGH = {"teamRank", "popularity", "teamId", "charaId", "fans", "careerWins"}
+_PASSTHROUGH = {"teamRank", "popularity", "teamId", "charaId", "fans", "careerWins", "gateIndex"}
 
 
 def load(path_or_obj) -> dict:
@@ -64,7 +64,7 @@ def _runner(r: dict, idx: int) -> dict:
         if isinstance(u, (str, int)):
             u = {"name": u}
         uid = C.resolve_skill(u.get("id") or u["name"], unique=True)
-        skills.append({"skillId": uid, "level": int(u.get("level", 4)), "isUnique": uid.startswith("1")})
+        skills.append({"skillId": uid, "level": int(u.get("level", 4)), "isUnique": C.is_unique_id(uid)})
     for s in r.get("skills", []):
         if isinstance(s, dict):
             sid = C.resolve_skill(s.get("id") or s.get("skillId") or s["name"], unique=bool(s.get("isUnique")))

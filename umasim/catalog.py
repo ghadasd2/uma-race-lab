@@ -87,10 +87,69 @@ def _load(path: Path):
         return json.load(f)
 
 
+def is_unique_id(sid: str) -> bool:
+    """Character uniques are 5-6 digit ids starting with 1 (evolved skills are 9-digit 1xxxxxxxx)."""
+    return sid[0] == "1" and len(sid) <= 6
+
+
+def is_evolved_id(sid: str) -> bool:
+    return len(sid) == 9 and sid[0] == "1"
+
+
 @lru_cache(None)
-def skill_table() -> dict:
+def validated_table() -> dict:
     """The audited v70 skill table the v77 validated profile uses."""
     return _load(ENGINE_DIR / "data" / "v70-skill-data.json")
+
+
+# Unique level scaling in the validated table depends only on effect type (checked over all uniques).
+_UNIQUE_LEVEL_MODS = {
+    27: [1.0, 1.01, 1.04, 1.07, 1.1, 1.13, 1.16, 1.19, 1.22, 1.25],    # target speed
+    31: [1.0, 1.02, 1.04, 1.06, 1.08, 1.1, 1.125, 1.15, 1.175, 1.2],   # acceleration
+    22: [1.0, 1.02, 1.04, 1.06, 1.08, 1.1, 1.12, 1.14, 1.16, 1.18],    # current speed
+    9: [1.0, 1.02, 1.04, 1.06, 1.08, 1.1, 1.12, 1.14, 1.16, 1.18],     # recovery
+}
+
+
+def _convert_legacy(sid: str, e: dict) -> dict:
+    """Legacy (sparse) entry -> validated-table shape. Conditions/values/durations are kept as-is;
+    structural fields get the validated table's conventions (one-shot cooldown, permanent stat skills
+    cooldown 0, unique level scaling by effect type)."""
+    import copy
+    e = copy.deepcopy(e)
+    uniq = is_unique_id(sid)
+    out = {"rarity": e["rarity"], "wisdomCheck": e.get("wisdomCheck", 0), "priority": 0, "tags": [],
+           "alternatives": [], "isGeneralSkill": not uniq, "approximated": True}
+    for a in e["alternatives"]:
+        effs = []
+        for ef in a["effects"]:
+            f = {"type": ef["type"], "target": ef.get("target", 1), "targetValue": ef.get("targetValue", 0),
+                 "additionalActivate": 0, "valueUsage": ef.get("valueUsage", 1), "modifier": ef["modifier"]}
+            if uniq and ef["type"] in _UNIQUE_LEVEL_MODS:
+                f["levelModifiers"] = _UNIQUE_LEVEL_MODS[ef["type"]]
+            effs.append(f)
+        out["alternatives"].append({"condition": a["condition"], "precondition": a.get("precondition", ""),
+                                    "baseDuration": a["baseDuration"], "durationUsage": 1,
+                                    "cooldown": 0 if a["baseDuration"] == -1 else 5000000, "effects": effs})
+    return out
+
+
+@lru_cache(None)
+def skill_table() -> dict:
+    """Validated v70 table, extended with legacy-only skills converted to the same shape
+    (flagged `approximated`). Every LoH opponent skill among these was checked against in-game data."""
+    t = dict(validated_table())
+    for sid, e in _load(ENGINE_DIR / "data" / "skill_data.json").items():
+        if sid not in t:
+            try:
+                t[sid] = _convert_legacy(sid, e)
+            except (KeyError, TypeError):
+                pass
+    return t
+
+
+def is_approximated(sid: str) -> bool:
+    return bool(skill_table().get(str(sid), {}).get("approximated"))
 
 
 @lru_cache(None)
@@ -188,14 +247,15 @@ def skill_info(sid: str) -> dict:
     sid = str(sid)
     t = skill_table().get(sid, {})
     m = skill_meta().get(sid, {})
-    kind = {"1": "unique", "9": "inherited unique", "2": "normal", "3": "scenario"}.get(sid[0], "?")
+    kind = ("evolved" if is_evolved_id(sid) else "unique" if is_unique_id(sid)
+            else {"9": "inherited unique", "2": "normal", "3": "scenario"}.get(sid[0], "?"))
     conds = [a.get("condition", "") for a in t.get("alternatives", [])]
     return {"id": sid, "name": skill_names().get(sid, sid), "kind": kind,
             "rarity": SKILL_RARITY.get(t.get("rarity"), t.get("rarity")),
             "cost": m.get("baseCost"), "groupId": m.get("groupId"),
             "wisdomCheck": bool(t.get("wisdomCheck")), "conditions": conds,
             "effectTypes": sorted({e["type"] for a in t.get("alternatives", []) for e in a.get("effects", [])}),
-            "inEngine": sid in skill_table()}
+            "inEngine": sid in skill_table(), "approximated": is_approximated(sid)}
 
 
 def resolve_skill(spec, unique: bool = False) -> str:
@@ -218,10 +278,10 @@ def resolve_skill(spec, unique: bool = False) -> str:
         close = difflib.get_close_matches(s, list(names), n=5, cutoff=0.6)
         raise ValueError(f"unknown skill {s!r}" + (f"; did you mean {close}?" if close else ""))
     if len(cands) > 1:
-        pref = [c for c in cands if c[0] == ("1" if unique else "9")]
+        pref = [c for c in cands if (is_unique_id(c) if unique else c[0] == "9")]
         if pref:
             cands = pref
-    if not unique and all(c[0] == "1" for c in cands):
+    if not unique and all(is_unique_id(c) for c in cands):
         raise ValueError(f"{s!r} is a unique skill and its inherited version is not in the engine skill table; "
                          f"put it in the runner's \"unique\" field instead")
     if len(cands) > 1:

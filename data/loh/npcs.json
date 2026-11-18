@@ -1,0 +1,13 @@
+{"source": "user screenshots (5 NPC examples)",
+ "npcs": [
+  {"jp":"レッドシュシュ","stats":[1068,714,1034,744,933],"turf":"A","dirt":"G","sprint":"G","mile":"F","medium":"B","long":"F","front":"G","pace":"E","late":"A","end":"B","strategy":"Late Surger",
+   "skills":["Firm Conditions ○","Outer Post Proficiency ○","Straightaway Adept","Position Pilfer","Slick Surge","Outer Swell","Soft Step","Late Surger Straightaways ○","A Small Breather","The Bigger Picture","Late Surger Savvy ○"]},
+  {"jp":"ミニロータス","stats":[1077,678,1001,817,917],"turf":"A","dirt":"G","sprint":"G","mile":"F","medium":"B","long":"F","front":"E","pace":"B","late":"E","end":"A","strategy":"End Closer",
+   "skills":["Firm Conditions ○","Outer Post Proficiency ○","Standing By","Masterful Gambit","Clairvoyance","End Closer Corners ○","End Closer Savvy ○","Early Start","Eager","Breakin' Out","Sharp Steps"]},
+  {"jp":"オリノコリエンテ","stats":[1085,686,971,802,905],"turf":"B?","dirt":"G","sprint":"G","mile":"F","medium":"A","long":"F","front":"E","pace":"B","late":"A","end":"G","strategy":"Late Surger",
+   "skills":["Firm Conditions ○","Outer Post Proficiency ○","Straightaway Adept","Center Stage","Position Pilfer","Slick Surge","Outer Swell","Soft Step","Late Surger Straightaways ○","A Small Breather","Late Surger Savvy ○"]},
+  {"jp":"ジュエルネフライト","stats":[1061,828,983,896,886],"turf":"A","dirt":"G","sprint":"G","mile":"F","medium":"A","long":"F","front":"A","pace":"E","late":"F","end":"G","strategy":"Front Runner",
+   "skills":["Inner Post Proficiency ○","Maverick ○","Focus","Center Stage","Pace Strategy","Early Lead","Fast-Paced","Up-Tempo","Front Runner Straightaways ○","Leader's Pride","Second Wind"]},
+  {"jp":"フリルドグレープ","stats":[1098,724,1052,828,928],"turf":"A","dirt":"G","sprint":"G","mile":"F","medium":"A","long":"F","front":"G","pace":"B","late":"A","end":"E","strategy":"Late Surger",
+   "skills":["Firm Conditions ○","Outer Post Proficiency ○","Straightaway Adept","Center Stage","Position Pilfer","Slick Surge","Outer Swell","Soft Step","Late Surger Straightaways ○","A Small Breather","Late Surger Savvy ○"]}
+ ]}

@@ -1,0 +1,85 @@
+{
+ "course": "Tokyo 2300",
+ "season": "Spring",
+ "field": 12,
+ "teams": {
+  "mine": 3,
+  "opponent": 3,
+  "npc": 6
+ },
+ "random": [
+  "gates",
+  "mood",
+  "ground",
+  "weather",
+  "time"
+ ],
+ "stat_bonus": null,
+ "scoring": {
+  "1": 100,
+  "2": 60,
+  "3": 40,
+  "4": 30,
+  "5": 20,
+  "6-12": 10
+ },
+ "objective": "maximize top-3 rate; report expected points",
+ "my_team": {
+  "umas": [
+   "Kitasan Black [真打・慶鶴之志] (New Year)",
+   "Ines Fujin [MELTY GIFT] (Valentine)",
+   "Neo Universe [Universe-Naut]"
+  ],
+  "stat_ranges": {
+   "speed": [
+    1400,
+    1500
+   ],
+   "stamina": [
+    900,
+    1150
+   ],
+   "power": [
+    1150,
+    1250
+   ],
+   "guts": [
+    1100,
+    1250
+   ],
+   "wisdom": [
+    1150,
+    1250
+   ]
+  },
+  "stat_total_max": 6100,
+  "skill_count": [
+   22,
+   23
+  ],
+  "skill_pool": {
+   "base": "each uma's CN kit",
+   "extra_required": [
+    "Racing Spirit: Stamina",
+    "Mad Dash",
+    "In Body and Mind",
+    "Firm Resolve",
+    "Killer Tunes"
+   ],
+   "extra_auto": "other relevant general/strategy skills, screened by the skills experiment"
+  }
+ },
+ "opponents": {
+  "jp": [
+   "JP Kitasan Black",
+   "JP Mihono Bourbon",
+   "CN Neo Universe"
+  ],
+  "cn": [
+   "CN Kitasan Black",
+   "CN Ines Fujin",
+   "CN Neo Universe"
+  ]
+ },
+ "mood": "uniform random per runner per race (-2..+2), recorded so results can be broken down by mood"
+}

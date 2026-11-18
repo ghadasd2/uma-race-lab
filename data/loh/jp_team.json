@@ -1,0 +1,111 @@
+{
+ "source": "user screenshots (JP winning team). Skill lists truncated in screenshots; full lists to come from CN data. Skill lists per user instructions.",
+ "team": [
+  {
+   "jp": "キタサンブラック [真打・慶鶴之志]",
+   "en": "Kitasan Black (alt)",
+   "stats": [
+    1501,
+    1059,
+    1194,
+    1049,
+    1313
+   ],
+   "turf": "A",
+   "dirt": "G",
+   "sprint": "E",
+   "mile": "C",
+   "medium": "S",
+   "long": "A",
+   "front": "S",
+   "pace": "B",
+   "late": "C",
+   "end": "G",
+   "strategy": "Front Runner",
+   "unique": {
+    "name": "Bring on the Banquet!",
+    "level": 5
+   },
+   "skills": [
+    "Red Shift/LP1211-M",
+    "Operation Cacao",
+    "Left-Handed ◎",
+    "Standard Distance ○",
+    "Spring Runner ○",
+    "Corner Adept ○",
+    "Straightaway Adept",
+    "Prudent Positioning",
+    "Ramp Up",
+    "Introducing the Victor!",
+    "Leap Ahead to the Future",
+    "Medium Straightaways ◎",
+    "Front Runner Straightaways ◎",
+    "Front Runner Corners ○",
+    "Dodging Danger",
+    "Top Runner",
+    "Front Runner Savvy ○",
+    "Uma Stan",
+    "Groundwork",
+    "Slipstream",
+    "Superb Gait",
+    "Divine Speed",
+    "Ignited Spirit WIT",
+    "Wisdom of the Sun"
+   ],
+   "skills_note": "copied exactly from CN Kitasan (user)"
+  },
+  {
+   "jp": "ミホノブルボン [CODE：グラサージュ]",
+   "en": "Mihono Bourbon (alt)",
+   "stats": [
+    1500,
+    967,
+    1224,
+    1159,
+    1239
+   ],
+   "turf": "A",
+   "dirt": "G",
+   "sprint": "C",
+   "mile": "B",
+   "medium": "S",
+   "long": "B",
+   "front": "S",
+   "pace": "E",
+   "late": "G",
+   "end": "G",
+   "strategy": "Front Runner",
+   "unique": {
+    "name": "Operation Cacao",
+    "level": 5
+   },
+   "skills": [
+    "Red Shift/LP1211-M",
+    "Bring on the Banquet!",
+    "Standard Distance ○",
+    "Spring Runner ○",
+    "Professor of Curvature",
+    "Straightaway Adept",
+    "Perfect Boost",
+    "Prudent Positioning",
+    "Taking the Lead",
+    "Malfunction Mitigation",
+    "Medium Straightaways ◎",
+    "Front Runner Straightaways ◎",
+    "Front Runner Corners ○",
+    "Dodging Danger",
+    "Top Runner",
+    "Front Runner Savvy ○",
+    "Uma Stan",
+    "Groundwork",
+    "Divine Speed",
+    "Ignited Spirit WIT",
+    "Wisdom of the Sun",
+    "Ramp Up",
+    "Nimble Navigator"
+   ],
+   "skills_note": "CN Bourbon + Ramp Up, Nimble Navigator from JP screenshot (user)"
+  }
+ ],
+ "note": "Vodka removed per user; JP team = JP Kitasan + JP Bourbon + CN Neo Universe (taken from cn_team.json)"
+}

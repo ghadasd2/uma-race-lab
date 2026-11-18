@@ -10,5 +10,9 @@ mechanism → verify → conclude. Never answer from intuition when a simulation
 - CLI: `./umasim.sh {run,compare,sweep,skills,check,courses,skill}`. Python API: `umasim.experiments`.
 - Scenarios live in `scenarios/`. Results land in `runs/<stamp>-<kind>-<name>/` (summary.json, report.md, CSVs).
 - Mechanics reference: `vendor/GlobalSim/docs/RACE-MECHANICS.md` (also MATHEMATICS, SKILLS, FIELD-MECHANICS).
-- Only the validated v77 profile + v70 skill table. Do not enable experimental/JP-only engine switches.
+- Validated v77 profile + v70 skill table, extended with legacy-table skills converted to the same shape
+  (`approximated` flag; LoH opponent skills among them were checked against in-game data in
+  `data/loh/skill_specs.json`). Do not enable experimental/JP-only engine switches.
+- League of Heroes project: `umasim/loh.py` (race model), `umasim/opt.py` (optimizer), `scripts/loh_stage*.py`,
+  data and rules in `data/loh/`.
 - Tests: `python3 -m pytest -q tests`. First-time setup: `./setup.sh`.
