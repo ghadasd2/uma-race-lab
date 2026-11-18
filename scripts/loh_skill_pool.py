@@ -21,6 +21,10 @@ for tag, u in builds:
     for s in u["skills"]: src[s].add(tag)
 for s in VODKA: src[s].add("JP Vodka (screenshot)")
 for s in EXTRAS: src[s].add("your extras")
+src["Solid Preparation"].add("your legacy add (verified)")
+# user rules: skill -> {enabled, allowed_umas}
+RULES = {"Killer Tunes": {"enabled": False, "note": "niche card; kept for a dedicated test, excluded from generation"},
+         "Solid Preparation": {"allowed_umas": ["Kitasan Black", "Ines Fujin"], "note": "gold of Groundwork; fronts only"}}
 
 print("ESP per build (listed = base costs, ◎ incl. ○, evolved = base gold; full = also white under each gold):")
 rows = []
@@ -49,6 +53,8 @@ for n, tags in src.items():
     pool.append({"skill": n, "id": i, "type": k, "inherited": k == "inherited", "locked_to": LOCKED.get(n),
                  "front": front, "late": late, "cost": esp.cost(i), "esp_listed": esp.esp(i, False), "esp_full": esp.esp(i, True),
                  "verified_legacy": C.is_approximated(i), "used_by": sorted(tags),
+                 "enabled": RULES.get(n, {}).get("enabled", True), "allowed_umas": RULES.get(n, {}).get("allowed_umas"),
+                 "note": RULES.get(n, {}).get("note"),
                  "sim_value_pp": {u: val[(u, n)] for u in ["Kitasan Black", "Ines Fujin", "Neo Universe"] if (u, n) in val}})
 pool.sort(key=lambda p: (p["type"], p["skill"]))
 (L / "skill_pool.json").write_text(json.dumps(pool, indent=1, ensure_ascii=False))

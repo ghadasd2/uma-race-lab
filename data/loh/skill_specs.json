@@ -137,6 +137,16 @@
     "accel +0.05"
    ],
    "legacy_match": true
+  },
+  "201602 Solid Preparation (gold of Groundwork)": {
+   "condition": "activate_count_start>=3",
+   "wit_check": true,
+   "cost": 180,
+   "duration_s": 3,
+   "effects": [
+    "accel +0.4"
+   ],
+   "legacy_match": true
   }
  },
  "status": "all 13 non-validated opponent skills verified against user screenshots (Wisdom of the Sun fixed at 0.42 = 20+ skills)"

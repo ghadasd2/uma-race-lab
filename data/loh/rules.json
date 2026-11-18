@@ -67,7 +67,12 @@
     "Killer Tunes"
    ],
    "extra_auto": "other relevant general/strategy skills, screened by the skills experiment"
-  }
+  },
+  "esp_range": [
+   4500,
+   4600
+  ],
+  "esp_basis": "full (gold includes its white, ◎ includes ○, evolved = base gold + white, own unique 0)"
  },
  "opponents": {
   "jp": [
