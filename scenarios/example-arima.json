@@ -1,0 +1,24 @@
+{
+  "name": "arima-example",
+  "course": "Nakayama 2500",
+  "ground": "Good",
+  "weather": "Sunny",
+  "season": "Winter",
+  "gates": "shuffle",
+  "focus": "Mine",
+  "runners": [
+    {"name": "Mine", "stats": [1150, 950, 1000, 500, 1000], "strategy": "Pace Chaser", "mood": "Great",
+     "distance": "A", "surface": "A", "style": "A",
+     "unique": {"name": "Red Ace", "level": 4},
+     "skills": ["Corner Recovery ○", "Swinging Maestro", "Pace Chaser Corners ○", "Corner Acceleration ○"]},
+
+    {"name": "Front", "stats": [1150, 850, 950, 500, 1000], "strategy": "Front Runner",
+     "skills": ["Corner Recovery ○", "Corner Adept ○"], "count": 2},
+    {"name": "Pace", "stats": [1150, 900, 1000, 500, 1000], "strategy": "Pace Chaser",
+     "skills": ["Corner Recovery ○", "Straightaway Acceleration"], "count": 3},
+    {"name": "Late", "stats": [1150, 900, 1050, 600, 950], "strategy": "Late Surger",
+     "skills": ["Corner Recovery ○", "Acceleration"], "count": 3},
+    {"name": "End", "stats": [1150, 900, 1050, 600, 950], "strategy": "End Closer",
+     "skills": ["Corner Recovery ○", "Straightaway Acceleration"], "count": 3}
+  ]
+}
