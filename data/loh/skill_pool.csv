@@ -27,6 +27,7 @@ Into High Gear!,910081,inherited,True,,True,True,200,200,200,False,['CN Neo'],Tr
 Operation Cacao,910261,inherited,True,,True,True,200,200,200,False,['CN Kitasan'],True,,,{'Kitasan Black': 2.7}
 Red Shift/LP1211-M,900041,inherited,True,,True,True,200,200,200,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon', 'JP Vodka (screenshot)']",True,,,"{'Kitasan Black': 2.5, 'Ines Fujin': 2.6, 'Neo Universe': 1.6}"
 "1,500,000 CC",201412,white,False,,False,True,120,120,120,False,['CN Neo'],True,,,{'Neo Universe': 1.4}
+All I've Got,201702,white,False,,True,True,160,160,160,False,['your extras'],True,,,{}
 Be Still,201692,white,False,,False,True,180,180,180,False,['CN Neo'],True,,,{'Neo Universe': 0.3}
 Corner Adept ○,200332,white,False,,True,True,180,180,180,False,"['CN Ines', 'CN Kitasan']",True,,,"{'Kitasan Black': -0.0, 'Ines Fujin': 0.9}"
 Dodging Danger,201262,white,False,,True,False,110,110,110,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']",True,,,"{'Kitasan Black': 1.6, 'Ines Fujin': 1.3}"
@@ -53,3 +54,4 @@ Slipstream,201651,white,False,,True,True,160,160,160,False,"['CN Kitasan', 'CN N
 Straightaway Adept,200362,white,False,,True,True,170,170,170,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon', 'JP Vodka (screenshot)']",True,,,"{'Kitasan Black': 0.4, 'Ines Fujin': 0.8, 'Neo Universe': 0.1}"
 Tail Held High,201611,white,False,,True,True,100,100,100,False,['CN Neo'],True,,,{'Neo Universe': 1.6}
 Uma Stan,201591,white,False,,True,True,160,160,160,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon']",True,,,"{'Kitasan Black': 0.1, 'Ines Fujin': 0.4, 'Neo Universe': 1.9}"
+With All My Soul,202132,white,False,,True,True,160,160,160,False,['your extras'],True,,,{}

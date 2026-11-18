@@ -11,7 +11,7 @@ cn = json.loads((L / "cn_team.json").read_text()); jp = json.loads((L / "jp_team
 K, I, N = cn["team"]; B = cn["reference"][0]; JK, JB = jp["team"][0], jp["team"][1]
 VODKA = ["Red Shift/LP1211-M", "Moving Past, and Beyond", "Standard Distance ○", "Spring Runner ○", "Straightaway Adept",
          "In Body and Mind", "Medium Straightaways ◎", "Medium Corners ○", "Late Surger Straightaways ○", "Late Surger Corners ◎"]
-EXTRAS = ["Racing Spirit: Stamina", "Mad Dash", "In Body and Mind", "Firm Resolve", "Killer Tunes"]
+EXTRAS = ["Racing Spirit: Stamina", "Mad Dash", "In Body and Mind", "Firm Resolve", "Killer Tunes", "All I've Got", "With All My Soul"]
 LOCKED = {"Introducing the Victor!": "Kitasan", "Leap Ahead to the Future": "Kitasan", "Perfect ♪ Order Up!": "Ines",
           "Slick Serving": "Ines", "Beyond the Stars with You": "Neo", "Cross the Sea of Stars": "Neo"}
 

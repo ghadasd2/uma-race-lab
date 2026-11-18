@@ -1,0 +1,94 @@
+diff --git a/src/lib.rs b/src/lib.rs
+index efd44d7..6f26fbd 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -1065,6 +1065,24 @@ fn run_race(spec: &RaceSpec, conditions: &'static BTreeMap<String, activation_co
+                 ("detailIndex", json::num(*detail as f64)), ("t", json::num(*t))
+             ])).collect::<Vec<_>>()
+         }).collect())),
++        ("duelLog", json::arr(field.solvers.iter().enumerate().flat_map(|(i, solver)| {
++            solver.borrow().duel_log.iter().map(|(t0, p0, t1, p1)| json::obj(vec![
++                ("horseIndex", json::num(i as f64)), ("t0", json::num(*t0)), ("pos0", json::num(*p0)),
++                ("t1", json::num(*t1)), ("pos1", json::num(*p1))
++            ])).collect::<Vec<_>>()
++        }).collect())),
++        ("spotLog", json::arr(field.solvers.iter().enumerate().flat_map(|(i, solver)| {
++            solver.borrow().spot_log.iter().map(|(t0, p0, t1, p1)| json::obj(vec![
++                ("horseIndex", json::num(i as f64)), ("t0", json::num(*t0)), ("pos0", json::num(*p0)),
++                ("t1", json::num(*t1)), ("pos1", json::num(*p1))
++            ])).collect::<Vec<_>>()
++        }).collect())),
++        ("skillPosLog", json::arr(field.solvers.iter().enumerate().flat_map(|(i, solver)| {
++            solver.borrow().skill_pos_log.iter().map(|(sid, t, p)| json::obj(vec![
++                ("horseIndex", json::num(i as f64)), ("skillId", json::Value::String(sid.clone())),
++                ("t", json::num(*t)), ("pos", json::num(*p))
++            ])).collect::<Vec<_>>()
++        }).collect())),
+         ("skillTargetObservationVersion", json::num(1.0)),
+         ("skillTargetEvents", json::arr(field.solvers.iter().enumerate().flat_map(|(i, solver)| {
+             solver.borrow().skill_target_events.iter().map(|(sid, detail, t, targets)| json::obj(vec![
+diff --git a/src/race_solver.rs b/src/race_solver.rs
+index 50a6fa1..8d62468 100644
+--- a/src/race_solver.rs
++++ b/src/race_solver.rs
+@@ -499,6 +499,10 @@ pub struct RaceSolver {
+     pending_queue: Vec<(f64, usize)>,
+ 
+     pub skill_detail_events: Vec<(String, usize, f64)>,
++    /// Observation only (umasim patch): (start_t, start_pos, end_t, end_pos); end = -1 while open.
++    pub duel_log: Vec<(f64, f64, f64, f64)>,
++    pub spot_log: Vec<(f64, f64, f64, f64)>,
++    pub skill_pos_log: Vec<(String, f64, f64)>,
+     // Per original ability: None is unobserved, Some(empty) is selected nobody.
+     // This is selector evidence, not confirmation that every modifier applied.
+     pub additional_target_events: Vec<(String, usize, f64, Vec<Option<Vec<usize>>>)>,
+@@ -805,6 +809,9 @@ impl RaceSolver {
+             pending_queue,
+ 
+             skill_detail_events: Vec::new(),
++            duel_log: Vec::new(),
++            spot_log: Vec::new(),
++            skill_pos_log: Vec::new(),
+             skill_target_events: Vec::new(),
+             additional_target_events: Vec::new(),
+             used_skills: BTreeSet::new(),
+@@ -2447,6 +2454,7 @@ impl RaceSolver {
+         let targets = self.apply_activation(skill_id, perspective, rarity, effects, has_green_tag, field, false, None, false, detail_index);
+         if perspective == Perspective::Self_ && skill_id.parse::<i64>().is_ok() {
+             self.skill_detail_events.push((skill_id.to_string(), detail_index, self.accumulatetime.get()));
++            self.skill_pos_log.push((skill_id.to_string(), self.accumulatetime.get(), self.pos));
+             self.skill_target_events.push((skill_id.to_string(), detail_index, self.accumulatetime.get(), targets));
+         }
+     }
+@@ -2818,6 +2826,7 @@ impl RaceSolver {
+             });
+             if self.spot_struggle_active && (self.spot_struggle_distance_exited
+                     || self.spot_struggle_timer.get() >= 0.0 || group_cutoff()) {
++                if let Some(last) = self.spot_log.last_mut() { if last.2 < 0.0 { last.2 = self.accumulatetime.get(); last.3 = self.pos; } }
+                 self.spot_struggle_active = false;
+                 self.modifiers_target_speed.add(-self.spot_struggle_modifier);
+                 self.retail_target_modifiers.remove(1);
+@@ -2939,6 +2948,7 @@ impl RaceSolver {
+         };
+         let duration = (700.0 * guts).powf(0.5) * 0.012 * strat_prof;
+         self.spot_struggle_active = true;
++        self.spot_log.push((self.accumulatetime.get(), self.pos, -1.0, -1.0));
+         self.spot_struggle_started = true;
+         self.spot_struggle_timer.set(-duration);
+         self.modifiers_target_speed.add(self.spot_struggle_modifier);
+@@ -3082,6 +3092,7 @@ impl RaceSolver {
+             // join that group during its entry window; HP and separation end it.
+             let low_hp = self.duel_low_hp(retail_partner);
+             if (!retail_partner && !in_final_straight) || low_hp || !nearby_participant {
++                if let Some(last) = self.duel_log.last_mut() { if last.2 < 0.0 { last.2 = self.accumulatetime.get(); last.3 = self.pos; } }
+                 self.duel_active = false;
+                 self.duel_continuous_timer = 0.0;
+                 self.duel_target_index = None;
+@@ -3206,6 +3217,7 @@ impl RaceSolver {
+             self.duel_accel_modifier = (160.0 * guts).powf(0.59) * 0.0001;
+         }
+         self.duel_active = true;
++        self.duel_log.push((self.accumulatetime.get(), self.pos, -1.0, -1.0));
+         self.compete_fight_count += 1;
+         self.modifiers_target_speed.add(self.duel_target_speed_modifier);
+         self.modifiers_accel.add(self.duel_accel_modifier);

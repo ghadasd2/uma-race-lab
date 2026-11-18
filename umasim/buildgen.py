@@ -25,10 +25,12 @@ MAX_SKILLS = 23          # incl. unique
 MAX_INHERITED = 3
 EVOLVED = {"Kitasan Black": ["Introducing the Victor!", "Leap Ahead to the Future"],
            "Ines Fujin": ["Perfect ♪ Order Up!", "Slick Serving"],
-           "Neo Universe": ["Beyond the Stars with You", "Cross the Sea of Stars"]}
+           "Neo Universe": ["Beyond the Stars with You", "Cross the Sea of Stars"],
+           "Mihono Bourbon": ["Perfect Boost", "Malfunction Mitigation"]}
 EVOLVED_BASES = {"Introducing the Victor!": ["Taking the Lead"], "Leap Ahead to the Future": ["Escape Artist"],
                  "Perfect ♪ Order Up!": ["Concentration"], "Slick Serving": ["Crescent Gale"],
-                 "Beyond the Stars with You": ["Come What May"], "Cross the Sea of Stars": ["Luminescence"]}
+                 "Beyond the Stars with You": ["Come What May"], "Cross the Sea of Stars": ["Luminescence"],
+                 "Perfect Boost": ["Concentration"], "Malfunction Mitigation": ["Escape Artist"]}
 
 
 def esp_range():
@@ -132,3 +134,43 @@ def mutate(uma_build: dict, rng: random.Random, lo_hi=None, tries: int = 500) ->
             b = copy.deepcopy(uma_build); b["skills"] = s
             return b
     return None
+
+
+def anchor_build(uma: dict, value: dict | None = None, lo_hi=None) -> dict:
+    """A legal build closest to the uma's own (CN) kit: keep kit skills that are in the pool, drop the
+    lowest-value ones (by `value`, else least common) until ESP <= hi, then top up with the most common
+    pool skills until ESP >= lo."""
+    lo, hi = lo_hi or esp_range()
+    allowed = {p["skill"]: p for p in candidates(uma)}
+    fixed = list(EVOLVED.get(uma["name"], []))
+    keep = [s for s in uma["skills"] if s in allowed and s not in fixed]
+    score = (lambda s: value.get(s, 0)) if value else (lambda s: len(allowed[s]["used_by"]))
+    skills = fixed + keep
+    # resolve tier conflicts / inherited cap by dropping lowest-score duplicates
+    while not valid(uma, skills, (0, 10**9))[0] or build_esp(skills) > hi:
+        cands = [s for s in skills if s not in fixed]
+        skills.remove(min(cands, key=score))
+    for p in sorted(allowed.values(), key=lambda p: -len(p["used_by"])):
+        if build_esp(skills) >= lo:
+            break
+        t = skills + [p["skill"]]
+        if valid(uma, t, (0, hi))[0]:
+            skills = t
+    # count cap reached below budget: swap the lowest-score skill for a pricier common one
+    for _ in range(40):
+        if build_esp(skills) >= lo:
+            break
+        worst = min((s for s in skills if s not in fixed), key=score)
+        best = None
+        for p in sorted(allowed.values(), key=lambda p: -len(p["used_by"])):
+            if p["skill"] in skills:
+                continue
+            t = [x for x in skills if x != worst] + [p["skill"]]
+            if build_esp(t) > build_esp(skills) and valid(uma, t, (0, hi))[0]:
+                best = t
+                break
+        if not best:
+            break
+        skills = best
+    b = copy.deepcopy(uma); b["skills"] = skills
+    return b

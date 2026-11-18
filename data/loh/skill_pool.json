@@ -655,6 +655,26 @@
   }
  },
  {
+  "skill": "All I've Got",
+  "id": "201702",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 160,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras"
+  ],
+  "enabled": true,
+  "allowed_umas": null,
+  "note": null,
+  "sim_value_pp": {}
+ },
+ {
   "skill": "Be Still",
   "id": "201692",
   "type": "white",
@@ -1272,5 +1292,25 @@
    "Ines Fujin": 0.4,
    "Neo Universe": 1.9
   }
+ },
+ {
+  "skill": "With All My Soul",
+  "id": "202132",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 160,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras"
+  ],
+  "enabled": true,
+  "allowed_umas": null,
+  "note": null,
+  "sim_value_pp": {}
  }
 ]

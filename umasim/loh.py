@@ -218,38 +218,70 @@ class Matchup:
                     "retainAllFrames": False, "omitFrames": True, "skillData": sd, "dataSignature": "umasim-loh"})
         return req
 
-    def simulate(self, seeds: list[int], workers=None, label: str = "") -> tuple[pd.DataFrame, pd.DataFrame]:
-        draws = {s: draw(s) for s in seeds}
-        replies = engine.run_requests((self.request(s, draws[s]) for s in seeds), workers)
+    def simulate(self, seeds: list[int], workers=None, label: str = "", chunk: int = 3000) -> tuple[pd.DataFrame, pd.DataFrame]:
+        """Full telemetry for every runner: placings, spot struggle, duels, skill activation positions."""
         rows, skill_rows = [], []
-        D = self.course["distance"]
-        for s, rep in zip(seeds, replies):
-            if "error" in rep:
-                raise engine.EngineError(rep["error"])
-            d = draws[s]
-            duels = [0] * 12
-            for e in rep.get("competitionEvents", []):
-                if e["type"] == 5:
-                    duels[e["horseIndex"]] += 1
-            win_t = min(r["finishTimeRaw"] for r in rep["results"])
-            for i, r in enumerate(rep["results"]):
-                place = r["finishOrder"] + 1
-                sp = r.get("lastSpurtStartDistance", -1)
-                rows.append({"label": label, "world": self.world, "seed": s, "idx": i, "runner": self.names[i],
-                             "side": "mine" if i < 3 else ("opp" if i < 6 else "npc"),
-                             "strategy": (self.mine + self.opp + d["npcs"])[i]["strategy"],
-                             "place": place, "points": points(place), "top3": place <= 3, "win": place == 1,
-                             "time": r["finishTimeRaw"], "behind": r["finishTimeRaw"] - win_t,
-                             "gate": d["gates"][i] + 1, "mood": d["moods"][i], "ground": d["ground"],
-                             "weather": d["weather"], "time_of_day": d["time"],
-                             "full_spurt": sp >= 0 and sp - D * 2 / 3 <= 5.0, "hp_empty": bool(r.get("hpEmptyOnRace")),
-                             "rushed": r.get("rushingStartCount", 0) > 0, "late_start": r.get("startDelayTime", 0) > 0.08,
-                             "duels": duels[i]})
-            for e in rep.get("skillEvents", []):
-                if e["horseIndex"] < 6 and e["skillId"] != "kakari":
-                    skill_rows.append({"label": label, "world": self.world, "seed": s, "runner": self.names[e["horseIndex"]],
-                                       "skill": C.skill_names().get(str(e["skillId"]), str(e["skillId"])), "t": e["t"]})
-        return pd.DataFrame(rows), pd.DataFrame(skill_rows, columns=["label", "world", "seed", "runner", "skill", "t"])
+        for k in range(0, len(seeds), chunk):
+            part = seeds[k:k + chunk]
+            draws = {s: draw(s) for s in part}
+            reqs = [self.request(s, draws[s]) for s in part]
+            replies = engine.run_requests(reqs, workers)
+            for s, req, rep in zip(part, reqs, replies):
+                if "error" in rep:
+                    raise engine.EngineError(rep["error"])
+                r1, r2 = telemetry(rep, req, draws[s], self, label, s)
+                rows += r1; skill_rows += r2
+        return pd.DataFrame(rows), pd.DataFrame(skill_rows, columns=SKILL_COLS)
+
+
+SKILL_COLS = ["label", "world", "seed", "runner", "side", "skill", "t", "pos"]
+
+
+def telemetry(rep: dict, req: dict, d: dict, m: "Matchup", label: str, s: int):
+    """One reply -> runner rows + skill rows. Engine observation logs (duelLog/spotLog/skillPosLog)
+    are indexed by gate rank; competitionEvents/results/skillEvents by runner. Map gate -> runner."""
+    D = m.course["distance"]
+    gates = [h["gateIndex"] for h in req["horses"]]
+    g2i = {sorted(gates).index(gates[i]): i for i in range(12)}   # gate rank -> runner
+    builds = m.mine + m.opp + d["npcs"]
+    duels = {i: [] for i in range(12)}
+    for e in rep.get("duelLog", []):
+        duels[g2i[e["horseIndex"]]].append(e)
+    spots = {i: [] for i in range(12)}
+    for e in rep.get("spotLog", []):
+        spots[g2i[e["horseIndex"]]].append(e)
+    win_t = min(r["finishTimeRaw"] for r in rep["results"])
+    rows = []
+    for i, r in enumerate(rep["results"]):
+        place = r["finishOrder"] + 1
+        sp = r.get("lastSpurtStartDistance", -1)
+        dl, sl = duels[i], spots[i]
+        row = {"label": label, "world": m.world, "seed": s, "idx": i, "runner": m.names[i],
+               "side": "mine" if i < 3 else ("opp" if i < 6 else "npc"), "strategy": builds[i]["strategy"],
+               "place": place, "points": points(place), "top3": place <= 3, "win": place == 1,
+               "p1": place == 1, "p2": place == 2, "p3": place == 3,
+               "time": r["finishTimeRaw"], "behind": r["finishTimeRaw"] - win_t,
+               "gate": gates[i] + 1, "mood": d["moods"][i], "ground": d["ground"], "weather": d["weather"],
+               "time_of_day": d["time"], "start_delay": r.get("startDelayTime", 0.0),
+               "late_start": r.get("startDelayTime", 0) > 0.08, "rushed": r.get("rushingStartCount", 0) > 0,
+               "spurt_start": sp, "full_spurt": sp >= 0 and sp - D * 2 / 3 <= 5.0, "hp_empty": bool(r.get("hpEmptyOnRace")),
+               "duels": len(dl), "dueled": bool(dl),
+               "duel_start_pos": dl[0]["pos0"] if dl else None,
+               "duel_end_pos": (dl[-1]["pos1"] if dl[-1]["t1"] >= 0 else D) if dl else None,
+               "duel_time": sum(((e["t1"] if e["t1"] >= 0 else r["finishTimeRaw"]) - e["t0"]) for e in dl) if dl else 0.0,
+               "duel_to_finish": bool(dl) and dl[-1]["t1"] < 0,
+               "spot": bool(sl), "spot_start_pos": sl[0]["pos0"] if sl else None,
+               "spot_end_pos": sl[-1]["pos1"] if sl and sl[-1]["t1"] >= 0 else None,
+               "spot_time": sum((e["t1"] - e["t0"]) for e in sl if e["t1"] >= 0) if sl else 0.0}
+        rows.append(row)
+    skill_rows = []
+    for e in rep.get("skillPosLog", []):
+        i = g2i[e["horseIndex"]]
+        if i >= 6:
+            continue
+        skill_rows.append([label, m.world, s, m.names[i], "mine" if i < 3 else "opp",
+                           C.skill_names().get(str(e["skillId"]), str(e["skillId"])), e["t"], e["pos"]])
+    return rows, skill_rows
 
 
 def team_score(df: pd.DataFrame, side: str = "mine") -> dict:
