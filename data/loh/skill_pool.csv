@@ -1,0 +1,54 @@
+skill,id,type,inherited,locked_to,front,late,cost,esp_listed,esp_full,verified_legacy,used_by,sim_value_pp
+Beyond the Stars with You,110501111,evolved,False,Neo,True,True,0,160,320,True,['CN Neo'],{'Neo Universe': 3.2}
+Cross the Sea of Stars,110501211,evolved,False,Neo,True,True,0,160,320,True,['CN Neo'],{'Neo Universe': 3.8}
+Introducing the Victor!,106802211,evolved,False,Kitasan,True,False,0,120,240,True,['CN Kitasan'],{'Kitasan Black': 5.1}
+Leap Ahead to the Future,106802111,evolved,False,Kitasan,True,False,0,180,360,True,['CN Kitasan'],{'Kitasan Black': 2.6}
+Perfect ♪ Order Up!,103102111,evolved,False,Ines,True,True,0,140,280,True,['CN Ines'],{'Ines Fujin': 0.9}
+Slick Serving,103102211,evolved,False,Ines,True,False,0,150,290,True,['CN Ines'],{'Ines Fujin': 2.5}
+Divine Speed,202551,gold,False,,True,True,200,200,400,True,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon']","{'Kitasan Black': 1.6, 'Ines Fujin': 1.9, 'Neo Universe': 2.6}"
+In Body and Mind,200511,gold,False,,True,True,170,170,340,False,"['JP Vodka (screenshot)', 'your extras']",{}
+Killer Tunes,200721,gold,False,,True,True,160,160,320,False,['your extras'],{}
+Professor of Curvature,200331,gold,False,,True,True,180,180,360,False,"['CN Bourbon', 'JP Bourbon']",{}
+Superb Gait,202531,gold,False,,True,True,180,180,360,True,"['CN Kitasan', 'CN Neo']","{'Kitasan Black': 1.5, 'Neo Universe': 1.5}"
+Taking the Lead,200531,gold,False,,True,False,120,120,240,False,"['CN Bourbon', 'CN Ines', 'JP Bourbon']",{'Ines Fujin': 3.3}
+Top Runner,201271,gold,False,,True,False,180,180,360,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']","{'Kitasan Black': 2.3, 'Ines Fujin': 2.6}"
+Wisdom of the Sun,210261,gold,False,,True,True,200,200,400,True,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']","{'Kitasan Black': 1.3, 'Ines Fujin': 0.6}"
+Front Runner Savvy ○,201522,green,False,,True,False,110,110,110,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']","{'Kitasan Black': 0.7, 'Ines Fujin': 0.6}"
+Left-Handed ○,200022,green,False,,True,True,90,90,90,False,['CN Ines'],{'Ines Fujin': 1.1}
+Left-Handed ◎,200021,green,False,,True,True,110,200,200,False,"['CN Kitasan', 'CN Neo']","{'Kitasan Black': 1.8, 'Neo Universe': 1.3}"
+Restraint,202161,green,False,,True,True,160,160,160,False,['CN Neo'],{'Neo Universe': 1.1}
+Spring Runner ○,200172,green,False,,True,True,90,90,90,False,"['CN Bourbon', 'CN Kitasan', 'JP Bourbon', 'JP Vodka (screenshot)']",{'Kitasan Black': 1.2}
+Spring Runner ◎,200171,green,False,,True,True,110,200,200,False,['CN Neo'],{'Neo Universe': 1.3}
+Standard Distance ○,200132,green,False,,True,True,90,90,90,False,"['CN Bourbon', 'CN Kitasan', 'CN Neo', 'JP Bourbon', 'JP Vodka (screenshot)']","{'Kitasan Black': 0.2, 'Neo Universe': 0.2}"
+Bring on the Banquet!,910681,inherited,True,,True,True,200,200,200,True,"['CN Bourbon', 'CN Ines', 'JP Bourbon']",{'Ines Fujin': 1.8}
+Into High Gear!,910081,inherited,True,,True,True,200,200,200,False,['CN Neo'],{'Neo Universe': 2.2}
+"Moving Past, and Beyond",900591,inherited,True,,True,True,200,200,200,False,"['CN Neo', 'JP Vodka (screenshot)']",{'Neo Universe': 2.3}
+Operation Cacao,910261,inherited,True,,True,True,200,200,200,False,['CN Kitasan'],{'Kitasan Black': 2.7}
+Red Shift/LP1211-M,900041,inherited,True,,True,True,200,200,200,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon', 'JP Vodka (screenshot)']","{'Kitasan Black': 2.5, 'Ines Fujin': 2.6, 'Neo Universe': 1.6}"
+"1,500,000 CC",201412,white,False,,False,True,120,120,120,False,['CN Neo'],{'Neo Universe': 1.4}
+Be Still,201692,white,False,,False,True,180,180,180,False,['CN Neo'],{'Neo Universe': 0.3}
+Corner Adept ○,200332,white,False,,True,True,180,180,180,False,"['CN Ines', 'CN Kitasan']","{'Kitasan Black': -0.0, 'Ines Fujin': 0.9}"
+Dodging Danger,201262,white,False,,True,False,110,110,110,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']","{'Kitasan Black': 1.6, 'Ines Fujin': 1.3}"
+Firm Resolve,202462,white,False,,True,False,180,180,180,False,['your extras'],{}
+Front Runner Corners ○,201252,white,False,,True,False,130,130,130,False,"['CN Bourbon', 'CN Kitasan', 'JP Bourbon']",{'Kitasan Black': 0.6}
+Front Runner Straightaways ◎,201241,white,False,,True,False,140,270,270,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']","{'Kitasan Black': 0.9, 'Ines Fujin': 0.9}"
+Groundwork,201601,white,False,,True,True,100,100,100,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']","{'Kitasan Black': 2.8, 'Ines Fujin': 2.1}"
+Hesitant Front Runners,200851,white,False,,True,True,130,130,130,False,['CN Neo'],{'Neo Universe': 1.5}
+Ignited Spirit WIT,210052,white,False,,True,True,200,200,200,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']","{'Kitasan Black': 1.1, 'Ines Fujin': 1.2}"
+Late Surger Corners ◎,201391,white,False,,False,True,140,270,270,False,['JP Vodka (screenshot)'],{}
+Late Surger Straightaways ○,201382,white,False,,False,True,130,130,130,False,"['CN Neo', 'JP Vodka (screenshot)']",{'Neo Universe': 0.1}
+Mad Dash,202392,white,False,,True,False,180,180,180,False,"['CN Ines', 'your extras']",{'Ines Fujin': 1.2}
+Medium Corners ○,201112,white,False,,True,True,100,100,100,False,"['CN Ines', 'CN Neo', 'JP Vodka (screenshot)']","{'Ines Fujin': 0.5, 'Neo Universe': 0.4}"
+Medium Straightaways ○,201102,white,False,,True,True,100,100,100,False,['CN Neo'],{'Neo Universe': -0.2}
+Medium Straightaways ◎,201101,white,False,,True,True,110,210,210,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon', 'JP Vodka (screenshot)']","{'Kitasan Black': 0.9, 'Ines Fujin': 0.9}"
+Nimble Navigator,200492,white,False,,True,True,150,150,150,False,"['CN Neo', 'JP Bourbon']",{'Neo Universe': 1.0}
+Playtime's Over!,201661,white,False,,True,True,160,160,160,False,"['CN Ines', 'CN Neo']","{'Ines Fujin': -0.0, 'Neo Universe': 1.2}"
+Position Pilfer,200592,white,False,,False,True,180,180,180,False,['CN Neo'],{'Neo Universe': 0.4}
+Prudent Positioning,200452,white,False,,True,True,120,120,120,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']","{'Kitasan Black': -0.0, 'Ines Fujin': -0.7}"
+Racing Spirit: Stamina,210101,white,False,,True,True,150,150,150,False,['your extras'],{}
+Ramp Up,200462,white,False,,True,True,170,170,170,False,"['CN Kitasan', 'JP Bourbon']",{'Kitasan Black': 0.1}
+Slick Surge,200602,white,False,,False,True,180,180,180,False,['CN Neo'],{'Neo Universe': 0.7}
+Slipstream,201651,white,False,,True,True,160,160,160,False,"['CN Kitasan', 'CN Neo']","{'Kitasan Black': 1.5, 'Neo Universe': 1.4}"
+Straightaway Adept,200362,white,False,,True,True,170,170,170,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon', 'JP Vodka (screenshot)']","{'Kitasan Black': 0.4, 'Ines Fujin': 0.8, 'Neo Universe': 0.1}"
+Tail Held High,201611,white,False,,True,True,100,100,100,False,['CN Neo'],{'Neo Universe': 1.6}
+Uma Stan,201591,white,False,,True,True,160,160,160,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon']","{'Kitasan Black': 0.1, 'Ines Fujin': 0.4, 'Neo Universe': 1.9}"

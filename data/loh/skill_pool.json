@@ -1,0 +1,1094 @@
+[
+ {
+  "skill": "Beyond the Stars with You",
+  "id": "110501111",
+  "type": "evolved",
+  "inherited": false,
+  "locked_to": "Neo",
+  "front": true,
+  "late": true,
+  "cost": 0,
+  "esp_listed": 160,
+  "esp_full": 320,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 3.2
+  }
+ },
+ {
+  "skill": "Cross the Sea of Stars",
+  "id": "110501211",
+  "type": "evolved",
+  "inherited": false,
+  "locked_to": "Neo",
+  "front": true,
+  "late": true,
+  "cost": 0,
+  "esp_listed": 160,
+  "esp_full": 320,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 3.8
+  }
+ },
+ {
+  "skill": "Introducing the Victor!",
+  "id": "106802211",
+  "type": "evolved",
+  "inherited": false,
+  "locked_to": "Kitasan",
+  "front": true,
+  "late": false,
+  "cost": 0,
+  "esp_listed": 120,
+  "esp_full": 240,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Kitasan"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 5.1
+  }
+ },
+ {
+  "skill": "Leap Ahead to the Future",
+  "id": "106802111",
+  "type": "evolved",
+  "inherited": false,
+  "locked_to": "Kitasan",
+  "front": true,
+  "late": false,
+  "cost": 0,
+  "esp_listed": 180,
+  "esp_full": 360,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Kitasan"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 2.6
+  }
+ },
+ {
+  "skill": "Perfect ♪ Order Up!",
+  "id": "103102111",
+  "type": "evolved",
+  "inherited": false,
+  "locked_to": "Ines",
+  "front": true,
+  "late": true,
+  "cost": 0,
+  "esp_listed": 140,
+  "esp_full": 280,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Ines"
+  ],
+  "sim_value_pp": {
+   "Ines Fujin": 0.9
+  }
+ },
+ {
+  "skill": "Slick Serving",
+  "id": "103102211",
+  "type": "evolved",
+  "inherited": false,
+  "locked_to": "Ines",
+  "front": true,
+  "late": false,
+  "cost": 0,
+  "esp_listed": 150,
+  "esp_full": 290,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Ines"
+  ],
+  "sim_value_pp": {
+   "Ines Fujin": 2.5
+  }
+ },
+ {
+  "skill": "Divine Speed",
+  "id": "202551",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 200,
+  "esp_listed": 200,
+  "esp_full": 400,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "CN Neo",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 1.6,
+   "Ines Fujin": 1.9,
+   "Neo Universe": 2.6
+  }
+ },
+ {
+  "skill": "In Body and Mind",
+  "id": "200511",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 170,
+  "esp_listed": 170,
+  "esp_full": 340,
+  "verified_legacy": false,
+  "used_by": [
+   "JP Vodka (screenshot)",
+   "your extras"
+  ],
+  "sim_value_pp": {}
+ },
+ {
+  "skill": "Killer Tunes",
+  "id": "200721",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 320,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras"
+  ],
+  "sim_value_pp": {}
+ },
+ {
+  "skill": "Professor of Curvature",
+  "id": "200331",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 360,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {}
+ },
+ {
+  "skill": "Superb Gait",
+  "id": "202531",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 360,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Kitasan",
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 1.5,
+   "Neo Universe": 1.5
+  }
+ },
+ {
+  "skill": "Taking the Lead",
+  "id": "200531",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": false,
+  "cost": 120,
+  "esp_listed": 120,
+  "esp_full": 240,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Ines Fujin": 3.3
+  }
+ },
+ {
+  "skill": "Top Runner",
+  "id": "201271",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": false,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 360,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 2.3,
+   "Ines Fujin": 2.6
+  }
+ },
+ {
+  "skill": "Wisdom of the Sun",
+  "id": "210261",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 200,
+  "esp_listed": 200,
+  "esp_full": 400,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 1.3,
+   "Ines Fujin": 0.6
+  }
+ },
+ {
+  "skill": "Front Runner Savvy ○",
+  "id": "201522",
+  "type": "green",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": false,
+  "cost": 110,
+  "esp_listed": 110,
+  "esp_full": 110,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 0.7,
+   "Ines Fujin": 0.6
+  }
+ },
+ {
+  "skill": "Left-Handed ○",
+  "id": "200022",
+  "type": "green",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 90,
+  "esp_listed": 90,
+  "esp_full": 90,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Ines"
+  ],
+  "sim_value_pp": {
+   "Ines Fujin": 1.1
+  }
+ },
+ {
+  "skill": "Left-Handed ◎",
+  "id": "200021",
+  "type": "green",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 110,
+  "esp_listed": 200,
+  "esp_full": 200,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Kitasan",
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 1.8,
+   "Neo Universe": 1.3
+  }
+ },
+ {
+  "skill": "Restraint",
+  "id": "202161",
+  "type": "green",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 160,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 1.1
+  }
+ },
+ {
+  "skill": "Spring Runner ○",
+  "id": "200172",
+  "type": "green",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 90,
+  "esp_listed": 90,
+  "esp_full": 90,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Kitasan",
+   "JP Bourbon",
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 1.2
+  }
+ },
+ {
+  "skill": "Spring Runner ◎",
+  "id": "200171",
+  "type": "green",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 110,
+  "esp_listed": 200,
+  "esp_full": 200,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 1.3
+  }
+ },
+ {
+  "skill": "Standard Distance ○",
+  "id": "200132",
+  "type": "green",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 90,
+  "esp_listed": 90,
+  "esp_full": 90,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Kitasan",
+   "CN Neo",
+   "JP Bourbon",
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 0.2,
+   "Neo Universe": 0.2
+  }
+ },
+ {
+  "skill": "Bring on the Banquet!",
+  "id": "910681",
+  "type": "inherited",
+  "inherited": true,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 200,
+  "esp_listed": 200,
+  "esp_full": 200,
+  "verified_legacy": true,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Ines Fujin": 1.8
+  }
+ },
+ {
+  "skill": "Into High Gear!",
+  "id": "910081",
+  "type": "inherited",
+  "inherited": true,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 200,
+  "esp_listed": 200,
+  "esp_full": 200,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 2.2
+  }
+ },
+ {
+  "skill": "Moving Past, and Beyond",
+  "id": "900591",
+  "type": "inherited",
+  "inherited": true,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 200,
+  "esp_listed": 200,
+  "esp_full": 200,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo",
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 2.3
+  }
+ },
+ {
+  "skill": "Operation Cacao",
+  "id": "910261",
+  "type": "inherited",
+  "inherited": true,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 200,
+  "esp_listed": 200,
+  "esp_full": 200,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Kitasan"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 2.7
+  }
+ },
+ {
+  "skill": "Red Shift/LP1211-M",
+  "id": "900041",
+  "type": "inherited",
+  "inherited": true,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 200,
+  "esp_listed": 200,
+  "esp_full": 200,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "CN Neo",
+   "JP Bourbon",
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 2.5,
+   "Ines Fujin": 2.6,
+   "Neo Universe": 1.6
+  }
+ },
+ {
+  "skill": "1,500,000 CC",
+  "id": "201412",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": false,
+  "late": true,
+  "cost": 120,
+  "esp_listed": 120,
+  "esp_full": 120,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 1.4
+  }
+ },
+ {
+  "skill": "Be Still",
+  "id": "201692",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": false,
+  "late": true,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 180,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 0.3
+  }
+ },
+ {
+  "skill": "Corner Adept ○",
+  "id": "200332",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 180,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Ines",
+   "CN Kitasan"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": -0.0,
+   "Ines Fujin": 0.9
+  }
+ },
+ {
+  "skill": "Dodging Danger",
+  "id": "201262",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": false,
+  "cost": 110,
+  "esp_listed": 110,
+  "esp_full": 110,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 1.6,
+   "Ines Fujin": 1.3
+  }
+ },
+ {
+  "skill": "Firm Resolve",
+  "id": "202462",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": false,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 180,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras"
+  ],
+  "sim_value_pp": {}
+ },
+ {
+  "skill": "Front Runner Corners ○",
+  "id": "201252",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": false,
+  "cost": 130,
+  "esp_listed": 130,
+  "esp_full": 130,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 0.6
+  }
+ },
+ {
+  "skill": "Front Runner Straightaways ◎",
+  "id": "201241",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": false,
+  "cost": 140,
+  "esp_listed": 270,
+  "esp_full": 270,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 0.9,
+   "Ines Fujin": 0.9
+  }
+ },
+ {
+  "skill": "Groundwork",
+  "id": "201601",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 100,
+  "esp_listed": 100,
+  "esp_full": 100,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 2.8,
+   "Ines Fujin": 2.1
+  }
+ },
+ {
+  "skill": "Hesitant Front Runners",
+  "id": "200851",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 130,
+  "esp_listed": 130,
+  "esp_full": 130,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 1.5
+  }
+ },
+ {
+  "skill": "Ignited Spirit WIT",
+  "id": "210052",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 200,
+  "esp_listed": 200,
+  "esp_full": 200,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 1.1,
+   "Ines Fujin": 1.2
+  }
+ },
+ {
+  "skill": "Late Surger Corners ◎",
+  "id": "201391",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": false,
+  "late": true,
+  "cost": 140,
+  "esp_listed": 270,
+  "esp_full": 270,
+  "verified_legacy": false,
+  "used_by": [
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {}
+ },
+ {
+  "skill": "Late Surger Straightaways ○",
+  "id": "201382",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": false,
+  "late": true,
+  "cost": 130,
+  "esp_listed": 130,
+  "esp_full": 130,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo",
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 0.1
+  }
+ },
+ {
+  "skill": "Mad Dash",
+  "id": "202392",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": false,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 180,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Ines",
+   "your extras"
+  ],
+  "sim_value_pp": {
+   "Ines Fujin": 1.2
+  }
+ },
+ {
+  "skill": "Medium Corners ○",
+  "id": "201112",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 100,
+  "esp_listed": 100,
+  "esp_full": 100,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Ines",
+   "CN Neo",
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {
+   "Ines Fujin": 0.5,
+   "Neo Universe": 0.4
+  }
+ },
+ {
+  "skill": "Medium Straightaways ○",
+  "id": "201102",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 100,
+  "esp_listed": 100,
+  "esp_full": 100,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": -0.2
+  }
+ },
+ {
+  "skill": "Medium Straightaways ◎",
+  "id": "201101",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 110,
+  "esp_listed": 210,
+  "esp_full": 210,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon",
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 0.9,
+   "Ines Fujin": 0.9
+  }
+ },
+ {
+  "skill": "Nimble Navigator",
+  "id": "200492",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 150,
+  "esp_listed": 150,
+  "esp_full": 150,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 1.0
+  }
+ },
+ {
+  "skill": "Playtime's Over!",
+  "id": "201661",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 160,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Ines",
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Ines Fujin": -0.0,
+   "Neo Universe": 1.2
+  }
+ },
+ {
+  "skill": "Position Pilfer",
+  "id": "200592",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": false,
+  "late": true,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 180,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 0.4
+  }
+ },
+ {
+  "skill": "Prudent Positioning",
+  "id": "200452",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 120,
+  "esp_listed": 120,
+  "esp_full": 120,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": -0.0,
+   "Ines Fujin": -0.7
+  }
+ },
+ {
+  "skill": "Racing Spirit: Stamina",
+  "id": "210101",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 150,
+  "esp_listed": 150,
+  "esp_full": 150,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras"
+  ],
+  "sim_value_pp": {}
+ },
+ {
+  "skill": "Ramp Up",
+  "id": "200462",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 170,
+  "esp_listed": 170,
+  "esp_full": 170,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Kitasan",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 0.1
+  }
+ },
+ {
+  "skill": "Slick Surge",
+  "id": "200602",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": false,
+  "late": true,
+  "cost": 180,
+  "esp_listed": 180,
+  "esp_full": 180,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 0.7
+  }
+ },
+ {
+  "skill": "Slipstream",
+  "id": "201651",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 160,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Kitasan",
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 1.5,
+   "Neo Universe": 1.4
+  }
+ },
+ {
+  "skill": "Straightaway Adept",
+  "id": "200362",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 170,
+  "esp_listed": 170,
+  "esp_full": 170,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "CN Neo",
+   "JP Bourbon",
+   "JP Vodka (screenshot)"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 0.4,
+   "Ines Fujin": 0.8,
+   "Neo Universe": 0.1
+  }
+ },
+ {
+  "skill": "Tail Held High",
+  "id": "201611",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 100,
+  "esp_listed": 100,
+  "esp_full": 100,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Neo"
+  ],
+  "sim_value_pp": {
+   "Neo Universe": 1.6
+  }
+ },
+ {
+  "skill": "Uma Stan",
+  "id": "201591",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 160,
+  "verified_legacy": false,
+  "used_by": [
+   "CN Bourbon",
+   "CN Ines",
+   "CN Kitasan",
+   "CN Neo",
+   "JP Bourbon"
+  ],
+  "sim_value_pp": {
+   "Kitasan Black": 0.1,
+   "Ines Fujin": 0.4,
+   "Neo Universe": 1.9
+  }
+ }
+]
