@@ -11,6 +11,8 @@ from umasim import loh, opt, catalog as C
 
 d = Path(sys.argv[1]); cap = int(sys.argv[2]) if len(sys.argv) > 2 else 22
 nv = int(sys.argv[3]) if len(sys.argv) > 3 else 3000
+mode = sys.argv[4] if len(sys.argv) > 4 else "global"   # global: skip legacy-only candidates; all: allow them
+suffix = "" if mode == "global" else "_" + mode
 base = json.loads((d / "baseline_team.json").read_text())
 drop = pd.read_csv(d / "drop_one.csv")
 rounds = sorted(d.glob("round*.csv"))
@@ -25,6 +27,8 @@ for i, b in enumerate(base):
     cands = []
     for _, r in add[add.variant.str.startswith(nm + ": +")].iterrows():
         sk = r.variant.split(": +", 1)[1]
+        if mode == "global" and C.is_approximated(C.resolve_skill(sk)):
+            continue
         if r.d_top3 > 0 and r.d_top3_lo > -0.25:      # positive and not clearly noise
             cands.append((r.d_top3, sk, r.d_top3_lo))
     cands.sort(reverse=True)
@@ -45,8 +49,8 @@ for i, b in enumerate(base):
     report[nm] = {"added": added, "trimmed": trimmed,
                   "kit_values_pp": dict(sorted(((k, round(v, 2)) for k, v in val.items()), key=lambda kv: -kv[1])),
                   "final_skills": b2["skills"], "count_incl_unique": len(b2["skills"]) + 1}
-(d / "assembled_team.json").write_text(json.dumps(team, indent=1, ensure_ascii=False))
-(d / "assembly_report.json").write_text(json.dumps(report, indent=1, ensure_ascii=False))
+(d / f"assembled_team{suffix}.json").write_text(json.dumps(team, indent=1, ensure_ascii=False))
+(d / f"assembly_report{suffix}.json").write_text(json.dumps(report, indent=1, ensure_ascii=False))
 print(json.dumps({k: {"added": [a["skill"] for a in v["added"]], "trimmed": [t["skill"] for t in v["trimmed"]],
                       "count": v["count_incl_unique"]} for k, v in report.items()}, indent=1, ensure_ascii=False))
 df = opt.evaluate({"base": base, "assembled": team}, list(range(5_000_000, 5_000_000 + nv)))
