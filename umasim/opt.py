@@ -107,29 +107,43 @@ def drop_skill(build: dict, name: str) -> dict:
 
 # ----------------------------------------------------------------------------- evaluation
 
-def evaluate(teams: dict[str, list[dict]], seeds: list[int], worlds=("jp", "cn"), workers=None) -> pd.DataFrame:
-    """Race every variant on the same seeds in each world. Returns per-(variant, world, seed) team rows."""
-    jobs, meta = [], []
-    for w in worlds:
-        opp = loh.opponent_team(w)
-        for name, team in teams.items():
-            m = loh.Matchup(team, opp, w)
-            for s in seeds:
-                jobs.append(m.request(s, _draw(s)))
-                meta.append((name, w, s))
-    replies = engine.run_requests(jobs, workers)
+def evaluate(teams: dict[str, list[dict]], seeds: list[int], worlds=("jp", "cn"), workers=None,
+             chunk: int = 3000) -> pd.DataFrame:
+    """Race every variant on the same seeds in each world. Returns per-(variant, world, seed) team rows.
+    Requests are built and run in chunks so memory stays bounded for 100k+ race batches."""
+    def jobs():
+        for w in worlds:
+            opp = loh.opponent_team(w)
+            for name, team in teams.items():
+                m = loh.Matchup(team, opp, w)
+                for s in seeds:
+                    yield (name, w, s), m, s
+
     rows = []
-    for (name, w, s), rep in zip(meta, replies):
-        if "error" in rep:
-            raise engine.EngineError(f"{name}/{w}/{s}: {rep['error']}")
-        res = rep["results"]
-        places = [r["finishOrder"] + 1 for r in res[:3]]
-        opp_places = [r["finishOrder"] + 1 for r in res[3:6]]
-        rows.append({"variant": name, "world": w, "seed": s,
-                     "p0": places[0], "p1": places[1], "p2": places[2],
-                     "top3": sum(p <= 3 for p in places) / 3, "points": sum(loh.points(p) for p in places),
-                     "opp_top3": sum(p <= 3 for p in opp_places) / 3,
-                     "hp_empty": sum(bool(r.get("hpEmptyOnRace")) for r in res[:3])})
+    batch = []
+
+    def flush():
+        reqs = [m.request(s, _draw(s)) for _, m, s in batch]
+        replies = engine.run_requests(reqs, workers)
+        for ((name, w, s), _, _), rep in zip(batch, replies):
+            if "error" in rep:
+                raise engine.EngineError(f"{name}/{w}/{s}: {rep['error']}")
+            res = rep["results"]
+            places = [r["finishOrder"] + 1 for r in res[:3]]
+            opp_places = [r["finishOrder"] + 1 for r in res[3:6]]
+            rows.append({"variant": name, "world": w, "seed": s,
+                         "p0": places[0], "p1": places[1], "p2": places[2],
+                         "top3": sum(p <= 3 for p in places) / 3, "points": sum(loh.points(p) for p in places),
+                         "opp_top3": sum(p <= 3 for p in opp_places) / 3,
+                         "hp_empty": sum(bool(r.get("hpEmptyOnRace")) for r in res[:3])})
+        batch.clear()
+
+    for j in jobs():
+        batch.append(j)
+        if len(batch) >= chunk:
+            flush()
+    if batch:
+        flush()
     return pd.DataFrame(rows)
 
 
