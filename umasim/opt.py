@@ -23,7 +23,7 @@ from . import engine, loh
 from . import stats as S
 
 STYLE_CODE = {"Front Runner": 1, "Pace Chaser": 2, "Late Surger": 3, "End Closer": 4}
-# Tokyo 2300 turf, left-handed, medium, Spring
+# Tokyo 2400 turf (Tokyo Yushun), left-handed, medium, Spring
 FIXED = {"distance_type": 3, "rotation": 2, "season": 1, "ground_type": 1, "track_id": 10006}
 _TOK = re.compile(r"^([a-z_]+)(==|!=|>=|<=|>|<)(-?\d+)$")
 
@@ -37,7 +37,7 @@ def _ok(var, op, val, env):
 
 def can_fire(sid: str, strategy: str) -> bool:
     """Static check: is any activation alternative satisfiable for this strategy on this course?"""
-    env = dict(FIXED, running_style=STYLE_CODE[strategy], is_basis_distance=0)  # 2300 is not a multiple of 400
+    env = dict(FIXED, running_style=STYLE_CODE[strategy], is_basis_distance=int(loh.course_distance() % 400 == 0))
     for a in C.skill_table()[sid]["alternatives"]:
         for alt in (a["condition"] or "always==1").split("@"):
             toks = [t for t in alt.split("&") if t]

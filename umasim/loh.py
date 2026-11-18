@@ -1,4 +1,4 @@
-"""League of Heroes (LoH) race model: 3 (mine) v 3 (opponent team) v 6 NPCs, Tokyo 2300m Spring.
+"""League of Heroes (LoH) race model: 3 (mine) v 3 (opponent team) v 6 NPCs, Tokyo 2400m (Tokyo Yushun) Spring.
 
 Per seed everything except my team is drawn deterministically from the seed: NPC strategies/stats/
 kits, every runner's mood, the 12-gate draw, ground, weather and time. So different builds for my team
@@ -21,7 +21,7 @@ from . import catalog as C
 from . import engine, spec
 
 DATA = C.ROOT / "data" / "loh"
-COURSE = "Tokyo 2300"
+COURSE = "Tokyo 2400"
 POINTS = {1: 100, 2: 60, 3: 40, 4: 30, 5: 20}  # 6th-12th: 10
 GROUNDS = ["Good", "Yielding", "Soft", "Heavy"]
 WEATHERS = ["Sunny", "Cloudy", "Rainy"]          # Spring: no snow
@@ -41,6 +41,10 @@ EVOLVES_FROM = {
 PACE_NPC_KIT = ["Firm Conditions ○", "Outer Post Proficiency ○", "Straightaway Adept", "Soft Step", "Center Stage",
                 "Prepared to Pass", "Pace Chaser Straightaways ○", "Pace Chaser Corners ○", "Pace Chaser Savvy ○",
                 "Prudent Positioning", "Up-Tempo"]
+
+
+def course_distance() -> int:
+    return C.course_info(C.resolve_course(COURSE))["distance"]
 
 
 def points(place: int) -> int:
