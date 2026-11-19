@@ -23,7 +23,9 @@ for s in VODKA: src[s].add("JP Vodka (screenshot)")
 for s in EXTRAS: src[s].add("your extras")
 src["Solid Preparation"].add("your legacy add (verified)")
 # user rules: skill -> {enabled, allowed_umas}
-RULES = {"Killer Tunes": {"enabled": False, "note": "niche card; kept for a dedicated test, excluded from generation"},
+RULES = {"Killer Tunes": {"enabled": False, "allowed_umas": ["Ines Fujin"],
+                          "note": "niche card; not obtainable for Kitasan; kept for a dedicated Ines test, excluded from generation"},
+         "Nimble Navigator": {"allowed_umas": ["Neo Universe"], "note": "never on fronts (user rule)"},
          "Solid Preparation": {"allowed_umas": ["Kitasan Black", "Ines Fujin"], "note": "gold of Groundwork; fronts only"}}
 
 print("ESP per build (listed = base costs, ◎ incl. ○, evolved = base gold; full = also white under each gold):")

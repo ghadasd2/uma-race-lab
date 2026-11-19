@@ -7,7 +7,7 @@ Perfect ♪ Order Up!,103102111,evolved,False,Ines,True,True,0,140,280,True,['CN
 Slick Serving,103102211,evolved,False,Ines,True,False,0,150,290,True,['CN Ines'],True,,,{'Ines Fujin': 2.5}
 Divine Speed,202551,gold,False,,True,True,200,200,400,True,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon']",True,,,"{'Kitasan Black': 1.6, 'Ines Fujin': 1.9, 'Neo Universe': 2.6}"
 In Body and Mind,200511,gold,False,,True,True,170,170,340,False,"['JP Vodka (screenshot)', 'your extras']",True,,,{}
-Killer Tunes,200721,gold,False,,True,True,160,160,320,False,['your extras'],False,,"niche card; kept for a dedicated test, excluded from generation",{}
+Killer Tunes,200721,gold,False,,True,True,160,160,320,False,['your extras'],False,['Ines Fujin'],"niche card; not obtainable for Kitasan; kept for a dedicated Ines test, excluded from generation",{}
 Professor of Curvature,200331,gold,False,,True,True,180,180,360,False,"['CN Bourbon', 'JP Bourbon']",True,,,{}
 Solid Preparation,201602,gold,False,,True,True,180,180,280,True,['your legacy add (verified)'],True,"['Kitasan Black', 'Ines Fujin']",gold of Groundwork; fronts only,{}
 Superb Gait,202531,gold,False,,True,True,180,180,360,True,"['CN Kitasan', 'CN Neo']",True,,,"{'Kitasan Black': 1.5, 'Neo Universe': 1.5}"
@@ -43,7 +43,7 @@ Mad Dash,202392,white,False,,True,False,180,180,180,False,"['CN Ines', 'your ext
 Medium Corners ○,201112,white,False,,True,True,100,100,100,False,"['CN Ines', 'CN Neo', 'JP Vodka (screenshot)']",True,,,"{'Ines Fujin': 0.5, 'Neo Universe': 0.4}"
 Medium Straightaways ○,201102,white,False,,True,True,100,100,100,False,['CN Neo'],True,,,{'Neo Universe': -0.2}
 Medium Straightaways ◎,201101,white,False,,True,True,110,210,210,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon', 'JP Vodka (screenshot)']",True,,,"{'Kitasan Black': 0.9, 'Ines Fujin': 0.9}"
-Nimble Navigator,200492,white,False,,True,True,150,150,150,False,"['CN Neo', 'JP Bourbon']",True,,,{'Neo Universe': 1.0}
+Nimble Navigator,200492,white,False,,True,True,150,150,150,False,"['CN Neo', 'JP Bourbon']",True,['Neo Universe'],never on fronts (user rule),{'Neo Universe': 1.0}
 Playtime's Over!,201661,white,False,,True,True,160,160,160,False,"['CN Ines', 'CN Neo']",True,,,"{'Ines Fujin': -0.0, 'Neo Universe': 1.2}"
 Position Pilfer,200592,white,False,,False,True,180,180,180,False,['CN Neo'],True,,,{'Neo Universe': 0.4}
 Prudent Positioning,200452,white,False,,True,True,120,120,120,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']",True,,,"{'Kitasan Black': -0.0, 'Ines Fujin': -0.7}"

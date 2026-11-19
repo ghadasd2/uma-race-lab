@@ -196,8 +196,10 @@
    "your extras"
   ],
   "enabled": false,
-  "allowed_umas": null,
-  "note": "niche card; kept for a dedicated test, excluded from generation",
+  "allowed_umas": [
+   "Ines Fujin"
+  ],
+  "note": "niche card; not obtainable for Kitasan; kept for a dedicated Ines test, excluded from generation",
   "sim_value_pp": {}
  },
  {
@@ -1047,8 +1049,10 @@
    "JP Bourbon"
   ],
   "enabled": true,
-  "allowed_umas": null,
-  "note": null,
+  "allowed_umas": [
+   "Neo Universe"
+  ],
+  "note": "never on fronts (user rule)",
   "sim_value_pp": {
    "Neo Universe": 1.0
   }

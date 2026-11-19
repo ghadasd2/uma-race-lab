@@ -258,7 +258,18 @@ def skill_info(sid: str) -> dict:
             "inEngine": sid in skill_table(), "approximated": is_approximated(sid)}
 
 
+_RESOLVED: dict = {}
+
+
 def resolve_skill(spec, unique: bool = False) -> str:
+    """Cached front for _resolve_skill (names are resolved thousands of times per batch)."""
+    k = (str(spec), unique)
+    if k not in _RESOLVED:
+        _RESOLVED[k] = _resolve_skill(spec, unique)
+    return _RESOLVED[k]
+
+
+def _resolve_skill(spec, unique: bool = False) -> str:
     """Name or id -> engine skill id. For a name shared by a unique (1xxxxx) and its
     inherited version (9xxxxx), `unique=True` picks the unique, otherwise inherited."""
     s = str(spec).strip()
