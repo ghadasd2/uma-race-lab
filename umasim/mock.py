@@ -8,8 +8,8 @@ Per seed (deterministic, so every candidate build faces identical races = paired
       - stats re-rolled per stat in MOCK_STATS: with prob P_HEAVY uniform in the 'heavy' sub-range,
         else uniform in the rest of the range
       - 2-3 random non-gold skills dropped, plus one gold with prob P_DROP_GOLD (evolved skills kept)
-      - Nimble Navigator never on fronts
-My team's stats: game-cost budget, every point above 1200 costs 2 (stat_cost).
+      - Nimble Navigator never on fronts; distance aptitude S with prob P_DIST_S, else A
+My team's stats: game-cost budget, every point above 1200 costs 2 (stat_cost), budget COST_BUDGET.
 """
 from __future__ import annotations
 
@@ -34,9 +34,12 @@ MOCK_STATS = [(1370, 1520, 1370, 1450),   # speed
 P_HEAVY = 0.7
 DROP_N = (2, 3)
 P_DROP_GOLD = 0.4
+P_DIST_S = 0.7            # mock distance aptitude: S with 70%, else A
 FRONT_BANNED = {"Nimble Navigator"}
 NO_GATE1 = True
-COST_BUDGET = 6700
+COST_BUDGET = 6400
+# my umas' stat box (speed, stamina, power, guts, wit)
+MY_BOX = [(1350, 1500), (950, 1250), (1100, 1250), (1000, 1250), (1100, 1250)]
 
 
 def stat_cost(stats) -> int:
@@ -69,6 +72,7 @@ def roll_stat(rng: random.Random, lo, hi, hlo, hhi) -> int:
 def mock_runner(rng: random.Random, uma: str) -> dict:
     b = copy.deepcopy(rng.choice(mocks()[uma]))
     b["stats"] = [roll_stat(rng, *r) for r in MOCK_STATS]
+    b["distance"] = "S" if rng.random() < P_DIST_S else "A"
     fixed = set(G.EVOLVED.get(uma, []))
     sk = [s for s in b["skills"] if not (b["strategy"] == "Front Runner" and s in FRONT_BANNED)]
     kinds = {s: esp.kind(C.resolve_skill(s)) for s in sk}

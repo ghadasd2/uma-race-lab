@@ -86,5 +86,73 @@
    "CN Neo Universe"
   ]
  },
- "mood": "uniform random per runner per race (-2..+2), recorded so results can be broken down by mood"
+ "mood": "uniform random per runner per race (-2..+2), recorded so results can be broken down by mood",
+ "v3": {
+  "opponents": "random mock player team per race (umasim/mock.py)",
+  "my_gate_1": "never (LoH inner-gate opt-out)",
+  "my_stat_cost_budget": 6400,
+  "stat_cost": "points above 1200 count double",
+  "my_stat_box": {
+   "speed": [
+    1350,
+    1500
+   ],
+   "stamina": [
+    950,
+    1250
+   ],
+   "power": [
+    1100,
+    1250
+   ],
+   "guts": [
+    1000,
+    1250
+   ],
+   "wisdom": [
+    1100,
+    1250
+   ]
+  },
+  "mock_stats": {
+   "speed": [
+    1370,
+    1520,
+    "heavy 1370-1450"
+   ],
+   "stamina": [
+    950,
+    1170,
+    "heavy 1100+"
+   ],
+   "power": [
+    1130,
+    1250,
+    "heavy 1220+"
+   ],
+   "guts": [
+    850,
+    1230,
+    "heavy 1100+"
+   ],
+   "wisdom": [
+    1150,
+    1230,
+    "heavy 1200+"
+   ],
+   "p_heavy": 0.7
+  },
+  "mock_skills": "drop 2-3 non-gold + one gold with p=0.4; evolved kept",
+  "mock_distance": "S 70%, else A",
+  "banned": {
+   "Kitasan Black": [
+    "Concentration",
+    "Killer Tunes"
+   ],
+   "fronts": [
+    "Nimble Navigator"
+   ]
+  },
+  "objective": "team-average top-3 % (+ LoH points), reported in 175-race batches"
+ }
 }
