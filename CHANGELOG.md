@@ -5,6 +5,14 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-20 — A2 mock recalibration
+- `scripts/loh_v4_a2_calibrate.py`: 39-setting grid (stat shift 0–300 × stamina shifted/kept × extra
+  drops 0–2, 1,750 races each, seeds 100M) and a confirm of the 3 closest settings on 8,750 races
+  (seeds 100.5M). Results: `data/loh/results/v4/A2/`.
+- Chosen: `MOCK_STAT_SHIFT=150`, `SHIFT_STAMINA=True`, `EXTRA_DROP=2` → CN team 96.00 % team top-3.
+  Under it: v3 champion 96.29 %, v3 base 94.86 %; v3 champion breaks the HP-out floor (Kitasan
+  3.15 %, Ines 4.41 %).
+
 ### 2026-11-20 — A1 rules and pool
 - Skill pool 56 → 61: Downhill Speedster, Racing Spirit: Wit, Racing Spirit: Speed (fronts only);
   Full Throttle and Keep Going! (Neo only). `Speed Star` not added: Pace-Chaser-only.

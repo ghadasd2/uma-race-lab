@@ -7,7 +7,7 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
 | --- | --- | --- | --- | --- |
 | A0 Housekeeping (context, changelog, master prompt, archive, push) | done (local; push blocked) | — | see git log | Context saved; no GitHub remote exists yet — the user must create an empty repo |
 | A1 Rules and pool | done | — | v4 A1 | Pool 56 → 61 skills; front accel rule in `buildgen.valid`; per-uma HP-out + floor helpers in `mock`; tests pass (10) |
-| A2 Mock recalibration (CN 95–97 %) | todo | | | |
+| A2 Mock recalibration (CN 95–97 %) | done | runs/20261120-224122-loh-v4-a2-calibrate | v4 A2 | Shift 150 (incl. stamina) + 2 extra drops → CN 96.00 % (8,750 races); v3 champion 96.29 % but fails HP floor (Kitasan 3.15 %, Ines 4.41 %) |
 | A3 v4 base team | todo | | | |
 | A4 Stamina requirement study | todo | | | |
 | A5 Stat exchange rates | todo | | | |

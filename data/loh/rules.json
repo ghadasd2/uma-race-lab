@@ -223,7 +223,45 @@
     "SHIFT_STAMINA",
     "EXTRA_DROP"
    ],
-   "chosen": null
+   "chosen": {
+    "MOCK_STAT_SHIFT": 150,
+    "SHIFT_STAMINA": true,
+    "EXTRA_DROP": 2,
+    "effective_ranges": {
+     "speed": [
+      1220,
+      1370,
+      "heavy 1220-1300"
+     ],
+     "stamina": [
+      800,
+      1020,
+      "heavy 950-1020"
+     ],
+     "power": [
+      980,
+      1100,
+      "heavy 1070-1100"
+     ],
+     "guts": [
+      700,
+      1080,
+      "heavy 950-1080"
+     ],
+     "wisdom": [
+      1000,
+      1080,
+      "heavy 1050-1080"
+     ]
+    },
+    "skills": "drop 4-5 random non-gold + one gold with p=0.4; evolved kept",
+    "cn_team_top3": 96.0,
+    "confirm_races": 8750,
+    "alternatives": {
+     "shift 200 (stamina shifted), 0 extra": 96.46,
+     "shift 200 (stamina kept), 0 extra": 95.51
+    }
+   }
   },
   "seed_blocks": {
    "A2": 100000000,

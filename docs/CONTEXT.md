@@ -202,6 +202,12 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
 
 ---
 
+### v4 (in progress — see docs/PROGRESS.md for each step)
+- A2 mock recalibration (grid 39 settings × 1,750 races; confirm 8,750 races, seeds 100.5M):
+  chosen setting → CN 96.00 % (batches ≥ 95 %: 94 %, ≥ 97.1 %: 8 %; 34,620 pts/batch); my v3 champion
+  96.29 %, v3 base 94.86 %. HP-out under the new field: v3 champion Kitasan 3.15 %, Ines 4.41 %,
+  Neo 1.49 % (fails the floor); CN team 4.31 / 1.79 / 6.15 %.
+
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search).
 - Killer Tunes on Ines (never tested).

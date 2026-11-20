@@ -39,9 +39,10 @@ FRONT_BANNED = {"Nimble Navigator"}
 NO_GATE1 = True
 # v4 recalibration knobs (step A2): every mock stat range bound is lowered by MOCK_STAT_SHIFT (stamina only if
 # SHIFT_STAMINA), and EXTRA_DROP more non-gold skills are dropped. 0/True/0 = the v3 field.
-MOCK_STAT_SHIFT = 0
+# v4 choice (A2, 8,750 confirm races): shift 150 incl. stamina + 2 extra drops -> CN team 96.00 % team top-3.
+MOCK_STAT_SHIFT = 150
 SHIFT_STAMINA = True
-EXTRA_DROP = 0
+EXTRA_DROP = 2
 # v4 user rule: each of my umas may run out of HP in at most 3 of 175 races
 HP_FLOOR = 3 / 175
 COST_BUDGET = 6400

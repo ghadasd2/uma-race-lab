@@ -1,0 +1,95 @@
+[1/39 8s] shift 0 stamina_kept False extra_drop 0: CN 79.50%
+[2/39 16s] shift 0 stamina_kept False extra_drop 1: CN 82.40%
+[3/39 24s] shift 0 stamina_kept False extra_drop 2: CN 84.42%
+[4/39 33s] shift 50 stamina_kept False extra_drop 0: CN 85.07%
+[5/39 42s] shift 50 stamina_kept False extra_drop 1: CN 87.62%
+[6/39 50s] shift 50 stamina_kept False extra_drop 2: CN 89.58%
+[7/39 58s] shift 50 stamina_kept True extra_drop 0: CN 84.53%
+[8/39 67s] shift 50 stamina_kept True extra_drop 1: CN 87.31%
+[9/39 76s] shift 50 stamina_kept True extra_drop 2: CN 89.28%
+[10/39 84s] shift 100 stamina_kept False extra_drop 0: CN 90.25%
+[11/39 92s] shift 100 stamina_kept False extra_drop 1: CN 92.00%
+[12/39 100s] shift 100 stamina_kept False extra_drop 2: CN 93.14%
+[13/39 108s] shift 100 stamina_kept True extra_drop 0: CN 89.77%
+[14/39 116s] shift 100 stamina_kept True extra_drop 1: CN 91.26%
+[15/39 125s] shift 100 stamina_kept True extra_drop 2: CN 92.65%
+[16/39 133s] shift 150 stamina_kept False extra_drop 0: CN 93.54%
+[17/39 141s] shift 150 stamina_kept False extra_drop 1: CN 95.45%
+[18/39 149s] shift 150 stamina_kept False extra_drop 2: CN 95.90%
+[19/39 158s] shift 150 stamina_kept True extra_drop 0: CN 92.80%
+[20/39 166s] shift 150 stamina_kept True extra_drop 1: CN 94.80%
+[21/39 175s] shift 150 stamina_kept True extra_drop 2: CN 95.30%
+[22/39 184s] shift 200 stamina_kept False extra_drop 0: CN 96.25%
+[23/39 192s] shift 200 stamina_kept False extra_drop 1: CN 97.37%
+[24/39 200s] shift 200 stamina_kept False extra_drop 2: CN 97.54%
+[25/39 208s] shift 200 stamina_kept True extra_drop 0: CN 95.64%
+[26/39 216s] shift 200 stamina_kept True extra_drop 1: CN 96.72%
+[27/39 224s] shift 200 stamina_kept True extra_drop 2: CN 96.95%
+[28/39 232s] shift 250 stamina_kept False extra_drop 0: CN 98.00%
+[29/39 240s] shift 250 stamina_kept False extra_drop 1: CN 98.74%
+[30/39 249s] shift 250 stamina_kept False extra_drop 2: CN 98.72%
+[31/39 258s] shift 250 stamina_kept True extra_drop 0: CN 97.45%
+[32/39 266s] shift 250 stamina_kept True extra_drop 1: CN 98.25%
+[33/39 274s] shift 250 stamina_kept True extra_drop 2: CN 98.21%
+[34/39 283s] shift 300 stamina_kept False extra_drop 0: CN 98.93%
+[35/39 291s] shift 300 stamina_kept False extra_drop 1: CN 99.37%
+[36/39 299s] shift 300 stamina_kept False extra_drop 2: CN 99.28%
+[37/39 308s] shift 300 stamina_kept True extra_drop 0: CN 98.44%
+[38/39 316s] shift 300 stamina_kept True extra_drop 1: CN 98.97%
+[39/39 325s] shift 300 stamina_kept True extra_drop 2: CN 99.03%
+    shift  stamina_kept  extra_drop  cn_top3  cn_points     n  change
+0       0         False           0    79.50     180.75  1750       0
+1       0         False           1    82.40     184.57  1750      60
+2       0         False           2    84.42     187.17  1750     120
+3      50         False           0    85.07     188.06  1750      50
+4      50         False           1    87.62     190.74  1750     110
+5      50         False           2    89.58     192.38  1750     170
+6      50          True           0    84.53     187.58  1750      50
+7      50          True           1    87.31     190.30  1750     110
+8      50          True           2    89.28     192.02  1750     170
+9     100         False           0    90.25     193.28  1750     100
+10    100         False           1    92.00     194.74  1750     160
+11    100         False           2    93.14     195.57  1750     220
+12    100          True           0    89.77     192.72  1750     100
+13    100          True           1    91.26     194.14  1750     160
+14    100          True           2    92.65     195.06  1750     220
+15    150         False           0    93.54     195.96  1750     150
+16    150         False           1    95.45     197.50  1750     210
+17    150         False           2    95.90     197.90  1750     270
+18    150          True           0    92.80     195.37  1750     150
+19    150          True           1    94.80     197.09  1750     210
+20    150          True           2    95.30     197.50  1750     270
+21    200         False           0    96.25     198.09  1750     200
+22    200         False           1    97.37     198.75  1750     260
+23    200         False           2    97.54     198.81  1750     320
+24    200          True           0    95.64     197.71  1750     200
+25    200          True           1    96.72     198.22  1750     260
+26    200          True           2    96.95     198.49  1750     320
+27    250         False           0    98.00     199.01  1750     250
+28    250         False           1    98.74     199.38  1750     310
+29    250         False           2    98.72     199.35  1750     370
+30    250          True           0    97.45     198.70  1750     250
+31    250          True           1    98.25     199.13  1750     310
+32    250          True           2    98.21     199.13  1750     370
+33    300         False           0    98.93     199.44  1750     300
+34    300         False           1    99.37     199.67  1750     360
+35    300         False           2    99.28     199.58  1750     420
+36    300          True           0    98.44     199.17  1750     300
+37    300          True           1    98.97     199.52  1750     360
+38    300          True           2    99.03     199.46  1750     420
+confirm shift 150 stamina_kept False extra 2:
+       variant   top3  points  batch_p10  batch_p90  P_batch>=95  P_batch>=97.1  pts_per_batch   ind0   ind1   ind2  hp0%  hp1%  hp2%  hp_ok hp_status
+0  v3_champion  96.29  198.01      95.41      97.14         96.0           14.0        34652.2  97.10  97.02  94.75  3.15  4.41  1.49  False      fail
+1           cn  96.00  197.83      95.22      96.78         94.0            8.0        34619.6  97.17  95.29  95.53  4.31  1.79  6.15  False      fail
+2      v3_base  94.86  197.14      93.52      96.00         54.0            0.0        34499.0  95.78  97.33  91.49  2.87  2.80  0.01  False      fail
+confirm shift 200 stamina_kept False extra 0:
+       variant   top3  points  batch_p10  batch_p90  P_batch>=95  P_batch>=97.1  pts_per_batch   ind0   ind1   ind2  hp0%  hp1%  hp2%  hp_ok hp_status
+0  v3_champion  96.80  198.28      95.98      97.71        100.0           36.0        34699.6  97.37  97.47  95.57  2.87  4.42  1.28  False      fail
+1           cn  96.46  198.17      95.41      97.52         92.0           28.0        34679.0  97.23  95.95  96.21  4.15  2.37  6.00  False      fail
+2      v3_base  95.31  197.48      94.08      96.40         66.0            0.0        34559.2  96.42  97.37  92.13  3.05  2.71  0.05  False      fail
+confirm shift 200 stamina_kept True extra 0:
+       variant   top3  points  batch_p10  batch_p90  P_batch>=95  P_batch>=97.1  pts_per_batch   ind0   ind1   ind2  hp0%  hp1%  hp2%  hp_ok hp_status
+0  v3_champion  96.00  197.79      95.03      97.14         90.0           14.0        34612.4  96.95  96.74  94.32  2.88  4.38  1.36  False      fail
+1           cn  95.51  197.59      94.44      96.42         80.0            0.0        34578.6  96.65  94.80  95.09  4.13  2.41  6.11  False      fail
+2      v3_base  94.30  196.86      93.12      95.81         16.0            0.0        34450.2  95.73  96.85  90.33  3.07  2.72  0.05  False      fail
+done /home/user/src/uma-race-lab/runs/20261120-224122-loh-v4-a2-calibrate
