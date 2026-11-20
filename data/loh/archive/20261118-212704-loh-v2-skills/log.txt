@@ -1,0 +1,26 @@
+anchors: [('Kitasan Black', 4530, 22), ('Ines Fujin', 4530, 23), ('Neo Universe', 4580, 23)]
+phase A: 666 variants (200 per uma + Bourbon mocks)
+phaseA round 0: 667 variants x 150 seeds x 2 worlds in 1090s
+mocks Kitasan Black: 43 builds with individual top3 in [25.7, 30.0] (median of 200)
+mocks Ines Fujin: 40 builds with individual top3 in [21.5, 26.8] (median of 200)
+mocks Neo Universe: 42 builds with individual top3 in [23.2, 27.0] (median of 200)
+mocks Mihono Bourbon: 14 builds with individual top3 in [17.0, 23.3] (median of 66)
+phaseA_halving round 0: 151 variants x 450 seeds x 2 worlds in 730s
+phaseA_halving round 1: 46 variants x 1350 seeds x 2 worlds in 681s
+phase A best Kitasan Black: Kitasan Black #R34 team+-0.14pp ind_top3 44.7; Kitasan Black #R188 team+-1.06pp ind_top3 44.9; Kitasan Black #R156 team+-1.19pp ind_top3 39.0; Kitasan Black #R86 team+-1.20pp ind_top3 38.7; Kitasan Black #R73 team+-1.31pp ind_top3 39.0; Kitasan Black #R96 team+-1.42pp ind_top3 38.4; Kitasan Black #R133 team+-1.81pp ind_top3 35.6; Kitasan Black #R128 team+-1.89pp ind_top3 34.0; Kitasan Black #R180 team+-1.91pp ind_top3 37.1; Kitasan Black #R19 team+-1.94pp ind_top3 36.6; Kitasan Black #R155 team+-2.41pp ind_top3 38.1; Kitasan Black #R61 team+-3.40pp ind_top3 36.4
+phase A best Ines Fujin: Ines Fujin #R15 team+-0.09pp ind_top3 44.7; Ines Fujin #R132 team+-0.10pp ind_top3 41.6; Ines Fujin #R139 team+-0.44pp ind_top3 41.4; Ines Fujin #R100 team+-0.44pp ind_top3 34.3; Ines Fujin #R17 team+-0.67pp ind_top3 40.9; Ines Fujin #R176 team+-0.69pp ind_top3 32.9; Ines Fujin #R99 team+-0.72pp ind_top3 35.9; Ines Fujin #R111 team+-0.73pp ind_top3 33.3; Ines Fujin #R114 team+-0.81pp ind_top3 36.0; Ines Fujin #R16 team+-0.91pp ind_top3 32.7; Ines Fujin #R37 team+-1.06pp ind_top3 32.4; Ines Fujin #R63 team+-1.23pp ind_top3 42.0; Ines Fujin #R165 team+-1.26pp ind_top3 40.9; Ines Fujin #R54 team+-1.32pp ind_top3 30.1; Ines Fujin #R150 team+-1.40pp ind_top3 37.0; Ines Fujin #R148 team+-1.42pp ind_top3 39.1; Ines Fujin #R178 team+-1.51pp ind_top3 30.4; Ines Fujin #R43 team+-1.54pp ind_top3 37.9; Ines Fujin #R61 team+-1.57pp ind_top3 34.6; Ines Fujin #R34 team+-1.69pp ind_top3 35.7; Ines Fujin #R27 team+-1.86pp ind_top3 31.1; Ines Fujin #R23 team+-1.88pp ind_top3 30.3; Ines Fujin #R47 team+-1.89pp ind_top3 33.2; Ines Fujin #R103 team+-1.93pp ind_top3 35.6; Ines Fujin #R93 team+-2.26pp ind_top3 35.0; Ines Fujin #R42 team+-2.36pp ind_top3 33.2; Ines Fujin #R149 team+-2.59pp ind_top3 24.0; Ines Fujin #R52 team+-3.00pp ind_top3 24.4; Ines Fujin #R181 team+-3.23pp ind_top3 32.7
+phase A best Neo Universe: Neo Universe #R190 team+-0.15pp ind_top3 49.2; Neo Universe #R63 team+-1.22pp ind_top3 41.3; Neo Universe #R144 team+-1.48pp ind_top3 44.4; Neo Universe #R200 team+-2.54pp ind_top3 35.2
+phase B: 247 mutants
+phaseB round 0: 248 variants x 300 seeds x 2 worlds in 817s
+phaseB round 1: 76 variants x 900 seeds x 2 worlds in 710s
+phaseB round 2: 24 variants x 2700 seeds x 2 worlds in 702s
+phase B: no credible improvement for Kitasan Black
+phase B improved Ines Fujin: Ines Fujin #M1 +1.90pp [1.11,2.68]
+phase B: no credible improvement for Neo Universe
+BEST Kitasan Black: ESP 4530, 22 skills: ['Introducing the Victor!', 'Leap Ahead to the Future', 'Red Shift/LP1211-M', 'Operation Cacao', 'Left-Handed ◎', 'Standard Distance ○', 'Spring Runner ○', 'Straightaway Adept', 'Ramp Up', 'Medium Straightaways ◎', 'Front Runner Straightaways ◎', 'Front Runner Corners ○', 'Dodging Danger', 'Top Runner', 'Front Runner Savvy ○', 'Groundwork', 'Slipstream', 'Superb Gait', 'Divine Speed', 'Ignited Spirit WIT', 'Wisdom of the Sun']
+BEST Ines Fujin: ESP 4570, 23 skills: ['Perfect ♪ Order Up!', 'Slick Serving', 'With All My Soul', 'Red Shift/LP1211-M', 'Left-Handed ◎', 'Ignited Spirit WIT', 'Dodging Danger', "All I've Got", 'Medium Straightaways ◎', 'Corner Adept ○', 'Solid Preparation', 'Front Runner Straightaways ◎', 'Spring Runner ◎', 'Front Runner Savvy ○', 'Top Runner', 'Divine Speed', 'Slipstream', 'Taking the Lead', 'Tail Held High', 'Uma Stan', 'Nimble Navigator', 'Racing Spirit: Stamina']
+BEST Neo Universe: ESP 4580, 23 skills: ['Beyond the Stars with You', 'Cross the Sea of Stars', 'Red Shift/LP1211-M', 'Moving Past, and Beyond', 'Into High Gear!', 'Left-Handed ◎', 'Spring Runner ◎', 'Nimble Navigator', 'Position Pilfer', 'Slick Surge', 'Hesitant Front Runners', 'Medium Corners ○', '1,500,000 CC', 'Uma Stan', 'Tail Held High', 'Slipstream', "Playtime's Over!", 'Be Still', 'Restraint', 'Superb Gait', 'Divine Speed', 'Wisdom of the Sun']
+  variant    top3   points  top3_jp  top3_cn   pts_jp   pts_cn     n  d_top3  d_top3_lo  d_top3_hi    p  d_points  d_top3_jp  d_top3_cn
+0    best  46.189  124.757   43.867   48.511  120.917  128.597  6000   1.778      1.034      2.522  0.0     4.957      0.967      2.589
+1    base  44.411  119.800   42.900   45.922  116.643  122.957  6000     NaN        NaN        NaN  NaN       NaN        NaN        NaN
+done /home/user/src/uma-race-lab/runs/20261118-212704-loh-v2-skills

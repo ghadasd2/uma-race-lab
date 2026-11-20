@@ -1,0 +1,338 @@
+{
+ "Kitasan Black": {
+  "added": [
+   {
+    "skill": "Tail Nine",
+    "gain_pp": 2.04,
+    "ci_lo": 0.99,
+    "replaced": []
+   },
+   {
+    "skill": "Refraction Arc",
+    "gain_pp": 1.1,
+    "ci_lo": 0.01,
+    "replaced": []
+   },
+   {
+    "skill": "Spring Spectacle",
+    "gain_pp": 0.94,
+    "ci_lo": 0.09,
+    "replaced": [
+     "Spring Runner ○"
+    ]
+   },
+   {
+    "skill": "Superstan",
+    "gain_pp": 0.83,
+    "ci_lo": 0.06,
+    "replaced": [
+     "Uma Stan"
+    ]
+   }
+  ],
+  "trimmed": [
+   {
+    "skill": "Corner Adept ○",
+    "value_pp": -0.03
+   },
+   {
+    "skill": "Prudent Positioning",
+    "value_pp": -0.0
+   },
+   {
+    "skill": "Ramp Up",
+    "value_pp": 0.11
+   },
+   {
+    "skill": "Standard Distance ○",
+    "value_pp": 0.22
+   }
+  ],
+  "kit_values_pp": {
+   "Introducing the Victor!": 5.06,
+   "Groundwork": 2.75,
+   "Operation Cacao": 2.72,
+   "Leap Ahead to the Future": 2.64,
+   "Red Shift/LP1211-M": 2.5,
+   "Top Runner": 2.33,
+   "Spring Spectacle": 2.19,
+   "Tail Nine": 2.04,
+   "Left-Handed ◎": 1.81,
+   "Divine Speed": 1.64,
+   "Dodging Danger": 1.58,
+   "Superb Gait": 1.53,
+   "Slipstream": 1.5,
+   "Wisdom of the Sun": 1.33,
+   "Spring Runner ○": 1.25,
+   "Ignited Spirit WIT": 1.11,
+   "Refraction Arc": 1.1,
+   "Front Runner Straightaways ◎": 0.94,
+   "Medium Straightaways ◎": 0.94,
+   "Superstan": 0.91,
+   "Front Runner Savvy ○": 0.67,
+   "Front Runner Corners ○": 0.56,
+   "Straightaway Adept": 0.36,
+   "Standard Distance ○": 0.22,
+   "Ramp Up": 0.11,
+   "Uma Stan": 0.08,
+   "Prudent Positioning": -0.0,
+   "Corner Adept ○": -0.03
+  },
+  "final_skills": [
+   "Red Shift/LP1211-M",
+   "Operation Cacao",
+   "Left-Handed ◎",
+   "Straightaway Adept",
+   "Introducing the Victor!",
+   "Leap Ahead to the Future",
+   "Medium Straightaways ◎",
+   "Front Runner Straightaways ◎",
+   "Front Runner Corners ○",
+   "Dodging Danger",
+   "Top Runner",
+   "Front Runner Savvy ○",
+   "Groundwork",
+   "Slipstream",
+   "Superb Gait",
+   "Divine Speed",
+   "Ignited Spirit WIT",
+   "Wisdom of the Sun",
+   "Tail Nine",
+   "Refraction Arc",
+   "Spring Spectacle",
+   "Superstan"
+  ],
+  "count_incl_unique": 23
+ },
+ "Ines Fujin": {
+  "added": [
+   {
+    "skill": "Tail Nine",
+    "gain_pp": 1.28,
+    "ci_lo": 0.22,
+    "replaced": []
+   },
+   {
+    "skill": "Perfect Spot!",
+    "gain_pp": 1.22,
+    "ci_lo": 0.14,
+    "replaced": []
+   },
+   {
+    "skill": "Escape Artist",
+    "gain_pp": 1.21,
+    "ci_lo": 0.12,
+    "replaced": []
+   },
+   {
+    "skill": "Wild Wind",
+    "gain_pp": 0.94,
+    "ci_lo": -0.14,
+    "replaced": []
+   }
+  ],
+  "trimmed": [
+   {
+    "skill": "Prudent Positioning",
+    "value_pp": -0.67
+   },
+   {
+    "skill": "Playtime's Over!",
+    "value_pp": -0.03
+   },
+   {
+    "skill": "Uma Stan",
+    "value_pp": 0.39
+   },
+   {
+    "skill": "Medium Corners ○",
+    "value_pp": 0.53
+   }
+  ],
+  "kit_values_pp": {
+   "Taking the Lead": 3.31,
+   "Top Runner": 2.61,
+   "Red Shift/LP1211-M": 2.56,
+   "Slick Serving": 2.47,
+   "Groundwork": 2.08,
+   "Divine Speed": 1.89,
+   "Bring on the Banquet!": 1.75,
+   "Dodging Danger": 1.28,
+   "Tail Nine": 1.28,
+   "Ignited Spirit WIT": 1.22,
+   "Perfect Spot!": 1.22,
+   "Escape Artist": 1.21,
+   "Mad Dash": 1.17,
+   "Left-Handed ○": 1.06,
+   "Perfect ♪ Order Up!": 0.94,
+   "Medium Straightaways ◎": 0.94,
+   "Wild Wind": 0.94,
+   "Front Runner Straightaways ◎": 0.89,
+   "Corner Adept ○": 0.86,
+   "Straightaway Adept": 0.81,
+   "Front Runner Savvy ○": 0.64,
+   "Wisdom of the Sun": 0.56,
+   "Medium Corners ○": 0.53,
+   "Uma Stan": 0.39,
+   "Playtime's Over!": -0.03,
+   "Prudent Positioning": -0.67
+  },
+  "final_skills": [
+   "Red Shift/LP1211-M",
+   "Bring on the Banquet!",
+   "Left-Handed ○",
+   "Corner Adept ○",
+   "Straightaway Adept",
+   "Perfect ♪ Order Up!",
+   "Taking the Lead",
+   "Medium Straightaways ◎",
+   "Front Runner Straightaways ◎",
+   "Slick Serving",
+   "Dodging Danger",
+   "Top Runner",
+   "Front Runner Savvy ○",
+   "Groundwork",
+   "Mad Dash",
+   "Divine Speed",
+   "Ignited Spirit WIT",
+   "Wisdom of the Sun",
+   "Tail Nine",
+   "Perfect Spot!",
+   "Escape Artist",
+   "Wild Wind"
+  ],
+  "count_incl_unique": 23
+ },
+ "Neo Universe": {
+  "added": [
+   {
+    "skill": "Keep Going!",
+    "gain_pp": 1.58,
+    "ci_lo": 0.51,
+    "replaced": []
+   },
+   {
+    "skill": "Burning Spirit SPD",
+    "gain_pp": 1.25,
+    "ci_lo": 0.18,
+    "replaced": []
+   },
+   {
+    "skill": "Elated",
+    "gain_pp": 1.17,
+    "ci_lo": 0.11,
+    "replaced": []
+   },
+   {
+    "skill": "Full Throttle",
+    "gain_pp": 1.01,
+    "ci_lo": -0.06,
+    "replaced": [
+     "Keep Going!"
+    ]
+   },
+   {
+    "skill": "Lightning Step",
+    "gain_pp": 0.88,
+    "ci_lo": -0.21,
+    "replaced": []
+   },
+   {
+    "skill": "Refraction Arc",
+    "gain_pp": 0.83,
+    "ci_lo": -0.12,
+    "replaced": [
+     "Medium Corners ○"
+    ]
+   }
+  ],
+  "trimmed": [
+   {
+    "skill": "Medium Straightaways ○",
+    "value_pp": -0.22
+   },
+   {
+    "skill": "Straightaway Adept",
+    "value_pp": 0.06
+   },
+   {
+    "skill": "Late Surger Straightaways ○",
+    "value_pp": 0.11
+   },
+   {
+    "skill": "Standard Distance ○",
+    "value_pp": 0.17
+   },
+   {
+    "skill": "Be Still",
+    "value_pp": 0.31
+   },
+   {
+    "skill": "Position Pilfer",
+    "value_pp": 0.44
+   },
+   {
+    "skill": "Slick Surge",
+    "value_pp": 0.67
+   }
+  ],
+  "kit_values_pp": {
+   "Cross the Sea of Stars": 3.83,
+   "Beyond the Stars with You": 3.19,
+   "Full Throttle": 2.59,
+   "Divine Speed": 2.58,
+   "Moving Past, and Beyond": 2.33,
+   "Into High Gear!": 2.25,
+   "Uma Stan": 1.92,
+   "Tail Held High": 1.61,
+   "Red Shift/LP1211-M": 1.58,
+   "Keep Going!": 1.58,
+   "Superb Gait": 1.5,
+   "Hesitant Front Runners": 1.47,
+   "1,500,000 CC": 1.42,
+   "Slipstream": 1.39,
+   "Left-Handed ◎": 1.31,
+   "Spring Runner ◎": 1.31,
+   "Refraction Arc": 1.27,
+   "Burning Spirit SPD": 1.25,
+   "Playtime's Over!": 1.22,
+   "Elated": 1.17,
+   "Restraint": 1.06,
+   "Nimble Navigator": 1.0,
+   "Lightning Step": 0.88,
+   "Slick Surge": 0.67,
+   "Position Pilfer": 0.44,
+   "Medium Corners ○": 0.44,
+   "Be Still": 0.31,
+   "Standard Distance ○": 0.17,
+   "Late Surger Straightaways ○": 0.11,
+   "Straightaway Adept": 0.06,
+   "Medium Straightaways ○": -0.22
+  },
+  "final_skills": [
+   "Red Shift/LP1211-M",
+   "Moving Past, and Beyond",
+   "Into High Gear!",
+   "Left-Handed ◎",
+   "Spring Runner ◎",
+   "Nimble Navigator",
+   "Hesitant Front Runners",
+   "1,500,000 CC",
+   "Uma Stan",
+   "Tail Held High",
+   "Slipstream",
+   "Playtime's Over!",
+   "Beyond the Stars with You",
+   "Restraint",
+   "Superb Gait",
+   "Divine Speed",
+   "Cross the Sea of Stars",
+   "Burning Spirit SPD",
+   "Elated",
+   "Full Throttle",
+   "Lightning Step",
+   "Refraction Arc"
+  ],
+  "count_incl_unique": 23
+ }
+}

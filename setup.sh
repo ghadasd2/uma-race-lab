@@ -5,7 +5,9 @@ HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$HERE"
 if [ ! -e vendor/GlobalSim ]; then
   mkdir -p vendor
-  git clone --depth 1 https://github.com/daftuyda/GlobalSim.git vendor/GlobalSim
+  git clone https://github.com/daftuyda/GlobalSim.git vendor/GlobalSim
+  # pinned engine commit used for every LoH result (v1-v4)
+  (cd vendor/GlobalSim && git checkout --quiet 80b54cacf174b54ff6f7ca27ee7f88b5856c0bd1)
 fi
 command -v cargo >/dev/null || { echo "Install Rust first: https://rustup.rs"; exit 1; }
 # observation-only patch: duel / spot-struggle start+end and skill activation positions.

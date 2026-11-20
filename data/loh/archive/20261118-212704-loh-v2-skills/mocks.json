@@ -1,0 +1,6469 @@
+{
+ "Kitasan Black": [
+  {
+   "variant": "Kitasan Black #R112",
+   "ind_top3_round0": 29.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Front Runner Savvy ○",
+     "Groundwork",
+     "Ignited Spirit WIT",
+     "Medium Straightaways ◎",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Front Runner Corners ○",
+     "Standard Distance ○",
+     "Superb Gait",
+     "Top Runner",
+     "Left-Handed ◎",
+     "Spring Runner ○",
+     "Mad Dash",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind",
+     "Corner Adept ○",
+     "Restraint",
+     "Straightaway Adept",
+     "Operation Cacao",
+     "Into High Gear!"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R115",
+   "ind_top3_round0": 27.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Prudent Positioning",
+     "Spring Runner ○",
+     "Standard Distance ○",
+     "Wisdom of the Sun",
+     "Slipstream",
+     "Left-Handed ◎",
+     "Groundwork",
+     "Nimble Navigator",
+     "Superb Gait",
+     "Straightaway Adept",
+     "With All My Soul",
+     "Uma Stan",
+     "Operation Cacao",
+     "Divine Speed",
+     "Tail Held High",
+     "Moving Past, and Beyond",
+     "Front Runner Straightaways ◎",
+     "Ignited Spirit WIT",
+     "Red Shift/LP1211-M",
+     "Corner Adept ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R120",
+   "ind_top3_round0": 28.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Wisdom of the Sun",
+     "Uma Stan",
+     "Corner Adept ○",
+     "Dodging Danger",
+     "Superb Gait",
+     "In Body and Mind",
+     "Nimble Navigator",
+     "Spring Runner ◎",
+     "Left-Handed ◎",
+     "Ignited Spirit WIT",
+     "Medium Straightaways ○",
+     "Hesitant Front Runners",
+     "Red Shift/LP1211-M",
+     "Slipstream",
+     "Solid Preparation",
+     "Standard Distance ○",
+     "Mad Dash",
+     "Restraint",
+     "Operation Cacao",
+     "Straightaway Adept"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R123",
+   "ind_top3_round0": 26.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Groundwork",
+     "Nimble Navigator",
+     "Moving Past, and Beyond",
+     "In Body and Mind",
+     "Medium Straightaways ○",
+     "Mad Dash",
+     "Professor of Curvature",
+     "Top Runner",
+     "Spring Runner ○",
+     "Front Runner Savvy ○",
+     "All I've Got",
+     "With All My Soul",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Straightaway Adept",
+     "Divine Speed",
+     "Wisdom of the Sun",
+     "Front Runner Corners ○",
+     "Medium Corners ○",
+     "Left-Handed ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R130",
+   "ind_top3_round0": 29.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Nimble Navigator",
+     "Dodging Danger",
+     "Standard Distance ○",
+     "Straightaway Adept",
+     "With All My Soul",
+     "Groundwork",
+     "Restraint",
+     "Top Runner",
+     "All I've Got",
+     "Medium Straightaways ◎",
+     "Uma Stan",
+     "Divine Speed",
+     "Spring Runner ○",
+     "In Body and Mind",
+     "Operation Cacao",
+     "Moving Past, and Beyond",
+     "Mad Dash",
+     "Prudent Positioning",
+     "Wisdom of the Sun",
+     "Red Shift/LP1211-M"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R132",
+   "ind_top3_round0": 30.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Red Shift/LP1211-M",
+     "Front Runner Straightaways ◎",
+     "Standard Distance ○",
+     "Divine Speed",
+     "Slipstream",
+     "Wisdom of the Sun",
+     "Groundwork",
+     "Operation Cacao",
+     "Professor of Curvature",
+     "Nimble Navigator",
+     "Front Runner Corners ○",
+     "Medium Straightaways ◎",
+     "Superb Gait",
+     "Firm Resolve",
+     "Spring Runner ○",
+     "In Body and Mind",
+     "Ignited Spirit WIT",
+     "Front Runner Savvy ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R134",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Superb Gait",
+     "Uma Stan",
+     "Ignited Spirit WIT",
+     "Racing Spirit: Stamina",
+     "Corner Adept ○",
+     "Standard Distance ○",
+     "Front Runner Corners ○",
+     "Nimble Navigator",
+     "Slipstream",
+     "Front Runner Straightaways ◎",
+     "Wisdom of the Sun",
+     "Tail Held High",
+     "Groundwork",
+     "Top Runner",
+     "In Body and Mind",
+     "Firm Resolve",
+     "Prudent Positioning",
+     "Medium Straightaways ◎",
+     "With All My Soul",
+     "Front Runner Savvy ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R135",
+   "ind_top3_round0": 28.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Top Runner",
+     "In Body and Mind",
+     "Playtime's Over!",
+     "Ignited Spirit WIT",
+     "Racing Spirit: Stamina",
+     "Nimble Navigator",
+     "Divine Speed",
+     "Straightaway Adept",
+     "Ramp Up",
+     "Red Shift/LP1211-M",
+     "Professor of Curvature",
+     "Superb Gait",
+     "Firm Resolve",
+     "Prudent Positioning",
+     "Left-Handed ◎",
+     "Tail Held High",
+     "Uma Stan",
+     "Groundwork",
+     "Front Runner Savvy ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R140",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Divine Speed",
+     "Left-Handed ○",
+     "Medium Straightaways ◎",
+     "Red Shift/LP1211-M",
+     "Racing Spirit: Stamina",
+     "In Body and Mind",
+     "Standard Distance ○",
+     "Moving Past, and Beyond",
+     "Ramp Up",
+     "Medium Corners ○",
+     "Front Runner Savvy ○",
+     "Solid Preparation",
+     "Slipstream",
+     "Professor of Curvature",
+     "With All My Soul",
+     "Top Runner",
+     "Nimble Navigator",
+     "Into High Gear!",
+     "Front Runner Straightaways ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R144",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Superb Gait",
+     "Wisdom of the Sun",
+     "Firm Resolve",
+     "Straightaway Adept",
+     "Nimble Navigator",
+     "Medium Corners ○",
+     "Slipstream",
+     "Prudent Positioning",
+     "Top Runner",
+     "Moving Past, and Beyond",
+     "Medium Straightaways ○",
+     "Divine Speed",
+     "Front Runner Savvy ○",
+     "Left-Handed ◎",
+     "Red Shift/LP1211-M",
+     "Mad Dash",
+     "Ignited Spirit WIT",
+     "Tail Held High",
+     "Spring Runner ◎",
+     "Groundwork"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R145",
+   "ind_top3_round0": 28.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Ignited Spirit WIT",
+     "Top Runner",
+     "Divine Speed",
+     "Wisdom of the Sun",
+     "Tail Held High",
+     "Spring Runner ○",
+     "Uma Stan",
+     "Firm Resolve",
+     "Red Shift/LP1211-M",
+     "Ramp Up",
+     "Medium Straightaways ◎",
+     "Restraint",
+     "Standard Distance ○",
+     "Groundwork",
+     "All I've Got",
+     "Slipstream",
+     "Straightaway Adept",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R149",
+   "ind_top3_round0": 29.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Left-Handed ◎",
+     "Into High Gear!",
+     "Nimble Navigator",
+     "Medium Straightaways ◎",
+     "Wisdom of the Sun",
+     "Straightaway Adept",
+     "Top Runner",
+     "Front Runner Savvy ○",
+     "Tail Held High",
+     "Slipstream",
+     "Racing Spirit: Stamina",
+     "Restraint",
+     "Standard Distance ○",
+     "Superb Gait",
+     "Uma Stan",
+     "Spring Runner ◎",
+     "Firm Resolve",
+     "Solid Preparation",
+     "Front Runner Straightaways ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R152",
+   "ind_top3_round0": 29.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "In Body and Mind",
+     "Professor of Curvature",
+     "All I've Got",
+     "Medium Corners ○",
+     "Red Shift/LP1211-M",
+     "Left-Handed ◎",
+     "Spring Runner ○",
+     "Standard Distance ○",
+     "Restraint",
+     "Hesitant Front Runners",
+     "Medium Straightaways ◎",
+     "Racing Spirit: Stamina",
+     "Into High Gear!",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Solid Preparation",
+     "Superb Gait",
+     "Divine Speed",
+     "Straightaway Adept",
+     "Front Runner Savvy ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R153",
+   "ind_top3_round0": 29.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Into High Gear!",
+     "Straightaway Adept",
+     "Superb Gait",
+     "Medium Corners ○",
+     "Wisdom of the Sun",
+     "Divine Speed",
+     "Medium Straightaways ○",
+     "Spring Runner ○",
+     "Ignited Spirit WIT",
+     "Firm Resolve",
+     "Dodging Danger",
+     "In Body and Mind",
+     "Standard Distance ○",
+     "Top Runner",
+     "Left-Handed ◎",
+     "Red Shift/LP1211-M",
+     "Uma Stan",
+     "Restraint",
+     "Ramp Up"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R16",
+   "ind_top3_round0": 28.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "With All My Soul",
+     "Standard Distance ○",
+     "Divine Speed",
+     "Spring Runner ◎",
+     "Uma Stan",
+     "Left-Handed ◎",
+     "Corner Adept ○",
+     "Medium Straightaways ◎",
+     "Slipstream",
+     "Moving Past, and Beyond",
+     "Groundwork",
+     "Front Runner Savvy ○",
+     "Front Runner Corners ○",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind",
+     "Straightaway Adept",
+     "Superb Gait",
+     "Red Shift/LP1211-M",
+     "Ramp Up",
+     "Dodging Danger"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R165",
+   "ind_top3_round0": 29.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Medium Straightaways ◎",
+     "All I've Got",
+     "Divine Speed",
+     "Straightaway Adept",
+     "Medium Corners ○",
+     "Solid Preparation",
+     "Standard Distance ○",
+     "Moving Past, and Beyond",
+     "Left-Handed ○",
+     "Nimble Navigator",
+     "Front Runner Savvy ○",
+     "Professor of Curvature",
+     "Top Runner",
+     "Firm Resolve",
+     "With All My Soul",
+     "Wisdom of the Sun",
+     "Operation Cacao",
+     "Uma Stan",
+     "Spring Runner ○",
+     "Dodging Danger"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R17",
+   "ind_top3_round0": 30.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "With All My Soul",
+     "Ignited Spirit WIT",
+     "Straightaway Adept",
+     "Spring Runner ○",
+     "Uma Stan",
+     "In Body and Mind",
+     "Standard Distance ○",
+     "Medium Straightaways ◎",
+     "Moving Past, and Beyond",
+     "Hesitant Front Runners",
+     "Divine Speed",
+     "Wisdom of the Sun",
+     "Front Runner Corners ○",
+     "Superb Gait",
+     "Red Shift/LP1211-M",
+     "Solid Preparation",
+     "Prudent Positioning",
+     "Medium Corners ○",
+     "Slipstream",
+     "Tail Held High"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R170",
+   "ind_top3_round0": 29.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Divine Speed",
+     "In Body and Mind",
+     "Superb Gait",
+     "Moving Past, and Beyond",
+     "Ignited Spirit WIT",
+     "Front Runner Savvy ○",
+     "Left-Handed ◎",
+     "Uma Stan",
+     "Operation Cacao",
+     "Groundwork",
+     "Wisdom of the Sun",
+     "Straightaway Adept",
+     "Medium Straightaways ◎",
+     "Tail Held High",
+     "Spring Runner ○",
+     "Into High Gear!",
+     "Top Runner",
+     "Corner Adept ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R171",
+   "ind_top3_round0": 28.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Mad Dash",
+     "Front Runner Straightaways ◎",
+     "Wisdom of the Sun",
+     "Front Runner Corners ○",
+     "Prudent Positioning",
+     "Spring Runner ○",
+     "Ramp Up",
+     "Straightaway Adept",
+     "Superb Gait",
+     "Divine Speed",
+     "Professor of Curvature",
+     "Nimble Navigator",
+     "Groundwork",
+     "Playtime's Over!",
+     "Ignited Spirit WIT",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Front Runner Savvy ○",
+     "Standard Distance ○",
+     "With All My Soul"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R176",
+   "ind_top3_round0": 29.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Corner Adept ○",
+     "Slipstream",
+     "Red Shift/LP1211-M",
+     "Uma Stan",
+     "Ignited Spirit WIT",
+     "Groundwork",
+     "Superb Gait",
+     "Divine Speed",
+     "Restraint",
+     "Ramp Up",
+     "Playtime's Over!",
+     "Wisdom of the Sun",
+     "Front Runner Straightaways ◎",
+     "Medium Corners ○",
+     "Prudent Positioning",
+     "Spring Runner ○",
+     "With All My Soul",
+     "Standard Distance ○",
+     "Front Runner Savvy ○",
+     "Top Runner"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R177",
+   "ind_top3_round0": 30.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Professor of Curvature",
+     "Racing Spirit: Stamina",
+     "Ignited Spirit WIT",
+     "Wisdom of the Sun",
+     "Top Runner",
+     "Moving Past, and Beyond",
+     "Groundwork",
+     "Front Runner Corners ○",
+     "In Body and Mind",
+     "Nimble Navigator",
+     "Slipstream",
+     "Into High Gear!",
+     "Divine Speed",
+     "Red Shift/LP1211-M",
+     "Left-Handed ○",
+     "Spring Runner ◎",
+     "Dodging Danger",
+     "Straightaway Adept"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R182",
+   "ind_top3_round0": 30.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Hesitant Front Runners",
+     "Straightaway Adept",
+     "Uma Stan",
+     "Slipstream",
+     "Red Shift/LP1211-M",
+     "Groundwork",
+     "Medium Straightaways ◎",
+     "Front Runner Savvy ○",
+     "Firm Resolve",
+     "In Body and Mind",
+     "Prudent Positioning",
+     "Left-Handed ○",
+     "Front Runner Corners ○",
+     "Moving Past, and Beyond",
+     "Dodging Danger",
+     "Top Runner",
+     "Divine Speed",
+     "Corner Adept ○",
+     "Wisdom of the Sun",
+     "Ignited Spirit WIT"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R183",
+   "ind_top3_round0": 27.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Wisdom of the Sun",
+     "Front Runner Savvy ○",
+     "Operation Cacao",
+     "Hesitant Front Runners",
+     "Medium Corners ○",
+     "Red Shift/LP1211-M",
+     "Professor of Curvature",
+     "Solid Preparation",
+     "Straightaway Adept",
+     "Mad Dash",
+     "Medium Straightaways ◎",
+     "Slipstream",
+     "Spring Runner ◎",
+     "Dodging Danger",
+     "Prudent Positioning",
+     "Left-Handed ◎",
+     "Nimble Navigator",
+     "In Body and Mind",
+     "Superb Gait"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R185",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Top Runner",
+     "Red Shift/LP1211-M",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind",
+     "Restraint",
+     "Divine Speed",
+     "Racing Spirit: Stamina",
+     "Medium Straightaways ◎",
+     "Solid Preparation",
+     "Wisdom of the Sun",
+     "All I've Got",
+     "Uma Stan",
+     "Ignited Spirit WIT",
+     "Superb Gait",
+     "Standard Distance ○",
+     "Moving Past, and Beyond"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R190",
+   "ind_top3_round0": 27.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Corner Adept ○",
+     "Divine Speed",
+     "Medium Corners ○",
+     "Solid Preparation",
+     "Ignited Spirit WIT",
+     "Standard Distance ○",
+     "Prudent Positioning",
+     "Moving Past, and Beyond",
+     "Straightaway Adept",
+     "Operation Cacao",
+     "Wisdom of the Sun",
+     "Top Runner",
+     "Red Shift/LP1211-M",
+     "Mad Dash",
+     "Uma Stan",
+     "Dodging Danger",
+     "In Body and Mind",
+     "Front Runner Corners ○",
+     "Restraint"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R197",
+   "ind_top3_round0": 29.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Red Shift/LP1211-M",
+     "Divine Speed",
+     "Ramp Up",
+     "Wisdom of the Sun",
+     "Ignited Spirit WIT",
+     "Medium Straightaways ◎",
+     "With All My Soul",
+     "Operation Cacao",
+     "Dodging Danger",
+     "Moving Past, and Beyond",
+     "Racing Spirit: Stamina",
+     "Left-Handed ○",
+     "Corner Adept ○",
+     "Prudent Positioning",
+     "Superb Gait",
+     "Top Runner",
+     "Solid Preparation",
+     "Playtime's Over!"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R21",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Straightaway Adept",
+     "Superb Gait",
+     "Hesitant Front Runners",
+     "Playtime's Over!",
+     "Standard Distance ○",
+     "Divine Speed",
+     "Mad Dash",
+     "Slipstream",
+     "Medium Straightaways ◎",
+     "Front Runner Savvy ○",
+     "Wisdom of the Sun",
+     "Red Shift/LP1211-M",
+     "In Body and Mind",
+     "Medium Corners ○",
+     "Left-Handed ○",
+     "All I've Got",
+     "Dodging Danger",
+     "Groundwork",
+     "Moving Past, and Beyond",
+     "Front Runner Straightaways ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R3",
+   "ind_top3_round0": 27.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Front Runner Straightaways ◎",
+     "Tail Held High",
+     "Ramp Up",
+     "Front Runner Corners ○",
+     "Mad Dash",
+     "Red Shift/LP1211-M",
+     "Straightaway Adept",
+     "Hesitant Front Runners",
+     "Top Runner",
+     "Superb Gait",
+     "In Body and Mind",
+     "Dodging Danger",
+     "Ignited Spirit WIT",
+     "Nimble Navigator",
+     "Left-Handed ◎",
+     "Divine Speed",
+     "Front Runner Savvy ○",
+     "Medium Straightaways ◎",
+     "Prudent Positioning",
+     "Standard Distance ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R40",
+   "ind_top3_round0": 27.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Medium Straightaways ◎",
+     "Divine Speed",
+     "Solid Preparation",
+     "Prudent Positioning",
+     "Medium Corners ○",
+     "Dodging Danger",
+     "Hesitant Front Runners",
+     "Into High Gear!",
+     "Front Runner Savvy ○",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Straightaway Adept",
+     "Standard Distance ○",
+     "Wisdom of the Sun",
+     "Playtime's Over!",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind",
+     "Ignited Spirit WIT",
+     "Mad Dash",
+     "Spring Runner ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R41",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Front Runner Straightaways ◎",
+     "Straightaway Adept",
+     "Top Runner",
+     "Divine Speed",
+     "Standard Distance ○",
+     "Front Runner Savvy ○",
+     "Mad Dash",
+     "Into High Gear!",
+     "Prudent Positioning",
+     "Wisdom of the Sun",
+     "Slipstream",
+     "Spring Runner ○",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Medium Straightaways ◎",
+     "Front Runner Corners ○",
+     "Superb Gait",
+     "Professor of Curvature"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R42",
+   "ind_top3_round0": 28.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Operation Cacao",
+     "Spring Runner ◎",
+     "Straightaway Adept",
+     "Front Runner Straightaways ◎",
+     "Restraint",
+     "Front Runner Savvy ○",
+     "Professor of Curvature",
+     "Top Runner",
+     "Dodging Danger",
+     "Red Shift/LP1211-M",
+     "All I've Got",
+     "Medium Straightaways ◎",
+     "Divine Speed",
+     "Uma Stan",
+     "Playtime's Over!",
+     "Superb Gait",
+     "Standard Distance ○",
+     "Into High Gear!",
+     "Prudent Positioning"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R49",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Front Runner Savvy ○",
+     "Professor of Curvature",
+     "Top Runner",
+     "Uma Stan",
+     "Ignited Spirit WIT",
+     "Restraint",
+     "Red Shift/LP1211-M",
+     "Spring Runner ○",
+     "Medium Straightaways ◎",
+     "With All My Soul",
+     "All I've Got",
+     "In Body and Mind",
+     "Solid Preparation",
+     "Divine Speed",
+     "Medium Corners ○",
+     "Prudent Positioning",
+     "Racing Spirit: Stamina",
+     "Mad Dash",
+     "Nimble Navigator",
+     "Standard Distance ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R5",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Dodging Danger",
+     "Divine Speed",
+     "Uma Stan",
+     "Wisdom of the Sun",
+     "Moving Past, and Beyond",
+     "Front Runner Straightaways ◎",
+     "Straightaway Adept",
+     "Spring Runner ○",
+     "Front Runner Corners ○",
+     "Solid Preparation",
+     "Ramp Up",
+     "Hesitant Front Runners",
+     "Slipstream",
+     "With All My Soul",
+     "Tail Held High",
+     "Prudent Positioning",
+     "Top Runner",
+     "Ignited Spirit WIT",
+     "Mad Dash",
+     "Corner Adept ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R6",
+   "ind_top3_round0": 27.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Mad Dash",
+     "Groundwork",
+     "Medium Straightaways ◎",
+     "Left-Handed ◎",
+     "Straightaway Adept",
+     "Top Runner",
+     "Superb Gait",
+     "Standard Distance ○",
+     "Into High Gear!",
+     "Moving Past, and Beyond",
+     "Playtime's Over!",
+     "Professor of Curvature",
+     "Divine Speed",
+     "Ignited Spirit WIT",
+     "Red Shift/LP1211-M",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R62",
+   "ind_top3_round0": 29.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Medium Straightaways ○",
+     "Hesitant Front Runners",
+     "Red Shift/LP1211-M",
+     "Medium Corners ○",
+     "Groundwork",
+     "Nimble Navigator",
+     "Top Runner",
+     "Mad Dash",
+     "Wisdom of the Sun",
+     "Superb Gait",
+     "Front Runner Savvy ○",
+     "Uma Stan",
+     "Restraint",
+     "Playtime's Over!",
+     "Divine Speed",
+     "Moving Past, and Beyond",
+     "Dodging Danger",
+     "Ramp Up",
+     "Standard Distance ○",
+     "Professor of Curvature"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R64",
+   "ind_top3_round0": 27.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Superb Gait",
+     "Top Runner",
+     "Prudent Positioning",
+     "Spring Runner ○",
+     "Divine Speed",
+     "Uma Stan",
+     "Playtime's Over!",
+     "Medium Straightaways ◎",
+     "Dodging Danger",
+     "All I've Got",
+     "Front Runner Savvy ○",
+     "Front Runner Straightaways ◎",
+     "Red Shift/LP1211-M",
+     "Nimble Navigator",
+     "Into High Gear!",
+     "Front Runner Corners ○",
+     "In Body and Mind",
+     "Ignited Spirit WIT",
+     "Corner Adept ○",
+     "Standard Distance ○"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R71",
+   "ind_top3_round0": 29.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Mad Dash",
+     "Nimble Navigator",
+     "Standard Distance ○",
+     "Hesitant Front Runners",
+     "Straightaway Adept",
+     "Playtime's Over!",
+     "Ignited Spirit WIT",
+     "Wisdom of the Sun",
+     "Top Runner",
+     "Dodging Danger",
+     "Prudent Positioning",
+     "Red Shift/LP1211-M",
+     "Medium Corners ○",
+     "Ramp Up",
+     "Groundwork",
+     "Professor of Curvature",
+     "Divine Speed",
+     "Moving Past, and Beyond",
+     "Medium Straightaways ◎",
+     "Firm Resolve"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R72",
+   "ind_top3_round0": 28.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Divine Speed",
+     "Professor of Curvature",
+     "Red Shift/LP1211-M",
+     "Moving Past, and Beyond",
+     "Spring Runner ○",
+     "Groundwork",
+     "Tail Held High",
+     "Ignited Spirit WIT",
+     "Hesitant Front Runners",
+     "In Body and Mind",
+     "Ramp Up",
+     "Straightaway Adept",
+     "Wisdom of the Sun",
+     "Left-Handed ◎",
+     "Front Runner Savvy ○",
+     "With All My Soul",
+     "Dodging Danger",
+     "Top Runner",
+     "Into High Gear!"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R74",
+   "ind_top3_round0": 29.7,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Front Runner Corners ○",
+     "Firm Resolve",
+     "Standard Distance ○",
+     "Dodging Danger",
+     "Groundwork",
+     "Divine Speed",
+     "Straightaway Adept",
+     "Medium Corners ○",
+     "Spring Runner ◎",
+     "Top Runner",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Moving Past, and Beyond",
+     "All I've Got",
+     "Front Runner Savvy ○",
+     "Racing Spirit: Stamina",
+     "Medium Straightaways ◎",
+     "Wisdom of the Sun",
+     "Front Runner Straightaways ◎",
+     "Operation Cacao"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R75",
+   "ind_top3_round0": 27.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Operation Cacao",
+     "Dodging Danger",
+     "All I've Got",
+     "Into High Gear!",
+     "Front Runner Corners ○",
+     "Solid Preparation",
+     "Slipstream",
+     "Left-Handed ◎",
+     "Corner Adept ○",
+     "Moving Past, and Beyond",
+     "Nimble Navigator",
+     "Ignited Spirit WIT",
+     "In Body and Mind",
+     "Medium Corners ○",
+     "Wisdom of the Sun",
+     "Racing Spirit: Stamina",
+     "Superb Gait",
+     "Restraint",
+     "Straightaway Adept",
+     "Tail Held High"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R76",
+   "ind_top3_round0": 29.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Prudent Positioning",
+     "Spring Runner ○",
+     "Mad Dash",
+     "Red Shift/LP1211-M",
+     "Straightaway Adept",
+     "Front Runner Straightaways ◎",
+     "Divine Speed",
+     "Superb Gait",
+     "Dodging Danger",
+     "Nimble Navigator",
+     "Medium Straightaways ◎",
+     "Ignited Spirit WIT",
+     "In Body and Mind",
+     "Hesitant Front Runners",
+     "Front Runner Savvy ○",
+     "Professor of Curvature",
+     "Tail Held High",
+     "Left-Handed ◎",
+     "Standard Distance ○",
+     "Ramp Up"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R84",
+   "ind_top3_round0": 26.0,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Groundwork",
+     "Corner Adept ○",
+     "Slipstream",
+     "Front Runner Savvy ○",
+     "In Body and Mind",
+     "Left-Handed ◎",
+     "Straightaway Adept",
+     "Medium Corners ○",
+     "Red Shift/LP1211-M",
+     "Standard Distance ○",
+     "Ignited Spirit WIT",
+     "Top Runner",
+     "Operation Cacao",
+     "Wisdom of the Sun",
+     "Spring Runner ○",
+     "All I've Got",
+     "Medium Straightaways ○",
+     "Into High Gear!",
+     "Divine Speed",
+     "Firm Resolve"
+    ]
+   }
+  },
+  {
+   "variant": "Kitasan Black #R9",
+   "ind_top3_round0": 27.3,
+   "build": {
+    "name": "Kitasan Black",
+    "chara": "Kitasan Black",
+    "strategy": "Front Runner",
+    "stats": [
+     1400,
+     1056,
+     1238,
+     1216,
+     1190
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Bring on the Banquet!",
+     "level": 6
+    },
+    "skills": [
+     "Introducing the Victor!",
+     "Leap Ahead to the Future",
+     "Front Runner Savvy ○",
+     "Corner Adept ○",
+     "Medium Straightaways ◎",
+     "Red Shift/LP1211-M",
+     "Front Runner Straightaways ◎",
+     "Top Runner",
+     "Ignited Spirit WIT",
+     "Dodging Danger",
+     "Medium Corners ○",
+     "Hesitant Front Runners",
+     "Prudent Positioning",
+     "Divine Speed",
+     "Standard Distance ○",
+     "Mad Dash",
+     "Uma Stan",
+     "Straightaway Adept",
+     "Nimble Navigator",
+     "Left-Handed ◎",
+     "Wisdom of the Sun",
+     "Moving Past, and Beyond"
+    ]
+   }
+  }
+ ],
+ "Ines Fujin": [
+  {
+   "variant": "Ines Fujin #R101",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Firm Resolve",
+     "Top Runner",
+     "Playtime's Over!",
+     "Professor of Curvature",
+     "Nimble Navigator",
+     "Front Runner Savvy ○",
+     "Uma Stan",
+     "Taking the Lead",
+     "Ignited Spirit WIT",
+     "Spring Runner ○",
+     "Wisdom of the Sun",
+     "Dodging Danger",
+     "Front Runner Straightaways ◎",
+     "Moving Past, and Beyond",
+     "Racing Spirit: Stamina",
+     "Solid Preparation",
+     "Left-Handed ◎",
+     "In Body and Mind"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R102",
+   "ind_top3_round0": 25.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Medium Straightaways ◎",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Wisdom of the Sun",
+     "Tail Held High",
+     "Nimble Navigator",
+     "Top Runner",
+     "Restraint",
+     "Professor of Curvature",
+     "Spring Runner ○",
+     "Divine Speed",
+     "Ignited Spirit WIT",
+     "Standard Distance ○",
+     "Groundwork",
+     "Mad Dash",
+     "Front Runner Savvy ○",
+     "Superb Gait",
+     "Red Shift/LP1211-M",
+     "Operation Cacao"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R105",
+   "ind_top3_round0": 24.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Tail Held High",
+     "Operation Cacao",
+     "Medium Corners ○",
+     "Medium Straightaways ◎",
+     "Ignited Spirit WIT",
+     "Wisdom of the Sun",
+     "Professor of Curvature",
+     "Spring Runner ○",
+     "Bring on the Banquet!",
+     "Groundwork",
+     "Straightaway Adept",
+     "Red Shift/LP1211-M",
+     "Front Runner Straightaways ◎",
+     "Divine Speed",
+     "Top Runner",
+     "Hesitant Front Runners",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Left-Handed ○",
+     "Restraint"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R112",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Spring Runner ◎",
+     "Tail Held High",
+     "Straightaway Adept",
+     "Dodging Danger",
+     "Front Runner Savvy ○",
+     "Slipstream",
+     "Racing Spirit: Stamina",
+     "Wisdom of the Sun",
+     "Left-Handed ◎",
+     "Medium Straightaways ◎",
+     "Standard Distance ○",
+     "Superb Gait",
+     "Bring on the Banquet!",
+     "Divine Speed",
+     "Prudent Positioning",
+     "Firm Resolve",
+     "Moving Past, and Beyond",
+     "Solid Preparation",
+     "Uma Stan",
+     "Nimble Navigator"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R115",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Superb Gait",
+     "Spring Runner ○",
+     "Ignited Spirit WIT",
+     "Straightaway Adept",
+     "Operation Cacao",
+     "Front Runner Straightaways ◎",
+     "Dodging Danger",
+     "Left-Handed ○",
+     "Wisdom of the Sun",
+     "Slipstream",
+     "Medium Straightaways ○",
+     "Divine Speed",
+     "Moving Past, and Beyond",
+     "Front Runner Savvy ○",
+     "Uma Stan",
+     "In Body and Mind",
+     "Medium Corners ○",
+     "Red Shift/LP1211-M",
+     "Taking the Lead",
+     "Tail Held High"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R122",
+   "ind_top3_round0": 24.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Medium Straightaways ◎",
+     "Superb Gait",
+     "Into High Gear!",
+     "Front Runner Savvy ○",
+     "Red Shift/LP1211-M",
+     "Tail Held High",
+     "Prudent Positioning",
+     "Standard Distance ○",
+     "Slipstream",
+     "Bring on the Banquet!",
+     "With All My Soul",
+     "Corner Adept ○",
+     "Ignited Spirit WIT",
+     "Medium Corners ○",
+     "Uma Stan",
+     "Wisdom of the Sun",
+     "Solid Preparation",
+     "Divine Speed",
+     "Straightaway Adept",
+     "Ramp Up"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R127",
+   "ind_top3_round0": 23.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Spring Runner ○",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Top Runner",
+     "Taking the Lead",
+     "Slipstream",
+     "Front Runner Savvy ○",
+     "Ignited Spirit WIT",
+     "Divine Speed",
+     "Medium Straightaways ◎",
+     "Straightaway Adept",
+     "Bring on the Banquet!",
+     "Left-Handed ◎",
+     "Into High Gear!",
+     "Groundwork",
+     "All I've Got",
+     "Moving Past, and Beyond",
+     "Playtime's Over!",
+     "Wisdom of the Sun",
+     "Standard Distance ○"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R131",
+   "ind_top3_round0": 25.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Corner Adept ○",
+     "Uma Stan",
+     "Wisdom of the Sun",
+     "Operation Cacao",
+     "Nimble Navigator",
+     "Mad Dash",
+     "Taking the Lead",
+     "Front Runner Straightaways ◎",
+     "Playtime's Over!",
+     "Firm Resolve",
+     "All I've Got",
+     "Medium Corners ○",
+     "Left-Handed ◎",
+     "Straightaway Adept",
+     "Red Shift/LP1211-M",
+     "With All My Soul",
+     "Racing Spirit: Stamina",
+     "Superb Gait",
+     "Ramp Up",
+     "Medium Straightaways ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R133",
+   "ind_top3_round0": 26.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Ignited Spirit WIT",
+     "Medium Corners ○",
+     "Uma Stan",
+     "Playtime's Over!",
+     "Wisdom of the Sun",
+     "Front Runner Savvy ○",
+     "Mad Dash",
+     "Medium Straightaways ◎",
+     "Corner Adept ○",
+     "Top Runner",
+     "Standard Distance ○",
+     "Into High Gear!",
+     "Groundwork",
+     "Taking the Lead",
+     "In Body and Mind",
+     "Bring on the Banquet!",
+     "Straightaway Adept",
+     "Hesitant Front Runners",
+     "Spring Runner ◎",
+     "Red Shift/LP1211-M"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R137",
+   "ind_top3_round0": 23.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Groundwork",
+     "Mad Dash",
+     "Front Runner Straightaways ◎",
+     "With All My Soul",
+     "Red Shift/LP1211-M",
+     "Dodging Danger",
+     "Professor of Curvature",
+     "Front Runner Savvy ○",
+     "Superb Gait",
+     "Medium Straightaways ◎",
+     "Playtime's Over!",
+     "Spring Runner ○",
+     "Left-Handed ◎",
+     "Top Runner",
+     "In Body and Mind",
+     "Slipstream",
+     "Medium Corners ○",
+     "Standard Distance ○",
+     "Divine Speed"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R142",
+   "ind_top3_round0": 25.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Standard Distance ○",
+     "Ramp Up",
+     "Medium Straightaways ◎",
+     "Red Shift/LP1211-M",
+     "Moving Past, and Beyond",
+     "Left-Handed ◎",
+     "Spring Runner ○",
+     "Solid Preparation",
+     "Playtime's Over!",
+     "Operation Cacao",
+     "Front Runner Straightaways ◎",
+     "Hesitant Front Runners",
+     "Corner Adept ○",
+     "In Body and Mind",
+     "Wisdom of the Sun",
+     "Ignited Spirit WIT",
+     "Racing Spirit: Stamina",
+     "Dodging Danger",
+     "Straightaway Adept",
+     "Firm Resolve"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R143",
+   "ind_top3_round0": 21.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Prudent Positioning",
+     "Nimble Navigator",
+     "Playtime's Over!",
+     "Uma Stan",
+     "Medium Straightaways ◎",
+     "Dodging Danger",
+     "Front Runner Straightaways ◎",
+     "Professor of Curvature",
+     "Taking the Lead",
+     "Straightaway Adept",
+     "Superb Gait",
+     "Top Runner",
+     "Bring on the Banquet!",
+     "With All My Soul",
+     "Medium Corners ○",
+     "Spring Runner ○",
+     "Divine Speed",
+     "Firm Resolve",
+     "Ramp Up"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R144",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Ignited Spirit WIT",
+     "Solid Preparation",
+     "Medium Corners ○",
+     "Divine Speed",
+     "Professor of Curvature",
+     "Spring Runner ◎",
+     "Slipstream",
+     "Playtime's Over!",
+     "Left-Handed ◎",
+     "Top Runner",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Superb Gait",
+     "Medium Straightaways ◎",
+     "Standard Distance ○",
+     "Bring on the Banquet!",
+     "In Body and Mind",
+     "Hesitant Front Runners"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R146",
+   "ind_top3_round0": 22.0,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Wisdom of the Sun",
+     "Left-Handed ○",
+     "Playtime's Over!",
+     "Tail Held High",
+     "Ignited Spirit WIT",
+     "Bring on the Banquet!",
+     "Professor of Curvature",
+     "Standard Distance ○",
+     "Mad Dash",
+     "Groundwork",
+     "Superb Gait",
+     "Front Runner Straightaways ◎",
+     "Dodging Danger",
+     "Top Runner",
+     "Ramp Up",
+     "With All My Soul",
+     "Front Runner Savvy ○",
+     "Into High Gear!",
+     "Red Shift/LP1211-M",
+     "Firm Resolve"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R151",
+   "ind_top3_round0": 25.0,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Divine Speed",
+     "Red Shift/LP1211-M",
+     "Uma Stan",
+     "Operation Cacao",
+     "Restraint",
+     "Spring Runner ○",
+     "Mad Dash",
+     "Ignited Spirit WIT",
+     "Straightaway Adept",
+     "Solid Preparation",
+     "Left-Handed ◎",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind",
+     "Into High Gear!",
+     "All I've Got",
+     "Prudent Positioning",
+     "With All My Soul",
+     "Dodging Danger",
+     "Firm Resolve",
+     "Corner Adept ○"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R154",
+   "ind_top3_round0": 23.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Medium Straightaways ◎",
+     "Firm Resolve",
+     "Moving Past, and Beyond",
+     "Uma Stan",
+     "Superb Gait",
+     "Solid Preparation",
+     "Corner Adept ○",
+     "Divine Speed",
+     "With All My Soul",
+     "Standard Distance ○",
+     "Straightaway Adept",
+     "Red Shift/LP1211-M",
+     "Prudent Positioning",
+     "Wisdom of the Sun",
+     "Nimble Navigator",
+     "Front Runner Straightaways ◎",
+     "Ignited Spirit WIT",
+     "Front Runner Savvy ○",
+     "Tail Held High",
+     "Spring Runner ○"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R162",
+   "ind_top3_round0": 21.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Straightaway Adept",
+     "Professor of Curvature",
+     "Ignited Spirit WIT",
+     "Playtime's Over!",
+     "Standard Distance ○",
+     "All I've Got",
+     "Dodging Danger",
+     "Front Runner Savvy ○",
+     "Wisdom of the Sun",
+     "Medium Straightaways ◎",
+     "Mad Dash",
+     "Superb Gait",
+     "Divine Speed",
+     "Racing Spirit: Stamina",
+     "Uma Stan",
+     "Medium Corners ○",
+     "Red Shift/LP1211-M",
+     "With All My Soul",
+     "Groundwork",
+     "Restraint"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R163",
+   "ind_top3_round0": 24.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Moving Past, and Beyond",
+     "Medium Corners ○",
+     "Taking the Lead",
+     "Red Shift/LP1211-M",
+     "Top Runner",
+     "Front Runner Straightaways ◎",
+     "Tail Held High",
+     "With All My Soul",
+     "Wisdom of the Sun",
+     "Medium Straightaways ◎",
+     "Spring Runner ◎",
+     "Ignited Spirit WIT",
+     "Front Runner Savvy ○",
+     "Operation Cacao",
+     "Standard Distance ○",
+     "Hesitant Front Runners",
+     "Divine Speed",
+     "Prudent Positioning",
+     "Left-Handed ◎",
+     "Dodging Danger"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R164",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Red Shift/LP1211-M",
+     "Taking the Lead",
+     "Medium Straightaways ◎",
+     "Spring Runner ○",
+     "Operation Cacao",
+     "Ramp Up",
+     "Top Runner",
+     "Divine Speed",
+     "Front Runner Straightaways ◎",
+     "Professor of Curvature",
+     "All I've Got",
+     "Straightaway Adept",
+     "Dodging Danger",
+     "Ignited Spirit WIT",
+     "Wisdom of the Sun",
+     "Hesitant Front Runners",
+     "Superb Gait"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R166",
+   "ind_top3_round0": 24.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Uma Stan",
+     "Divine Speed",
+     "Wisdom of the Sun",
+     "Left-Handed ○",
+     "Playtime's Over!",
+     "Medium Straightaways ◎",
+     "Superb Gait",
+     "Straightaway Adept",
+     "Red Shift/LP1211-M",
+     "Front Runner Savvy ○",
+     "Standard Distance ○",
+     "Into High Gear!",
+     "Taking the Lead",
+     "Bring on the Banquet!",
+     "Professor of Curvature",
+     "Mad Dash",
+     "Medium Corners ○",
+     "Top Runner"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R168",
+   "ind_top3_round0": 26.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Groundwork",
+     "Divine Speed",
+     "Bring on the Banquet!",
+     "Straightaway Adept",
+     "Mad Dash",
+     "Ignited Spirit WIT",
+     "Dodging Danger",
+     "Superb Gait",
+     "Restraint",
+     "Corner Adept ○",
+     "Racing Spirit: Stamina",
+     "Firm Resolve",
+     "All I've Got",
+     "Prudent Positioning",
+     "Wisdom of the Sun",
+     "Taking the Lead",
+     "Front Runner Savvy ○",
+     "Front Runner Straightaways ◎",
+     "Ramp Up",
+     "Nimble Navigator"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R171",
+   "ind_top3_round0": 24.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Slipstream",
+     "Medium Straightaways ◎",
+     "Mad Dash",
+     "Red Shift/LP1211-M",
+     "Spring Runner ○",
+     "Divine Speed",
+     "Front Runner Savvy ○",
+     "Wisdom of the Sun",
+     "Firm Resolve",
+     "Straightaway Adept",
+     "Solid Preparation",
+     "Left-Handed ◎",
+     "Ignited Spirit WIT",
+     "In Body and Mind",
+     "Taking the Lead",
+     "Prudent Positioning",
+     "Ramp Up",
+     "Racing Spirit: Stamina",
+     "With All My Soul"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R179",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Uma Stan",
+     "Solid Preparation",
+     "Left-Handed ○",
+     "Slipstream",
+     "Tail Held High",
+     "Moving Past, and Beyond",
+     "Mad Dash",
+     "Medium Straightaways ◎",
+     "Into High Gear!",
+     "Taking the Lead",
+     "Ramp Up",
+     "Standard Distance ○",
+     "Ignited Spirit WIT",
+     "Superb Gait",
+     "Dodging Danger",
+     "Spring Runner ○",
+     "Straightaway Adept",
+     "Divine Speed",
+     "Professor of Curvature",
+     "With All My Soul"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R183",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Straightaway Adept",
+     "Ignited Spirit WIT",
+     "Bring on the Banquet!",
+     "Tail Held High",
+     "Superb Gait",
+     "Red Shift/LP1211-M",
+     "In Body and Mind",
+     "Front Runner Savvy ○",
+     "Standard Distance ○",
+     "Uma Stan",
+     "Ramp Up",
+     "Left-Handed ○",
+     "Spring Runner ○",
+     "Groundwork",
+     "Medium Straightaways ◎",
+     "Playtime's Over!",
+     "Wisdom of the Sun",
+     "Divine Speed",
+     "Top Runner",
+     "Medium Corners ○"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R184",
+   "ind_top3_round0": 24.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Front Runner Straightaways ◎",
+     "Medium Straightaways ○",
+     "Uma Stan",
+     "Standard Distance ○",
+     "Playtime's Over!",
+     "Professor of Curvature",
+     "Restraint",
+     "Straightaway Adept",
+     "Firm Resolve",
+     "Bring on the Banquet!",
+     "Mad Dash",
+     "Hesitant Front Runners",
+     "Top Runner",
+     "Prudent Positioning",
+     "Solid Preparation",
+     "With All My Soul",
+     "Operation Cacao",
+     "Divine Speed",
+     "Racing Spirit: Stamina",
+     "Medium Corners ○"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R186",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Medium Straightaways ◎",
+     "Into High Gear!",
+     "Firm Resolve",
+     "All I've Got",
+     "Front Runner Straightaways ◎",
+     "Solid Preparation",
+     "Standard Distance ○",
+     "Taking the Lead",
+     "Professor of Curvature",
+     "Wisdom of the Sun",
+     "Red Shift/LP1211-M",
+     "Superb Gait",
+     "Divine Speed",
+     "Playtime's Over!",
+     "Spring Runner ◎",
+     "Hesitant Front Runners",
+     "Straightaway Adept"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R187",
+   "ind_top3_round0": 22.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "With All My Soul",
+     "Medium Corners ○",
+     "Prudent Positioning",
+     "Moving Past, and Beyond",
+     "Racing Spirit: Stamina",
+     "Standard Distance ○",
+     "Uma Stan",
+     "Top Runner",
+     "Medium Straightaways ◎",
+     "All I've Got",
+     "Divine Speed",
+     "Restraint",
+     "Into High Gear!",
+     "Straightaway Adept",
+     "Hesitant Front Runners",
+     "Red Shift/LP1211-M",
+     "Mad Dash",
+     "Wisdom of the Sun",
+     "Ignited Spirit WIT",
+     "Solid Preparation"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R191",
+   "ind_top3_round0": 21.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Dodging Danger",
+     "Left-Handed ◎",
+     "Groundwork",
+     "Moving Past, and Beyond",
+     "Superb Gait",
+     "Medium Straightaways ◎",
+     "Spring Runner ○",
+     "Front Runner Savvy ○",
+     "Ramp Up",
+     "Medium Corners ○",
+     "Red Shift/LP1211-M",
+     "Playtime's Over!",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind",
+     "Top Runner",
+     "Operation Cacao",
+     "Uma Stan",
+     "Wisdom of the Sun",
+     "Straightaway Adept",
+     "Prudent Positioning"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R198",
+   "ind_top3_round0": 25.0,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Divine Speed",
+     "Dodging Danger",
+     "Standard Distance ○",
+     "Groundwork",
+     "Medium Straightaways ◎",
+     "Front Runner Savvy ○",
+     "Firm Resolve",
+     "Straightaway Adept",
+     "Spring Runner ○",
+     "Red Shift/LP1211-M",
+     "Mad Dash",
+     "Prudent Positioning",
+     "Ignited Spirit WIT",
+     "Front Runner Straightaways ◎",
+     "Operation Cacao",
+     "In Body and Mind",
+     "Superb Gait",
+     "Uma Stan",
+     "Top Runner",
+     "Hesitant Front Runners"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R21",
+   "ind_top3_round0": 22.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Professor of Curvature",
+     "Taking the Lead",
+     "Medium Straightaways ○",
+     "Front Runner Straightaways ◎",
+     "Prudent Positioning",
+     "Divine Speed",
+     "Standard Distance ○",
+     "With All My Soul",
+     "Uma Stan",
+     "Straightaway Adept",
+     "Nimble Navigator",
+     "Red Shift/LP1211-M",
+     "Dodging Danger",
+     "Ignited Spirit WIT",
+     "Top Runner",
+     "Wisdom of the Sun",
+     "Ramp Up",
+     "Bring on the Banquet!",
+     "Left-Handed ○"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R28",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Medium Straightaways ◎",
+     "Divine Speed",
+     "With All My Soul",
+     "Mad Dash",
+     "All I've Got",
+     "Front Runner Savvy ○",
+     "Ignited Spirit WIT",
+     "Uma Stan",
+     "Medium Corners ○",
+     "Bring on the Banquet!",
+     "Red Shift/LP1211-M",
+     "Wisdom of the Sun",
+     "Taking the Lead",
+     "Playtime's Over!",
+     "Left-Handed ◎",
+     "Operation Cacao",
+     "Ramp Up",
+     "Straightaway Adept",
+     "Slipstream",
+     "Spring Runner ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R30",
+   "ind_top3_round0": 23.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Spring Runner ○",
+     "All I've Got",
+     "Mad Dash",
+     "Ignited Spirit WIT",
+     "Standard Distance ○",
+     "Taking the Lead",
+     "Medium Straightaways ◎",
+     "Uma Stan",
+     "Dodging Danger",
+     "Wisdom of the Sun",
+     "Straightaway Adept",
+     "Moving Past, and Beyond",
+     "In Body and Mind",
+     "Nimble Navigator",
+     "Red Shift/LP1211-M",
+     "Top Runner",
+     "Left-Handed ○",
+     "Divine Speed",
+     "Bring on the Banquet!"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R46",
+   "ind_top3_round0": 23.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Playtime's Over!",
+     "Divine Speed",
+     "In Body and Mind",
+     "Bring on the Banquet!",
+     "Corner Adept ○",
+     "Solid Preparation",
+     "Dodging Danger",
+     "Ignited Spirit WIT",
+     "Top Runner",
+     "Moving Past, and Beyond",
+     "Straightaway Adept",
+     "Medium Straightaways ◎",
+     "Spring Runner ○",
+     "Standard Distance ○",
+     "Tail Held High",
+     "Left-Handed ◎",
+     "Uma Stan",
+     "With All My Soul",
+     "Prudent Positioning",
+     "Front Runner Straightaways ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R51",
+   "ind_top3_round0": 24.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Hesitant Front Runners",
+     "Professor of Curvature",
+     "Red Shift/LP1211-M",
+     "Ignited Spirit WIT",
+     "Dodging Danger",
+     "Superb Gait",
+     "Medium Corners ○",
+     "Uma Stan",
+     "Restraint",
+     "Moving Past, and Beyond",
+     "Into High Gear!",
+     "Divine Speed",
+     "Groundwork",
+     "Front Runner Savvy ○",
+     "Mad Dash",
+     "Standard Distance ○",
+     "Front Runner Straightaways ◎",
+     "Taking the Lead",
+     "In Body and Mind",
+     "Prudent Positioning"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R52",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Front Runner Straightaways ◎",
+     "Firm Resolve",
+     "Taking the Lead",
+     "Bring on the Banquet!",
+     "Red Shift/LP1211-M",
+     "Solid Preparation",
+     "Ramp Up",
+     "Left-Handed ◎",
+     "All I've Got",
+     "With All My Soul",
+     "Mad Dash",
+     "Into High Gear!",
+     "Front Runner Savvy ○",
+     "Hesitant Front Runners",
+     "Standard Distance ○",
+     "Straightaway Adept",
+     "Dodging Danger",
+     "Uma Stan",
+     "Superb Gait",
+     "Wisdom of the Sun"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R62",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Prudent Positioning",
+     "Spring Runner ○",
+     "Hesitant Front Runners",
+     "Top Runner",
+     "Standard Distance ○",
+     "Wisdom of the Sun",
+     "Mad Dash",
+     "Taking the Lead",
+     "Bring on the Banquet!",
+     "Superb Gait",
+     "Uma Stan",
+     "Dodging Danger",
+     "In Body and Mind",
+     "Medium Straightaways ○",
+     "Corner Adept ○",
+     "Racing Spirit: Stamina",
+     "Divine Speed",
+     "Red Shift/LP1211-M",
+     "Slipstream"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R7",
+   "ind_top3_round0": 23.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Into High Gear!",
+     "Left-Handed ◎",
+     "Spring Runner ◎",
+     "Front Runner Straightaways ◎",
+     "All I've Got",
+     "Straightaway Adept",
+     "Bring on the Banquet!",
+     "Firm Resolve",
+     "Superb Gait",
+     "Solid Preparation",
+     "Top Runner",
+     "In Body and Mind",
+     "Uma Stan",
+     "Wisdom of the Sun",
+     "Medium Straightaways ◎",
+     "Operation Cacao",
+     "Medium Corners ○"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R83",
+   "ind_top3_round0": 23.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Prudent Positioning",
+     "Racing Spirit: Stamina",
+     "Nimble Navigator",
+     "Slipstream",
+     "Mad Dash",
+     "Wisdom of the Sun",
+     "All I've Got",
+     "Standard Distance ○",
+     "Medium Corners ○",
+     "Divine Speed",
+     "Uma Stan",
+     "Solid Preparation",
+     "Front Runner Straightaways ◎",
+     "Firm Resolve",
+     "Playtime's Over!",
+     "Taking the Lead",
+     "Dodging Danger",
+     "Straightaway Adept",
+     "Corner Adept ○",
+     "Top Runner"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R85",
+   "ind_top3_round0": 23.7,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "With All My Soul",
+     "Nimble Navigator",
+     "Superb Gait",
+     "Dodging Danger",
+     "Top Runner",
+     "Medium Straightaways ◎",
+     "Ignited Spirit WIT",
+     "Into High Gear!",
+     "In Body and Mind",
+     "Straightaway Adept",
+     "Spring Runner ◎",
+     "Left-Handed ○",
+     "Taking the Lead",
+     "Prudent Positioning",
+     "Standard Distance ○",
+     "Groundwork",
+     "Wisdom of the Sun",
+     "Moving Past, and Beyond",
+     "Hesitant Front Runners",
+     "Ramp Up"
+    ]
+   }
+  },
+  {
+   "variant": "Ines Fujin #R9",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Ines Fujin",
+    "chara": "Ines Fujin",
+    "strategy": "Front Runner",
+    "stats": [
+     1456,
+     1145,
+     1154,
+     1107,
+     1238
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Fresh☆Parlor",
+     "level": 6
+    },
+    "skills": [
+     "Perfect ♪ Order Up!",
+     "Slick Serving",
+     "Red Shift/LP1211-M",
+     "Spring Runner ○",
+     "Wisdom of the Sun",
+     "Superb Gait",
+     "Groundwork",
+     "Top Runner",
+     "Mad Dash",
+     "Prudent Positioning",
+     "Ignited Spirit WIT",
+     "Straightaway Adept",
+     "Professor of Curvature",
+     "Dodging Danger",
+     "Medium Straightaways ◎",
+     "Divine Speed",
+     "Operation Cacao",
+     "With All My Soul",
+     "Left-Handed ◎",
+     "Hesitant Front Runners"
+    ]
+   }
+  }
+ ],
+ "Neo Universe": [
+  {
+   "variant": "Neo Universe #R10",
+   "ind_top3_round0": 26.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "1,500,000 CC",
+     "Professor of Curvature",
+     "Slick Surge",
+     "Uma Stan",
+     "Straightaway Adept",
+     "Late Surger Straightaways ○",
+     "Medium Straightaways ◎",
+     "Left-Handed ○",
+     "Medium Corners ○",
+     "Superb Gait",
+     "Divine Speed",
+     "Late Surger Corners ◎",
+     "Standard Distance ○",
+     "Bring on the Banquet!",
+     "Red Shift/LP1211-M",
+     "Racing Spirit: Stamina",
+     "In Body and Mind",
+     "Position Pilfer",
+     "Operation Cacao"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R100",
+   "ind_top3_round0": 24.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Into High Gear!",
+     "Divine Speed",
+     "Corner Adept ○",
+     "Wisdom of the Sun",
+     "Nimble Navigator",
+     "Red Shift/LP1211-M",
+     "Groundwork",
+     "Bring on the Banquet!",
+     "Standard Distance ○",
+     "With All My Soul",
+     "Left-Handed ○",
+     "Be Still",
+     "Late Surger Straightaways ○",
+     "Superb Gait",
+     "Hesitant Front Runners",
+     "In Body and Mind",
+     "1,500,000 CC",
+     "Uma Stan",
+     "Slick Surge",
+     "Medium Corners ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R105",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Spring Runner ◎",
+     "Ramp Up",
+     "Racing Spirit: Stamina",
+     "Groundwork",
+     "Tail Held High",
+     "Divine Speed",
+     "Nimble Navigator",
+     "Straightaway Adept",
+     "Medium Straightaways ◎",
+     "Red Shift/LP1211-M",
+     "Uma Stan",
+     "Late Surger Corners ◎",
+     "Corner Adept ○",
+     "Medium Corners ○",
+     "Ignited Spirit WIT",
+     "Be Still",
+     "In Body and Mind",
+     "Wisdom of the Sun",
+     "Standard Distance ○",
+     "Prudent Positioning"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R106",
+   "ind_top3_round0": 27.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Playtime's Over!",
+     "Prudent Positioning",
+     "Ramp Up",
+     "Hesitant Front Runners",
+     "Medium Straightaways ◎",
+     "Slick Surge",
+     "Late Surger Straightaways ○",
+     "Spring Runner ○",
+     "Slipstream",
+     "Wisdom of the Sun",
+     "Uma Stan",
+     "Divine Speed",
+     "Ignited Spirit WIT",
+     "Red Shift/LP1211-M",
+     "Moving Past, and Beyond",
+     "Straightaway Adept",
+     "Corner Adept ○",
+     "Restraint",
+     "In Body and Mind",
+     "Position Pilfer"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R110",
+   "ind_top3_round0": 23.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Slick Surge",
+     "Straightaway Adept",
+     "Divine Speed",
+     "Wisdom of the Sun",
+     "Ramp Up",
+     "Red Shift/LP1211-M",
+     "Medium Corners ○",
+     "Medium Straightaways ◎",
+     "Corner Adept ○",
+     "Standard Distance ○",
+     "Ignited Spirit WIT",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Spring Runner ○",
+     "Hesitant Front Runners",
+     "Bring on the Banquet!",
+     "Position Pilfer",
+     "Superb Gait",
+     "Late Surger Corners ◎",
+     "Groundwork"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R113",
+   "ind_top3_round0": 24.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Superb Gait",
+     "In Body and Mind",
+     "Groundwork",
+     "Divine Speed",
+     "Nimble Navigator",
+     "Red Shift/LP1211-M",
+     "Medium Corners ○",
+     "Slipstream",
+     "Wisdom of the Sun",
+     "Uma Stan",
+     "Straightaway Adept",
+     "With All My Soul",
+     "Ramp Up",
+     "Left-Handed ◎",
+     "Playtime's Over!",
+     "Standard Distance ○",
+     "Prudent Positioning",
+     "Late Surger Corners ◎",
+     "Restraint",
+     "Spring Runner ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R114",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Slick Surge",
+     "Prudent Positioning",
+     "Superb Gait",
+     "Racing Spirit: Stamina",
+     "Bring on the Banquet!",
+     "Slipstream",
+     "Wisdom of the Sun",
+     "Standard Distance ○",
+     "Straightaway Adept",
+     "Groundwork",
+     "Divine Speed",
+     "Late Surger Corners ◎",
+     "Uma Stan",
+     "Hesitant Front Runners",
+     "Medium Corners ○",
+     "Into High Gear!",
+     "Red Shift/LP1211-M",
+     "Medium Straightaways ◎",
+     "In Body and Mind"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R115",
+   "ind_top3_round0": 26.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Wisdom of the Sun",
+     "Moving Past, and Beyond",
+     "Playtime's Over!",
+     "Medium Straightaways ◎",
+     "Ramp Up",
+     "Red Shift/LP1211-M",
+     "Operation Cacao",
+     "Late Surger Straightaways ○",
+     "Divine Speed",
+     "Medium Corners ○",
+     "Restraint",
+     "Be Still",
+     "Uma Stan",
+     "Groundwork",
+     "Straightaway Adept",
+     "Ignited Spirit WIT",
+     "Late Surger Corners ◎",
+     "Standard Distance ○",
+     "Spring Runner ○",
+     "Superb Gait"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R119",
+   "ind_top3_round0": 23.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Spring Runner ○",
+     "Left-Handed ○",
+     "Late Surger Corners ◎",
+     "Racing Spirit: Stamina",
+     "Ignited Spirit WIT",
+     "Medium Corners ○",
+     "Red Shift/LP1211-M",
+     "In Body and Mind",
+     "Be Still",
+     "Position Pilfer",
+     "Standard Distance ○",
+     "Straightaway Adept",
+     "Moving Past, and Beyond",
+     "Superb Gait",
+     "Wisdom of the Sun",
+     "Restraint",
+     "Prudent Positioning",
+     "Professor of Curvature",
+     "Medium Straightaways ○",
+     "Tail Held High"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R12",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Standard Distance ○",
+     "Restraint",
+     "Divine Speed",
+     "Superb Gait",
+     "Medium Straightaways ◎",
+     "Late Surger Straightaways ○",
+     "In Body and Mind",
+     "Tail Held High",
+     "Uma Stan",
+     "Professor of Curvature",
+     "Operation Cacao",
+     "Wisdom of the Sun",
+     "Red Shift/LP1211-M",
+     "Ignited Spirit WIT",
+     "Groundwork",
+     "Straightaway Adept",
+     "Left-Handed ◎",
+     "Playtime's Over!"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R124",
+   "ind_top3_round0": 26.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "In Body and Mind",
+     "Nimble Navigator",
+     "Red Shift/LP1211-M",
+     "Groundwork",
+     "Racing Spirit: Stamina",
+     "Left-Handed ◎",
+     "Divine Speed",
+     "Bring on the Banquet!",
+     "Medium Corners ○",
+     "Wisdom of the Sun",
+     "Medium Straightaways ◎",
+     "1,500,000 CC",
+     "Professor of Curvature",
+     "Spring Runner ◎",
+     "Late Surger Straightaways ○",
+     "Hesitant Front Runners",
+     "Straightaway Adept",
+     "Uma Stan",
+     "Playtime's Over!"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R125",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Left-Handed ◎",
+     "Wisdom of the Sun",
+     "Straightaway Adept",
+     "Be Still",
+     "Ignited Spirit WIT",
+     "Divine Speed",
+     "Bring on the Banquet!",
+     "Red Shift/LP1211-M",
+     "Professor of Curvature",
+     "Operation Cacao",
+     "Playtime's Over!",
+     "Position Pilfer",
+     "Hesitant Front Runners",
+     "Medium Corners ○",
+     "Standard Distance ○",
+     "Medium Straightaways ◎",
+     "Late Surger Straightaways ○",
+     "1,500,000 CC",
+     "Slick Surge",
+     "Spring Runner ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R128",
+   "ind_top3_round0": 23.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Prudent Positioning",
+     "Wisdom of the Sun",
+     "Medium Straightaways ◎",
+     "Bring on the Banquet!",
+     "Slipstream",
+     "Slick Surge",
+     "Straightaway Adept",
+     "Nimble Navigator",
+     "1,500,000 CC",
+     "Divine Speed",
+     "Into High Gear!",
+     "Tail Held High",
+     "Late Surger Straightaways ○",
+     "Restraint",
+     "Playtime's Over!",
+     "Groundwork",
+     "Superb Gait",
+     "With All My Soul",
+     "Operation Cacao",
+     "Left-Handed ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R129",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Ramp Up",
+     "Into High Gear!",
+     "Spring Runner ○",
+     "Late Surger Straightaways ○",
+     "Divine Speed",
+     "Prudent Positioning",
+     "In Body and Mind",
+     "Slipstream",
+     "Red Shift/LP1211-M",
+     "Groundwork",
+     "Medium Straightaways ○",
+     "Uma Stan",
+     "Slick Surge",
+     "Late Surger Corners ◎",
+     "Ignited Spirit WIT",
+     "Playtime's Over!",
+     "Wisdom of the Sun",
+     "Be Still",
+     "Operation Cacao",
+     "1,500,000 CC"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R131",
+   "ind_top3_round0": 27.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Medium Straightaways ○",
+     "Into High Gear!",
+     "Ignited Spirit WIT",
+     "Bring on the Banquet!",
+     "Wisdom of the Sun",
+     "Nimble Navigator",
+     "Prudent Positioning",
+     "Spring Runner ◎",
+     "Straightaway Adept",
+     "1,500,000 CC",
+     "With All My Soul",
+     "Groundwork",
+     "Professor of Curvature",
+     "Restraint",
+     "Position Pilfer",
+     "Divine Speed",
+     "Superb Gait",
+     "Standard Distance ○",
+     "Be Still",
+     "Left-Handed ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R132",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Prudent Positioning",
+     "Operation Cacao",
+     "Spring Runner ○",
+     "Medium Corners ○",
+     "Racing Spirit: Stamina",
+     "Slipstream",
+     "Divine Speed",
+     "Medium Straightaways ○",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Groundwork",
+     "Bring on the Banquet!",
+     "Professor of Curvature",
+     "In Body and Mind",
+     "Superb Gait",
+     "Wisdom of the Sun",
+     "Ignited Spirit WIT",
+     "Position Pilfer",
+     "1,500,000 CC"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R136",
+   "ind_top3_round0": 25.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Prudent Positioning",
+     "Wisdom of the Sun",
+     "Divine Speed",
+     "Slipstream",
+     "Standard Distance ○",
+     "Superb Gait",
+     "Uma Stan",
+     "Tail Held High",
+     "Medium Straightaways ◎",
+     "Red Shift/LP1211-M",
+     "1,500,000 CC",
+     "Straightaway Adept",
+     "With All My Soul",
+     "Restraint",
+     "Be Still",
+     "Operation Cacao",
+     "Ramp Up",
+     "Ignited Spirit WIT",
+     "Professor of Curvature"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R142",
+   "ind_top3_round0": 25.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Red Shift/LP1211-M",
+     "Uma Stan",
+     "Medium Straightaways ◎",
+     "Groundwork",
+     "Prudent Positioning",
+     "Slick Surge",
+     "Left-Handed ◎",
+     "Ignited Spirit WIT",
+     "Wisdom of the Sun",
+     "Medium Corners ○",
+     "Standard Distance ○",
+     "Late Surger Straightaways ○",
+     "Hesitant Front Runners",
+     "Divine Speed",
+     "In Body and Mind",
+     "Superb Gait",
+     "Tail Held High",
+     "Straightaway Adept",
+     "Professor of Curvature"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R145",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Medium Straightaways ◎",
+     "Ignited Spirit WIT",
+     "In Body and Mind",
+     "Standard Distance ○",
+     "Uma Stan",
+     "Wisdom of the Sun",
+     "Divine Speed",
+     "Operation Cacao",
+     "Slipstream",
+     "Bring on the Banquet!",
+     "Late Surger Corners ◎",
+     "Moving Past, and Beyond",
+     "Groundwork",
+     "Prudent Positioning",
+     "Straightaway Adept",
+     "Spring Runner ○",
+     "1,500,000 CC",
+     "Playtime's Over!",
+     "Corner Adept ○",
+     "Ramp Up"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R150",
+   "ind_top3_round0": 24.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Superb Gait",
+     "Bring on the Banquet!",
+     "Late Surger Straightaways ○",
+     "Into High Gear!",
+     "In Body and Mind",
+     "Red Shift/LP1211-M",
+     "Left-Handed ◎",
+     "Position Pilfer",
+     "Divine Speed",
+     "Playtime's Over!",
+     "Tail Held High",
+     "Wisdom of the Sun",
+     "Uma Stan",
+     "Ignited Spirit WIT",
+     "Straightaway Adept",
+     "Slipstream",
+     "Restraint",
+     "Hesitant Front Runners",
+     "Groundwork"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R151",
+   "ind_top3_round0": 24.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Standard Distance ○",
+     "Late Surger Straightaways ○",
+     "With All My Soul",
+     "Medium Straightaways ◎",
+     "Tail Held High",
+     "Moving Past, and Beyond",
+     "Nimble Navigator",
+     "Prudent Positioning",
+     "Divine Speed",
+     "Wisdom of the Sun",
+     "Ramp Up",
+     "Operation Cacao",
+     "Uma Stan",
+     "Bring on the Banquet!",
+     "Professor of Curvature",
+     "Straightaway Adept",
+     "Slick Surge",
+     "Superb Gait",
+     "Medium Corners ○",
+     "Groundwork"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R152",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Divine Speed",
+     "Groundwork",
+     "Bring on the Banquet!",
+     "Moving Past, and Beyond",
+     "Straightaway Adept",
+     "Tail Held High",
+     "Prudent Positioning",
+     "Standard Distance ○",
+     "Ramp Up",
+     "Red Shift/LP1211-M",
+     "With All My Soul",
+     "Restraint",
+     "Racing Spirit: Stamina",
+     "1,500,000 CC",
+     "In Body and Mind",
+     "Medium Corners ○",
+     "Slipstream",
+     "Wisdom of the Sun",
+     "Professor of Curvature",
+     "Spring Runner ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R156",
+   "ind_top3_round0": 24.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Medium Straightaways ◎",
+     "Divine Speed",
+     "Nimble Navigator",
+     "Racing Spirit: Stamina",
+     "Slick Surge",
+     "Spring Runner ◎",
+     "Bring on the Banquet!",
+     "Professor of Curvature",
+     "Late Surger Straightaways ○",
+     "Red Shift/LP1211-M",
+     "Uma Stan",
+     "Late Surger Corners ◎",
+     "Straightaway Adept",
+     "Prudent Positioning",
+     "Be Still",
+     "With All My Soul",
+     "Ignited Spirit WIT",
+     "Superb Gait",
+     "1,500,000 CC"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R159",
+   "ind_top3_round0": 27.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Professor of Curvature",
+     "In Body and Mind",
+     "Medium Straightaways ◎",
+     "Prudent Positioning",
+     "Superb Gait",
+     "Standard Distance ○",
+     "Be Still",
+     "Operation Cacao",
+     "Nimble Navigator",
+     "Red Shift/LP1211-M",
+     "Late Surger Straightaways ○",
+     "Ramp Up",
+     "Divine Speed",
+     "Tail Held High",
+     "Slick Surge",
+     "Left-Handed ◎",
+     "Medium Corners ○",
+     "Moving Past, and Beyond",
+     "Spring Runner ○",
+     "Playtime's Over!"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R166",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Ignited Spirit WIT",
+     "Operation Cacao",
+     "Red Shift/LP1211-M",
+     "Divine Speed",
+     "Slipstream",
+     "Wisdom of the Sun",
+     "Playtime's Over!",
+     "Left-Handed ○",
+     "Medium Straightaways ○",
+     "Spring Runner ○",
+     "In Body and Mind",
+     "Uma Stan",
+     "1,500,000 CC",
+     "Medium Corners ○",
+     "Nimble Navigator",
+     "Ramp Up",
+     "Professor of Curvature",
+     "Restraint",
+     "Bring on the Banquet!",
+     "Prudent Positioning"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R175",
+   "ind_top3_round0": 26.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "In Body and Mind",
+     "Ignited Spirit WIT",
+     "Straightaway Adept",
+     "Wisdom of the Sun",
+     "Bring on the Banquet!",
+     "Red Shift/LP1211-M",
+     "Into High Gear!",
+     "Superb Gait",
+     "Slick Surge",
+     "Groundwork",
+     "Medium Straightaways ○",
+     "Slipstream",
+     "Spring Runner ○",
+     "Uma Stan",
+     "Medium Corners ○",
+     "Position Pilfer",
+     "Standard Distance ○",
+     "Be Still",
+     "Divine Speed",
+     "Nimble Navigator"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R183",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Be Still",
+     "Spring Runner ○",
+     "Superb Gait",
+     "Operation Cacao",
+     "In Body and Mind",
+     "Divine Speed",
+     "Red Shift/LP1211-M",
+     "Medium Corners ○",
+     "Wisdom of the Sun",
+     "Ignited Spirit WIT",
+     "Groundwork",
+     "Hesitant Front Runners",
+     "Nimble Navigator",
+     "Medium Straightaways ○",
+     "Position Pilfer",
+     "Uma Stan",
+     "Straightaway Adept",
+     "Moving Past, and Beyond",
+     "Late Surger Straightaways ○",
+     "Standard Distance ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R19",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Professor of Curvature",
+     "Prudent Positioning",
+     "Wisdom of the Sun",
+     "Operation Cacao",
+     "Divine Speed",
+     "Spring Runner ◎",
+     "Medium Straightaways ◎",
+     "Ignited Spirit WIT",
+     "Standard Distance ○",
+     "Medium Corners ○",
+     "Groundwork",
+     "Late Surger Straightaways ○",
+     "Uma Stan",
+     "Be Still",
+     "Playtime's Over!",
+     "Nimble Navigator",
+     "Red Shift/LP1211-M",
+     "Late Surger Corners ◎",
+     "Straightaway Adept",
+     "Restraint"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R191",
+   "ind_top3_round0": 23.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Professor of Curvature",
+     "Slick Surge",
+     "In Body and Mind",
+     "Divine Speed",
+     "Racing Spirit: Stamina",
+     "Medium Straightaways ◎",
+     "Bring on the Banquet!",
+     "Operation Cacao",
+     "1,500,000 CC",
+     "Prudent Positioning",
+     "Left-Handed ◎",
+     "Straightaway Adept",
+     "Nimble Navigator",
+     "Red Shift/LP1211-M",
+     "Spring Runner ○",
+     "Restraint",
+     "Uma Stan",
+     "Tail Held High",
+     "Ignited Spirit WIT",
+     "Slipstream"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R196",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Prudent Positioning",
+     "Bring on the Banquet!",
+     "Be Still",
+     "Professor of Curvature",
+     "Ignited Spirit WIT",
+     "Spring Runner ○",
+     "Late Surger Corners ◎",
+     "Divine Speed",
+     "Ramp Up",
+     "Left-Handed ◎",
+     "Nimble Navigator",
+     "Groundwork",
+     "Slipstream",
+     "Slick Surge",
+     "Medium Straightaways ○",
+     "Moving Past, and Beyond",
+     "Straightaway Adept",
+     "Playtime's Over!",
+     "Wisdom of the Sun",
+     "Standard Distance ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R26",
+   "ind_top3_round0": 24.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Prudent Positioning",
+     "Left-Handed ◎",
+     "Racing Spirit: Stamina",
+     "Standard Distance ○",
+     "Nimble Navigator",
+     "Spring Runner ○",
+     "Slipstream",
+     "Ignited Spirit WIT",
+     "Straightaway Adept",
+     "Wisdom of the Sun",
+     "Medium Corners ○",
+     "Groundwork",
+     "1,500,000 CC",
+     "Professor of Curvature",
+     "Uma Stan",
+     "In Body and Mind",
+     "Divine Speed",
+     "Ramp Up",
+     "Operation Cacao",
+     "Medium Straightaways ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R37",
+   "ind_top3_round0": 26.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Straightaway Adept",
+     "Playtime's Over!",
+     "Medium Corners ○",
+     "Divine Speed",
+     "Ignited Spirit WIT",
+     "In Body and Mind",
+     "Left-Handed ◎",
+     "Late Surger Straightaways ○",
+     "Operation Cacao",
+     "Position Pilfer",
+     "Spring Runner ◎",
+     "Standard Distance ○",
+     "Slipstream",
+     "Be Still",
+     "Uma Stan",
+     "1,500,000 CC",
+     "Slick Surge",
+     "Professor of Curvature",
+     "Wisdom of the Sun"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R42",
+   "ind_top3_round0": 25.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Nimble Navigator",
+     "Bring on the Banquet!",
+     "Spring Runner ○",
+     "Slick Surge",
+     "Red Shift/LP1211-M",
+     "Ignited Spirit WIT",
+     "Professor of Curvature",
+     "Into High Gear!",
+     "Tail Held High",
+     "Prudent Positioning",
+     "Standard Distance ○",
+     "Superb Gait",
+     "Medium Straightaways ◎",
+     "Be Still",
+     "Racing Spirit: Stamina",
+     "1,500,000 CC",
+     "Wisdom of the Sun",
+     "Straightaway Adept",
+     "Divine Speed"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R43",
+   "ind_top3_round0": 26.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Tail Held High",
+     "Groundwork",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Racing Spirit: Stamina",
+     "Ramp Up",
+     "Be Still",
+     "Corner Adept ○",
+     "Late Surger Corners ◎",
+     "Moving Past, and Beyond",
+     "Straightaway Adept",
+     "Slick Surge",
+     "Ignited Spirit WIT",
+     "Superb Gait",
+     "Divine Speed",
+     "Wisdom of the Sun",
+     "Hesitant Front Runners",
+     "Bring on the Banquet!",
+     "1,500,000 CC",
+     "Standard Distance ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R55",
+   "ind_top3_round0": 25.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "1,500,000 CC",
+     "Wisdom of the Sun",
+     "Red Shift/LP1211-M",
+     "Operation Cacao",
+     "Corner Adept ○",
+     "Ignited Spirit WIT",
+     "Superb Gait",
+     "Spring Runner ◎",
+     "Groundwork",
+     "Uma Stan",
+     "Left-Handed ◎",
+     "Racing Spirit: Stamina",
+     "Medium Straightaways ◎",
+     "Standard Distance ○",
+     "Straightaway Adept",
+     "Late Surger Straightaways ○",
+     "Nimble Navigator",
+     "Divine Speed",
+     "Prudent Positioning",
+     "With All My Soul"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R73",
+   "ind_top3_round0": 27.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Ignited Spirit WIT",
+     "Divine Speed",
+     "Superb Gait",
+     "Medium Straightaways ◎",
+     "Late Surger Corners ◎",
+     "Professor of Curvature",
+     "Groundwork",
+     "Uma Stan",
+     "Standard Distance ○",
+     "Red Shift/LP1211-M",
+     "Bring on the Banquet!",
+     "Wisdom of the Sun",
+     "Restraint",
+     "Nimble Navigator",
+     "Be Still",
+     "Straightaway Adept",
+     "Playtime's Over!",
+     "Tail Held High",
+     "Spring Runner ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R74",
+   "ind_top3_round0": 25.3,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Ramp Up",
+     "Straightaway Adept",
+     "Uma Stan",
+     "Bring on the Banquet!",
+     "Divine Speed",
+     "Medium Straightaways ◎",
+     "In Body and Mind",
+     "Left-Handed ◎",
+     "Operation Cacao",
+     "Standard Distance ○",
+     "Prudent Positioning",
+     "Professor of Curvature",
+     "Red Shift/LP1211-M",
+     "Tail Held High",
+     "Wisdom of the Sun",
+     "Restraint",
+     "Playtime's Over!",
+     "Spring Runner ◎",
+     "1,500,000 CC"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R79",
+   "ind_top3_round0": 23.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Bring on the Banquet!",
+     "Medium Straightaways ○",
+     "Ignited Spirit WIT",
+     "Spring Runner ○",
+     "Straightaway Adept",
+     "Groundwork",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Hesitant Front Runners",
+     "Late Surger Straightaways ○",
+     "Wisdom of the Sun",
+     "Medium Corners ○",
+     "Corner Adept ○",
+     "With All My Soul",
+     "Restraint",
+     "Superb Gait",
+     "Divine Speed",
+     "Left-Handed ◎",
+     "Late Surger Corners ◎",
+     "Slick Surge"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R80",
+   "ind_top3_round0": 24.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Professor of Curvature",
+     "Left-Handed ◎",
+     "Straightaway Adept",
+     "Restraint",
+     "Divine Speed",
+     "Standard Distance ○",
+     "1,500,000 CC",
+     "Wisdom of the Sun",
+     "In Body and Mind",
+     "Red Shift/LP1211-M",
+     "Prudent Positioning",
+     "Hesitant Front Runners",
+     "Spring Runner ○",
+     "Slipstream",
+     "Groundwork",
+     "Medium Straightaways ◎",
+     "Ramp Up",
+     "Bring on the Banquet!",
+     "Uma Stan",
+     "Late Surger Straightaways ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R89",
+   "ind_top3_round0": 25.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Slipstream",
+     "Uma Stan",
+     "Prudent Positioning",
+     "In Body and Mind",
+     "Medium Straightaways ○",
+     "Red Shift/LP1211-M",
+     "Ignited Spirit WIT",
+     "Wisdom of the Sun",
+     "Ramp Up",
+     "Superb Gait",
+     "Standard Distance ○",
+     "Professor of Curvature",
+     "Spring Runner ○",
+     "Late Surger Straightaways ○",
+     "Bring on the Banquet!",
+     "Position Pilfer",
+     "Straightaway Adept",
+     "Groundwork",
+     "Moving Past, and Beyond",
+     "Restraint"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R93",
+   "ind_top3_round0": 27.0,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Late Surger Corners ◎",
+     "Ramp Up",
+     "Straightaway Adept",
+     "Superb Gait",
+     "Position Pilfer",
+     "Professor of Curvature",
+     "Nimble Navigator",
+     "Playtime's Over!",
+     "Divine Speed",
+     "Wisdom of the Sun",
+     "Bring on the Banquet!",
+     "In Body and Mind",
+     "Late Surger Straightaways ○",
+     "Left-Handed ○",
+     "Moving Past, and Beyond",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Medium Straightaways ○"
+    ]
+   }
+  },
+  {
+   "variant": "Neo Universe #R98",
+   "ind_top3_round0": 23.7,
+   "build": {
+    "name": "Neo Universe",
+    "chara": "Neo Universe",
+    "strategy": "Late Surger",
+    "stats": [
+     1490,
+     958,
+     1250,
+     1194,
+     1208
+    ],
+    "surface": "S",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Hephaestus",
+     "level": 6
+    },
+    "skills": [
+     "Beyond the Stars with You",
+     "Cross the Sea of Stars",
+     "Restraint",
+     "Left-Handed ○",
+     "Spring Runner ◎",
+     "Ignited Spirit WIT",
+     "Medium Straightaways ◎",
+     "Red Shift/LP1211-M",
+     "Straightaway Adept",
+     "Wisdom of the Sun",
+     "Bring on the Banquet!",
+     "Into High Gear!",
+     "Uma Stan",
+     "Corner Adept ○",
+     "Medium Corners ○",
+     "In Body and Mind",
+     "Racing Spirit: Stamina",
+     "Divine Speed",
+     "Prudent Positioning",
+     "Superb Gait",
+     "Tail Held High"
+    ]
+   }
+  }
+ ],
+ "Mihono Bourbon": [
+  {
+   "variant": "Mihono Bourbon #R11",
+   "ind_top3_round0": 19.0,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Front Runner Corners ○",
+     "Moving Past, and Beyond",
+     "Corner Adept ○",
+     "Spring Runner ○",
+     "Straightaway Adept",
+     "Racing Spirit: Stamina",
+     "Dodging Danger",
+     "Ignited Spirit WIT",
+     "Taking the Lead",
+     "Top Runner",
+     "Into High Gear!",
+     "In Body and Mind",
+     "Wisdom of the Sun",
+     "Left-Handed ○",
+     "Divine Speed",
+     "Uma Stan",
+     "Red Shift/LP1211-M",
+     "Prudent Positioning",
+     "Medium Straightaways ◎"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R16",
+   "ind_top3_round0": 19.0,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Prudent Positioning",
+     "Nimble Navigator",
+     "Straightaway Adept",
+     "Left-Handed ○",
+     "Taking the Lead",
+     "Spring Runner ◎",
+     "Moving Past, and Beyond",
+     "Top Runner",
+     "Divine Speed",
+     "Front Runner Corners ○",
+     "Uma Stan",
+     "Superb Gait",
+     "Bring on the Banquet!",
+     "Red Shift/LP1211-M",
+     "Standard Distance ○",
+     "Racing Spirit: Stamina",
+     "Ignited Spirit WIT",
+     "In Body and Mind",
+     "With All My Soul"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R17",
+   "ind_top3_round0": 22.7,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Red Shift/LP1211-M",
+     "Dodging Danger",
+     "Prudent Positioning",
+     "Bring on the Banquet!",
+     "Front Runner Corners ○",
+     "Ramp Up",
+     "Front Runner Straightaways ◎",
+     "Into High Gear!",
+     "Top Runner",
+     "With All My Soul",
+     "Racing Spirit: Stamina",
+     "Medium Corners ○",
+     "In Body and Mind",
+     "Wisdom of the Sun",
+     "Superb Gait",
+     "Left-Handed ○",
+     "Taking the Lead",
+     "Slipstream",
+     "Standard Distance ○",
+     "Front Runner Savvy ○"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R25",
+   "ind_top3_round0": 23.3,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Front Runner Savvy ○",
+     "Ignited Spirit WIT",
+     "Left-Handed ◎",
+     "In Body and Mind",
+     "Playtime's Over!",
+     "Prudent Positioning",
+     "Superb Gait",
+     "Taking the Lead",
+     "Dodging Danger",
+     "Medium Straightaways ◎",
+     "Moving Past, and Beyond",
+     "Red Shift/LP1211-M",
+     "Professor of Curvature",
+     "Front Runner Corners ○",
+     "Divine Speed",
+     "Front Runner Straightaways ◎",
+     "Standard Distance ○",
+     "Ramp Up",
+     "Spring Runner ○"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R39",
+   "ind_top3_round0": 17.0,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Left-Handed ○",
+     "Mad Dash",
+     "In Body and Mind",
+     "Groundwork",
+     "Straightaway Adept",
+     "Firm Resolve",
+     "Superb Gait",
+     "Restraint",
+     "Ignited Spirit WIT",
+     "With All My Soul",
+     "Medium Straightaways ◎",
+     "Slipstream",
+     "Uma Stan",
+     "Prudent Positioning",
+     "Into High Gear!",
+     "Nimble Navigator",
+     "Standard Distance ○",
+     "Divine Speed",
+     "Front Runner Straightaways ◎",
+     "Taking the Lead"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R48",
+   "ind_top3_round0": 23.0,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Ignited Spirit WIT",
+     "Prudent Positioning",
+     "Front Runner Straightaways ◎",
+     "Uma Stan",
+     "Divine Speed",
+     "Dodging Danger",
+     "Tail Held High",
+     "Left-Handed ◎",
+     "Ramp Up",
+     "Standard Distance ○",
+     "Taking the Lead",
+     "Superb Gait",
+     "Spring Runner ○",
+     "Front Runner Corners ○",
+     "Top Runner",
+     "Restraint",
+     "Wisdom of the Sun",
+     "Medium Straightaways ◎",
+     "Mad Dash"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R51",
+   "ind_top3_round0": 22.3,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Medium Corners ○",
+     "Standard Distance ○",
+     "Groundwork",
+     "Medium Straightaways ○",
+     "Divine Speed",
+     "Uma Stan",
+     "Ramp Up",
+     "Corner Adept ○",
+     "Restraint",
+     "Front Runner Straightaways ◎",
+     "Ignited Spirit WIT",
+     "Red Shift/LP1211-M",
+     "Front Runner Savvy ○",
+     "Left-Handed ◎",
+     "Bring on the Banquet!",
+     "Wisdom of the Sun",
+     "Slipstream",
+     "Superb Gait",
+     "Top Runner"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R52",
+   "ind_top3_round0": 17.0,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Taking the Lead",
+     "Wisdom of the Sun",
+     "Standard Distance ○",
+     "Into High Gear!",
+     "Top Runner",
+     "Professor of Curvature",
+     "Left-Handed ○",
+     "Medium Straightaways ◎",
+     "Uma Stan",
+     "With All My Soul",
+     "Divine Speed",
+     "Spring Runner ○",
+     "Prudent Positioning",
+     "Medium Corners ○",
+     "Restraint",
+     "Straightaway Adept",
+     "Superb Gait",
+     "Bring on the Banquet!"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R53",
+   "ind_top3_round0": 20.0,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Wisdom of the Sun",
+     "Divine Speed",
+     "Corner Adept ○",
+     "Red Shift/LP1211-M",
+     "Uma Stan",
+     "Medium Straightaways ◎",
+     "Top Runner",
+     "Front Runner Corners ○",
+     "Slipstream",
+     "Front Runner Straightaways ◎",
+     "Groundwork",
+     "In Body and Mind",
+     "Dodging Danger",
+     "Standard Distance ○",
+     "Into High Gear!",
+     "Front Runner Savvy ○",
+     "Nimble Navigator",
+     "Prudent Positioning",
+     "Left-Handed ○",
+     "Straightaway Adept"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R58",
+   "ind_top3_round0": 19.7,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Groundwork",
+     "Divine Speed",
+     "Moving Past, and Beyond",
+     "Medium Corners ○",
+     "Mad Dash",
+     "Wisdom of the Sun",
+     "With All My Soul",
+     "Top Runner",
+     "Front Runner Corners ○",
+     "Red Shift/LP1211-M",
+     "Front Runner Savvy ○",
+     "All I've Got",
+     "Ramp Up",
+     "Tail Held High",
+     "Ignited Spirit WIT",
+     "Dodging Danger",
+     "Straightaway Adept",
+     "Front Runner Straightaways ◎",
+     "In Body and Mind",
+     "Standard Distance ○"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R60",
+   "ind_top3_round0": 22.0,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Standard Distance ○",
+     "Spring Runner ○",
+     "Red Shift/LP1211-M",
+     "Front Runner Straightaways ◎",
+     "Ramp Up",
+     "Medium Corners ○",
+     "Nimble Navigator",
+     "In Body and Mind",
+     "Restraint",
+     "Medium Straightaways ◎",
+     "Playtime's Over!",
+     "Uma Stan",
+     "Divine Speed",
+     "Dodging Danger",
+     "Taking the Lead",
+     "Ignited Spirit WIT",
+     "Straightaway Adept",
+     "Wisdom of the Sun",
+     "Front Runner Savvy ○",
+     "Corner Adept ○"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R62",
+   "ind_top3_round0": 21.3,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Spring Runner ○",
+     "Bring on the Banquet!",
+     "Corner Adept ○",
+     "Front Runner Corners ○",
+     "Medium Straightaways ◎",
+     "Divine Speed",
+     "Restraint",
+     "Ignited Spirit WIT",
+     "Front Runner Straightaways ◎",
+     "With All My Soul",
+     "Red Shift/LP1211-M",
+     "Slipstream",
+     "Hesitant Front Runners",
+     "Medium Corners ○",
+     "Standard Distance ○",
+     "Uma Stan",
+     "Wisdom of the Sun",
+     "Taking the Lead",
+     "In Body and Mind",
+     "Left-Handed ○"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R8",
+   "ind_top3_round0": 17.3,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Straightaway Adept",
+     "Spring Runner ○",
+     "Front Runner Corners ○",
+     "Front Runner Savvy ○",
+     "Corner Adept ○",
+     "Top Runner",
+     "Divine Speed",
+     "Nimble Navigator",
+     "Dodging Danger",
+     "Moving Past, and Beyond",
+     "Taking the Lead",
+     "Prudent Positioning",
+     "Left-Handed ◎",
+     "Front Runner Straightaways ◎",
+     "Wisdom of the Sun",
+     "Ramp Up",
+     "Uma Stan",
+     "All I've Got",
+     "Medium Straightaways ○",
+     "Firm Resolve"
+    ]
+   }
+  },
+  {
+   "variant": "Mihono Bourbon #R9",
+   "ind_top3_round0": 20.0,
+   "build": {
+    "name": "Mihono Bourbon",
+    "chara": "Mihono Bourbon",
+    "strategy": "Front Runner",
+    "stats": [
+     1434,
+     1148,
+     1250,
+     1108,
+     1160
+    ],
+    "surface": "A",
+    "distance": "S",
+    "style": "A",
+    "unique": {
+     "name": "Operation Cacao",
+     "level": 5
+    },
+    "skills": [
+     "Perfect Boost",
+     "Malfunction Mitigation",
+     "Straightaway Adept",
+     "Standard Distance ○",
+     "Playtime's Over!",
+     "Mad Dash",
+     "Restraint",
+     "Prudent Positioning",
+     "Ignited Spirit WIT",
+     "Taking the Lead",
+     "Front Runner Straightaways ◎",
+     "Professor of Curvature",
+     "Medium Straightaways ◎",
+     "All I've Got",
+     "Divine Speed",
+     "Moving Past, and Beyond",
+     "Spring Runner ◎",
+     "Racing Spirit: Stamina",
+     "Superb Gait",
+     "Hesitant Front Runners",
+     "Medium Corners ○",
+     "Groundwork"
+    ]
+   }
+  }
+ ]
+}

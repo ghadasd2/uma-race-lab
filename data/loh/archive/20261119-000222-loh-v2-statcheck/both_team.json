@@ -1,0 +1,130 @@
+[
+ {
+  "name": "Kitasan Black",
+  "chara": "Kitasan Black",
+  "strategy": "Front Runner",
+  "stats": [
+   1500,
+   1000,
+   1250,
+   1150,
+   1200
+  ],
+  "surface": "A",
+  "distance": "S",
+  "style": "A",
+  "unique": {
+   "name": "Bring on the Banquet!",
+   "level": 6
+  },
+  "skills": [
+   "Introducing the Victor!",
+   "Leap Ahead to the Future",
+   "Red Shift/LP1211-M",
+   "Operation Cacao",
+   "Left-Handed ◎",
+   "Standard Distance ○",
+   "Spring Runner ○",
+   "Straightaway Adept",
+   "Ramp Up",
+   "Medium Straightaways ◎",
+   "Front Runner Straightaways ◎",
+   "Front Runner Corners ○",
+   "Dodging Danger",
+   "Top Runner",
+   "Front Runner Savvy ○",
+   "Groundwork",
+   "Slipstream",
+   "Superb Gait",
+   "Divine Speed",
+   "Ignited Spirit WIT",
+   "Wisdom of the Sun"
+  ]
+ },
+ {
+  "name": "Ines Fujin",
+  "chara": "Ines Fujin",
+  "strategy": "Front Runner",
+  "stats": [
+   1500,
+   1000,
+   1225,
+   1175,
+   1200
+  ],
+  "surface": "A",
+  "distance": "S",
+  "style": "A",
+  "unique": {
+   "name": "Fresh☆Parlor",
+   "level": 6
+  },
+  "skills": [
+   "Perfect ♪ Order Up!",
+   "Slick Serving",
+   "With All My Soul",
+   "Red Shift/LP1211-M",
+   "Left-Handed ◎",
+   "Ignited Spirit WIT",
+   "Dodging Danger",
+   "All I've Got",
+   "Medium Straightaways ◎",
+   "Corner Adept ○",
+   "Solid Preparation",
+   "Front Runner Straightaways ◎",
+   "Spring Runner ◎",
+   "Front Runner Savvy ○",
+   "Top Runner",
+   "Divine Speed",
+   "Slipstream",
+   "Taking the Lead",
+   "Tail Held High",
+   "Uma Stan",
+   "Nimble Navigator",
+   "Racing Spirit: Stamina"
+  ]
+ },
+ {
+  "name": "Neo Universe",
+  "chara": "Neo Universe",
+  "strategy": "Late Surger",
+  "stats": [
+   1490,
+   958,
+   1250,
+   1194,
+   1208
+  ],
+  "surface": "S",
+  "distance": "S",
+  "style": "A",
+  "unique": {
+   "name": "Hephaestus",
+   "level": 6
+  },
+  "skills": [
+   "Beyond the Stars with You",
+   "Cross the Sea of Stars",
+   "Red Shift/LP1211-M",
+   "Moving Past, and Beyond",
+   "Into High Gear!",
+   "Left-Handed ◎",
+   "Spring Runner ◎",
+   "Nimble Navigator",
+   "Position Pilfer",
+   "Slick Surge",
+   "Hesitant Front Runners",
+   "Medium Corners ○",
+   "1,500,000 CC",
+   "Uma Stan",
+   "Tail Held High",
+   "Slipstream",
+   "Playtime's Over!",
+   "Be Still",
+   "Restraint",
+   "Superb Gait",
+   "Divine Speed",
+   "Wisdom of the Sun"
+  ]
+ }
+]

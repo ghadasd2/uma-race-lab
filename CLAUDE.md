@@ -1,5 +1,8 @@
 # uma-race-lab
 
+**Resuming work? Read `docs/MASTER_PROMPT.md` first** (start-up procedure, step list, commit
+checkpoints), then `docs/CONTEXT.md` and `docs/PROGRESS.md`. Never quote results that are not in a committed file.
+
 Monte Carlo race-analysis lab for Umamusume **Global**, built on the GlobalSim engine
 (`vendor/GlobalSim`, AGPL-3.0, run unmodified as a subprocess).
 

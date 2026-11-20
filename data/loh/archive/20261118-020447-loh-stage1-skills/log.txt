@@ -1,0 +1,7 @@
+baseline: [('Kitasan Black', [1400, 1056, 1238, 1216, 1190], 6100, 25), ('Ines Fujin', [1456, 1145, 1154, 1107, 1238], 6100, 23), ('Neo Universe', [1490, 958, 1250, 1194, 1208], 6100, 26)]
+drop-one: 72 variants x 1200 races in 396s
+add-one candidates: 641
+round 0: 642 variants x 150 seeds x 2 worlds = 192600 races in 943s
+round 1: 162 variants x 450 seeds x 2 worlds = 145800 races in 670s
+round 2: 42 variants x 1350 seeds x 2 worlds = 113400 races in 517s
+done /home/user/src/uma-race-lab/runs/20261118-020447-loh-stage1-skills

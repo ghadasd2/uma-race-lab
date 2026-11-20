@@ -1,0 +1,131 @@
+[
+ {
+  "name": "Kitasan Black",
+  "chara": "Kitasan Black",
+  "strategy": "Front Runner",
+  "stats": [
+   1400,
+   1056,
+   1238,
+   1216,
+   1190
+  ],
+  "surface": "A",
+  "distance": "S",
+  "style": "A",
+  "unique": {
+   "name": "Bring on the Banquet!",
+   "level": 6
+  },
+  "skills": [
+   "Red Shift/LP1211-M",
+   "Operation Cacao",
+   "Left-Handed ◎",
+   "Straightaway Adept",
+   "Introducing the Victor!",
+   "Leap Ahead to the Future",
+   "Medium Straightaways ◎",
+   "Front Runner Straightaways ◎",
+   "Front Runner Corners ○",
+   "Dodging Danger",
+   "Top Runner",
+   "Front Runner Savvy ○",
+   "Groundwork",
+   "Slipstream",
+   "Superb Gait",
+   "Divine Speed",
+   "Ignited Spirit WIT",
+   "Wisdom of the Sun",
+   "Tail Nine",
+   "Refraction Arc",
+   "Spring Spectacle",
+   "Superstan"
+  ]
+ },
+ {
+  "name": "Ines Fujin",
+  "chara": "Ines Fujin",
+  "strategy": "Front Runner",
+  "stats": [
+   1456,
+   1145,
+   1154,
+   1107,
+   1238
+  ],
+  "surface": "A",
+  "distance": "S",
+  "style": "A",
+  "unique": {
+   "name": "Fresh☆Parlor",
+   "level": 6
+  },
+  "skills": [
+   "Red Shift/LP1211-M",
+   "Bring on the Banquet!",
+   "Left-Handed ○",
+   "Corner Adept ○",
+   "Straightaway Adept",
+   "Perfect ♪ Order Up!",
+   "Taking the Lead",
+   "Medium Straightaways ◎",
+   "Front Runner Straightaways ◎",
+   "Slick Serving",
+   "Dodging Danger",
+   "Top Runner",
+   "Front Runner Savvy ○",
+   "Groundwork",
+   "Mad Dash",
+   "Divine Speed",
+   "Ignited Spirit WIT",
+   "Wisdom of the Sun",
+   "Tail Nine",
+   "Perfect Spot!",
+   "Escape Artist",
+   "Wild Wind"
+  ]
+ },
+ {
+  "name": "Neo Universe",
+  "chara": "Neo Universe",
+  "strategy": "Late Surger",
+  "stats": [
+   1490,
+   958,
+   1250,
+   1194,
+   1208
+  ],
+  "surface": "S",
+  "distance": "S",
+  "style": "A",
+  "unique": {
+   "name": "Hephaestus",
+   "level": 6
+  },
+  "skills": [
+   "Red Shift/LP1211-M",
+   "Moving Past, and Beyond",
+   "Into High Gear!",
+   "Left-Handed ◎",
+   "Spring Runner ◎",
+   "Nimble Navigator",
+   "Hesitant Front Runners",
+   "1,500,000 CC",
+   "Uma Stan",
+   "Tail Held High",
+   "Slipstream",
+   "Playtime's Over!",
+   "Beyond the Stars with You",
+   "Restraint",
+   "Superb Gait",
+   "Divine Speed",
+   "Cross the Sea of Stars",
+   "Burning Spirit SPD",
+   "Elated",
+   "Full Throttle",
+   "Lightning Step",
+   "Refraction Arc"
+  ]
+ }
+]

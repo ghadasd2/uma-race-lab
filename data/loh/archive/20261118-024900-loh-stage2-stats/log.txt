@@ -1,0 +1,12 @@
+coarse variants 276
+round 0: 277 variants x 200 seeds x 2 worlds = 110800 races in 496s
+round 1: 57 variants x 600 seeds x 2 worlds = 68400 races in 310s
+round 2: 13 variants x 1800 seeds x 2 worlds = 46800 races in 220s
+coarse winners {0: [[1500, 1050, 1200, 1150, 1200]], 1: [[1500, 1050, 1250, 1100, 1200], [1450, 1050, 1250, 1100, 1250]], 2: []}
+fine variants 67
+round 0: 68 variants x 600 seeds x 2 worlds = 81600 races in 377s
+round 1: 22 variants x 1800 seeds x 2 worlds = 79200 races in 364s
+  variant    top3   points  top3_jp  top3_cn   pts_jp   pts_cn     n  d_top3  d_top3_lo  d_top3_hi      p  d_points  d_top3_jp  d_top3_cn
+0    best  60.933  150.580   59.100   62.767  147.393  153.767  6000   0.739       0.14      1.338  0.016     1.537      1.122      0.356
+1    base  60.194  149.043   57.978   62.411  145.547  152.540  6000     NaN        NaN        NaN    NaN       NaN        NaN        NaN
+done /home/user/src/uma-race-lab/runs/20261118-024900-loh-stage2-stats

@@ -1,0 +1,8 @@
+coarse variants 276
+round 0: 277 variants x 200 seeds x 2 worlds = 110800 races in 553s
+round 1: 57 variants x 600 seeds x 2 worlds = 68400 races in 341s
+round 2: 13 variants x 1800 seeds x 2 worlds = 46800 races in 241s
+coarse winners {0: [[1500, 1000, 1250, 1150, 1200], [1500, 1000, 1200, 1200, 1200]], 1: [[1500, 950, 1250, 1200, 1200], [1500, 1000, 1200, 1200, 1200]], 2: []}
+fine variants 104
+round 0: 105 variants x 600 seeds x 2 worlds = 126000 races in 638s
+round 1: 33 variants x 1800 seeds x 2 worlds = 118800 races in 579s
