@@ -9,8 +9,8 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
 | A1 Rules and pool | done | — | v4 A1 | Pool 56 → 61 skills; front accel rule in `buildgen.valid`; per-uma HP-out + floor helpers in `mock`; tests pass (10) |
 | A2 Mock recalibration (CN 95–97 %) | done | runs/20261120-224122-loh-v4-a2-calibrate | v4 A2 | Shift 150 (incl. stamina) + 2 extra drops → CN 96.00 % (8,750 races); v3 champion 96.29 % but fails HP floor (Kitasan 3.15 %, Ines 4.41 %) |
 | A3 v4 base team | done | runs/20261120-225351-loh-v4-a3-base | v4 A3 | Kitasan sta 1200 / spd 1380, Ines sta 1150 / spd 1380, Neo unchanged; HP-out 1.17 / 1.60 / 1.63 %; team 96.17 % |
-| A4 Stamina requirement study | running | (chain: A4 → A5 → A6) | | |
-| A5 Stat exchange rates | todo | | | |
+| A4 Stamina requirement study | done | runs/20261120-225551-loh-v4-a4-stamina | v4 A4 | Floor-meeting stamina: Kitasan 1200 (no drain set feasible ≤ 1350); Ines 1100 / RS 1150 / MD 1200; Neo 1000 / RS, FT, KG 1100 / RS+FT, RS+KG 1200 (best: RS+KG +0.99 pp) |
+| A5 Stat exchange rates | running | (chain) | | |
 | A6 Skill values + front accel test | todo | | | |
 | A7 Constrained build search | todo | | | |
 | A8 Validation | todo | | | |

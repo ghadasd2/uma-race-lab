@@ -211,6 +211,22 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   raised cost-neutrally until the floor held: Kitasan 1380/1200/1230/1175/1200, Ines
   1380/1150/1245/1200/1200, Neo unchanged 1450/1000/1250/1200/1200. HP-out 1.17 / 1.60 / 1.63 %
   (status marginal: point estimates pass, upper bounds don't at 3,500 races). Team top-3 96.25 → 96.17 %.
+- A4 stamina requirement study (2,500 races per point, seeds 102M, cost-neutral via speed; files
+  `data/loh/results/v4/A4/`). Lowest stamina meeting the HP-out floor (point estimate):
+
+  | Uma | none | RS:Stamina | Mad Dash / Full Throttle / Keep Going! | RS + MD / FT / KG |
+  | --- | --- | --- | --- | --- |
+  | Kitasan | 1200 (1.32 %) | > 1350 (1.72 % at 1350) | MD > 1350 (2.64 % at 1350) | > 1350 (9.5 % at 1350) |
+  | Ines | 1100 (1.16 %) | 1150 (1.32 %) | MD 1200 (1.60 %) | > 1350 (2.04 % at 1350) |
+  | Neo | 1000 (0.92 %) | 1100 (0.96 %) | FT 1100 (0.96 %), KG 1100 (0.76 %) | RS+FT 1200 (0.48 %), RS+KG 1200 (0.64 %) |
+
+  Value at that stamina vs the best feasible no-drain build (team top-3 pp, no CI — skill adds carry
+  ~±0.5–0.8 pp RNG noise): Ines RS +0.01, MD +0.13; Neo RS +0.08, FT +0.53, KG +0.69, RS+FT +0.69,
+  RS+KG +0.99. Kitasan has no feasible drain set ≤ 1350. Above the requirement every set loses value
+  as stamina rises (speed paid). Duels (none set): rate 30–36 % Kitasan, 35 % Ines, 16–22 % Neo;
+  top-3 when dueling 97–99 %; length +~0.3 s per 50 stamina; entry 1927 m fronts, ~2080 m Neo. Guts
+  1000–1250 (cost-neutral): team top-3 within ±0.3 pp, duel rate/length unchanged; Spot Struggle
+  9.5 → 10.3 s. Late start: Kitasan 20.8 %, Neo 20.4 %, Ines 1.3 %.
 
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search).

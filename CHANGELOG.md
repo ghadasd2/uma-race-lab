@@ -5,6 +5,14 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-20 — A4 stamina requirement study
+- `scripts/loh_v4_a4_stamina.py` (138 variants × 2,500 races, seeds 102M, resumable). Results:
+  `data/loh/results/v4/A4/stamina.csv`, `requirements.csv`.
+- Lowest floor-meeting stamina: Kitasan 1200 with no drain skills, no drain set feasible up to 1350;
+  Ines none 1100, RS 1150, MD 1200, RS+MD > 1350; Neo none 1000, RS / Full Throttle / Keep Going! 1100,
+  RS+FT / RS+KG 1200. Best value: Neo RS + Keep Going! at 1200 (+0.99 pp vs no drain at 1000).
+- Guts 1000–1250: no measurable effect on placements or duels.
+
 ### 2026-11-20 — remote
 - Pushed the full history to https://github.com/ghadasd2/uma-race-lab (private), branch `master`.
 
