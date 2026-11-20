@@ -123,8 +123,9 @@ push. *Checkpoint.*
   Rounds 0 and 1 drop candidates whose HP-out > 2.5 % (lenient, small samples); the final round
   requires the floor on 9,000 races. Gen 0 hypotheses come from A4–A6 (best feasible stamina/drain
   combos, top adds, accel sets). 8 generations, ~30 candidates, halving 1,500 → 4,500 → 9,000.
-- Efficiency from v3 theory: never move power/wit/guts above 1200 while another of them is below
-  1200 (Neo power may go to 1250); stat moves of 25/50; skills weighted by A6 values.
+- Efficiency from v3 theory: stat moves of 25/50; skill adds weighted by A6 values; gen 0 seeded with
+  the A4/A6 winners. (A proposed prune "never raise power/wit/guts above 1200 while another is below"
+  was dropped: the v3 search accepted Kitasan guts 1175 → power 1230.)
   *Checkpoint after every 2 generations* (search state saved in history.csv and champion files).
 
 ### A8 Validation
@@ -177,6 +178,6 @@ For each test, pair every variant's effect across engines:
 - Reuse seed blocks within a comparison; never compare variants run on different seeds.
 - Use successive halving for anything with > 10 variants and only a winner needed.
 - Tight-CI quantities (speed, stamina) need fewer races than power/wit/guts/skills.
-- Don't test what can't fire (`opt.can_fire`); don't test power/wit/guts above 1200 except Neo power.
+- Don't test what can't fire (`opt.can_fire`).
 - Keep each background job under ~1 hour and save outputs incrementally, so a container restart
   loses at most one chunk; long jobs must be resumable from their output files.
