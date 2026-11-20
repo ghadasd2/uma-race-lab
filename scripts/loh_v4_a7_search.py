@@ -13,7 +13,7 @@ import copy, glob, json, random, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import pandas as pd
-from umasim import buildgen as G, mock, opt
+from umasim import buildgen as G, catalog as C, esp, mock, opt
 
 GENS, M, N0 = (int(a) for a in sys.argv[1:4])
 out = Path(sys.argv[4]) if len(sys.argv) > 4 else opt.run_dir("v4-a7-search")
@@ -71,23 +71,10 @@ def stat_move(b):
 
 
 def add_skill(b, s):
-    """Put s in; drop the lowest-hold-value removable skills until the build is legal (or give up)."""
+    """Put s in (replacing any tier sibling); repair the build with force_set."""
     if b is None:
         return None
-    fixed = set(G.EVOLVED.get(b["name"], []))
-    sk = [x for x in b["skills"] if G._group(x) != G._group(s)] + [s]
-    for _ in range(6):
-        ok, why = G.valid(b, sk)
-        if ok:
-            nb = copy.deepcopy(b); nb["skills"] = sk
-            return nb
-        if "ESP" in why and G.build_esp(sk) < G.esp_range()[0]:
-            return None
-        cands = [x for x in sk if x not in fixed and x != s and G.front_accel_ok(b, [y for y in sk if y != x])]
-        if not cands:
-            return None
-        sk.remove(min(cands, key=lambda x: HOLD.get((b["name"], x), 0.0)))
-    return None
+    return force_set(b, [], [s])
 
 
 def skill_add(b):
@@ -125,10 +112,59 @@ DRAIN_SETS = {"RS": ["Racing Spirit: Stamina"], "MD": ["Mad Dash"], "RS+MD": ["R
 DRAIN = {"Racing Spirit: Stamina", "Mad Dash", "Full Throttle", "Keep Going!"}
 
 
+def force_set(b, remove, add):
+    """Remove `remove`, add `add` (tier siblings replaced), then repair until legal:
+    too many skills / too much ESP -> drop the lowest-hold removable skill (preferring drops that keep ESP >= lo);
+    too little ESP -> add the best-valued affordable skill, or at the skill cap swap a cheap low-value skill for a
+    pricier valued one. Never removes `add`, evolved skills, or anything the front start-accel rule needs."""
+    if b is None:
+        return None
+    esp1 = lambda x: G.build_esp([x])
+    fixed = set(G.EVOLVED.get(b["name"], [])) | set(add)
+    sk = [x for x in b["skills"] if x not in set(remove) and all(G._group(x) != G._group(a) for a in add)] + list(add)
+    lo, hi = G.esp_range()
+    order = sorted((p["skill"] for p in G.candidates(b)), key=lambda x: -ADD.get((b["name"], x), 0.0))
+    hold = lambda x: HOLD.get((b["name"], x), 0.0)
+    for _ in range(20):
+        ok, why = G.valid(b, sk)
+        if ok:
+            nb = copy.deepcopy(b); nb["skills"] = sk
+            return nb
+        e = G.build_esp(sk)
+        groups = {G._group(x) for x in sk}
+        removable = [x for x in sk if x not in fixed and G.front_accel_ok(b, [y for y in sk if y != x])]
+        if e > hi or len(sk) + 1 > G.MAX_SKILLS or "inherited" in why:
+            if not removable:
+                return None
+            if "inherited" in why:
+                removable = [x for x in removable if esp.kind(C.resolve_skill(x)) == "inherited"] or removable
+            keep_lo = [x for x in removable if e - esp1(x) >= lo]
+            sk.remove(min(keep_lo or removable, key=hold))
+        elif e < lo:
+            free = [x for x in order if x not in sk and G._group(x) not in groups]
+            if len(sk) + 1 < G.MAX_SKILLS:
+                nxt = next((x for x in free if lo <= e + esp1(x) <= hi), None) or next((x for x in free if e + esp1(x) <= hi), None)
+                if nxt is None:
+                    return None
+                sk.append(nxt)
+            else:
+                swap = next(((x, y) for x in sorted(removable, key=hold) for y in free
+                             if lo <= e - esp1(x) + esp1(y) <= hi and G._group(y) != G._group(x)), None)
+                if swap is None:
+                    return None
+                sk.remove(swap[0]); sk.append(swap[1])
+        else:
+            return None
+    return None
+
+
 def hypotheses(team):
     H = {}
     def keep(name, t):
-        if t and all(b and G.valid(b, b["skills"])[0] and stat_ok(b["stats"]) for b in t):
+        same = t and all(b and b["stats"] == o["stats"] and sorted(b["skills"]) == sorted(o["skills"]) for b, o in zip(t, team))
+        if same:
+            log("skip hypothesis", name, "(identical to the start team)")
+        elif t and all(b and G.valid(b, b["skills"])[0] and stat_ok(b["stats"]) for b in t):
             H[name] = t
         else:
             log("skip hypothesis", name)
@@ -138,33 +174,32 @@ def hypotheses(team):
     keep("fill budget (speed)", t)
     for i, b in enumerate(team):
         short = b["name"].split()[0]
-        # A4: every drain set that beats no-drain at its best feasible stamina
+        # A4: every drain set (incl. none) at its best feasible stamina, if it differs from what the uma carries now
+        held = sorted(x for x in b["skills"] if x in DRAIN)
         for r in REQ[(REQ.uma == b["name"])].itertuples():
-            if pd.isna(r.best_feasible_stamina) or not (r.vs_best_none_pp > 0.3):
+            if pd.isna(r.best_feasible_stamina):
                 continue
-            t = copy.deepcopy(team)
-            nb = copy.deepcopy(b); nb["skills"] = [x for x in nb["skills"] if x not in DRAIN]
-            for s in DRAIN_SETS[r.skills]:
-                nb = add_skill(nb, s)
+            want = DRAIN_SETS[r.skills]
+            if r.skills != "none" and not (r.vs_best_none_pp > 0.3):
+                continue
+            if sorted(want) == held and int(r.best_feasible_stamina) == b["stats"][1]:
+                continue
+            nb = force_set(b, DRAIN, want)
             if nb is None:
                 log("skip", short, r.skills, "(no legal build)"); continue
             nb["stats"] = neutral(nb["stats"], 1, int(r.best_feasible_stamina))
-            t[i] = nb
+            t = copy.deepcopy(team); t[i] = nb
             keep(f"{short} {r.skills} @ sta {int(r.best_feasible_stamina)}", t)
         # A6: top adds with CI above 0
         adds = sv[(sv.uma == b["name"]) & sv.test.isin(["add", "swap"]) & (sv.lo > 0)].sort_values("d_team_top3", ascending=False)
         for r in adds.head(4).itertuples():
             t = copy.deepcopy(team); t[i] = add_skill(b, r.skill)
             keep(f"{short} +{r.skill}", t)
-        # A6: best accel set if it beats the base set
+        # A6: the best legal accel set if it beats the current one
         a = ACC[(ACC.uma == b["name"]) & (ACC.lo > 0)].sort_values("d_team_top3", ascending=False)
         for r in a.head(1).itertuples():
-            st = r.set.split(" + ")
-            nb = copy.deepcopy(b)
-            nb["skills"] = [x for x in nb["skills"] if x not in set(G.GROUNDWORK_FAMILY) | {"Taking the Lead"}]
-            for s in st:
-                nb = add_skill(nb, s)
-            t = copy.deepcopy(team); t[i] = nb
+            t = copy.deepcopy(team)
+            t[i] = force_set(b, set(G.GROUNDWORK_FAMILY) | {"Taking the Lead"}, r.set.split(" + "))
             keep(f"{short} accel {r.set}", t)
     return H
 
@@ -200,7 +235,7 @@ def generation(champ, cands, g):
 hist_file = out / "history.csv"
 history = pd.read_csv(hist_file).to_dict("records") if hist_file.exists() else []
 champs = sorted(out.glob("champion_gen*.json"))
-champ = json.loads((champs[-1] if champs else Path("data/loh/my_team_v4_base.json")).read_text())
+champ = json.loads((champs[-1] if champs else Path("data/loh/my_team_v4_a7_start.json")).read_text())
 if not hist_file.exists():
     opt.save_team(out / "start_team.json", champ)
 for g in range(len(history), GENS):

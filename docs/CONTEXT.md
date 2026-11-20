@@ -235,7 +235,7 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   +0.16–0.49 (Kitasan +50 pow 0.49 [0.18, 0.81]; Neo +50 pow 0.31); wit cut 0.17–0.57, wit above 1200
   +0.16–0.37 (Kitasan +50 0.30, Ines +50 0.37). Unlike v3, power and wit above 1200 are worth as much as
   or more than speed per cost point in this field.
-- A7 start team `data/loh/my_team_v4_a7_start.json` = v4 base with Ines stamina 1200 / speed 1355 (so the
+- A7 start team `data/loh/my_team_v4_a7_start.json` (used by scripts/loh_v4_a7_search.py) = v4 base with Ines stamina 1200 / speed 1355 (so the
   search starts from a team that meets the floor).
 
 ## 5. Open questions / leads
