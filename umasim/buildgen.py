@@ -67,6 +67,34 @@ def _group(name: str) -> str:
     return esp.group(C.resolve_skill(name))
 
 
+# v4 user rule: every front carries the Groundwork family (Groundwork or its gold Solid Preparation) AND at least one
+# gold or evolved starting-acceleration skill. Kitasan's evolved Introducing the Victor! is a start accel.
+FRONT_ACCEL_RULE = True
+GROUNDWORK_FAMILY = ("Groundwork", "Solid Preparation")
+START_ACCEL_GOLD = ("Taking the Lead", "Solid Preparation", "Introducing the Victor!")
+
+
+def front_accel_ok(uma: dict, skills: list[str]) -> bool:
+    if not FRONT_ACCEL_RULE or uma.get("strategy") != "Front Runner":
+        return True
+    have = set(skills) | set(EVOLVED.get(uma["name"], []))
+    return any(s in have for s in GROUNDWORK_FAMILY) and any(s in have for s in START_ACCEL_GOLD)
+
+
+def legal_accel_sets(uma: dict) -> list[list[str]]:
+    """The start-accel skill sets a front may carry (for generation and the accel test)."""
+    if uma.get("strategy") != "Front Runner":
+        return [[]]
+    allowed = {p["skill"] for p in candidates(uma)}
+    out = []
+    for gw in GROUNDWORK_FAMILY:
+        for ttl in ([], ["Taking the Lead"]):
+            s = [gw] + ttl
+            if all(x in allowed for x in s) and front_accel_ok(uma, s):
+                out.append(s)
+    return out
+
+
 def valid(uma: dict, skills: list[str], lo_hi=None) -> tuple[bool, str]:
     lo, hi = lo_hi or esp_range()
     if len(skills) + 1 > MAX_SKILLS:
@@ -81,6 +109,8 @@ def valid(uma: dict, skills: list[str], lo_hi=None) -> tuple[bool, str]:
     bad = [s for s in skills if s not in allowed]
     if bad:
         return False, f"not allowed: {bad}"
+    if not front_accel_ok(uma, skills):
+        return False, "front start-accel rule (Groundwork family + gold/evo start accel)"
     e = build_esp(skills)
     if not lo <= e <= hi:
         return False, f"ESP {e} outside {lo}-{hi}"
@@ -91,9 +121,11 @@ def random_skills(uma: dict, rng: random.Random, lo_hi=None, tries: int = 2000) 
     lo, hi = lo_hi or esp_range()
     fixed = list(EVOLVED.get(uma["name"], []))
     cands = candidates(uma)
+    accel_sets = legal_accel_sets(uma)
     for _ in range(tries):
         order = sorted(cands, key=lambda p: rng.random() ** (1.0 / (1 + len(p["used_by"]))), reverse=True)
-        skills, e = list(fixed), build_esp(fixed)
+        start = fixed + rng.choice(accel_sets)
+        skills, e = list(start), build_esp(start)
         groups = {_group(s) for s in skills}
         inh = 0
         for p in order:

@@ -59,8 +59,8 @@ thousands of sims, compiles and explains the data, finds trends and draws conclu
     Groundwork), Taking the Lead is a separate gold (its white is Early Lead), Kitasan's evolved
     Introducing the Victor! is a start accel. So legal sets are:
     - Ines: {Groundwork + Taking the Lead}, {Solid Preparation}, {Solid Preparation + Taking the Lead}.
-    - Kitasan: {Groundwork}, {Solid Preparation}, {Groundwork + TtL}, {Solid Preparation + TtL}
-      (Introducing the Victor! already supplies her gold/evo start accel).
+    - Kitasan: {Groundwork}, {Solid Preparation}. Introducing the Victor! (her evolved skill) already
+      supplies the gold/evo start accel, and it evolved from Taking the Lead, so she cannot buy TtL.
     - Never Taking the Lead without the Groundwork family.
 
 ### Stats

@@ -6,7 +6,7 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
 | Step | Status | Run folder | Commit | Key result |
 | --- | --- | --- | --- | --- |
 | A0 Housekeeping (context, changelog, master prompt, archive, push) | done (local; push blocked) | — | see git log | Context saved; no GitHub remote exists yet — the user must create an empty repo |
-| A1 Rules and pool | todo | | | |
+| A1 Rules and pool | done | — | v4 A1 | Pool 56 → 61 skills; front accel rule in `buildgen.valid`; per-uma HP-out + floor helpers in `mock`; tests pass (10) |
 | A2 Mock recalibration (CN 95–97 %) | todo | | | |
 | A3 v4 base team | todo | | | |
 | A4 Stamina requirement study | todo | | | |

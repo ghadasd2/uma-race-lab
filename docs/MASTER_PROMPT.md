@@ -113,8 +113,8 @@ push. *Checkpoint.*
 
 ### A6 Skill values and front accel test
 - At the v4 base, 4,000 races: drop-one (non-evolved), add-one, tier swaps, including the five new
-  skills. Front accel test, legal sets only: Ines {GW + TtL, SP, SP + TtL}; Kitasan {GW, SP,
-  GW + TtL, SP + TtL}; 6,000 races. Optional, clearly labelled: Killer Tunes on Ines.
+  skills. Front accel test, legal sets only: Ines {GW + TtL, SP, SP + TtL}; Kitasan {GW, SP} (TtL is the base of
+  her evolved Introducing the Victor!); 6,000 races. Optional, clearly labelled: Killer Tunes on Ines.
 - Rebuild the per-skill table (`scripts/loh_v3_skill_table.py` → v4): SP, effect, m/s per 100 SP,
   speed × time, team pp [CI], own pp, pp per 100 SP, HP-out change. *Checkpoint.*
 

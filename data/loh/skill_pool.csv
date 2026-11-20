@@ -7,6 +7,7 @@ Perfect ♪ Order Up!,103102111,evolved,False,Ines,True,True,0,140,280,True,['CN
 Slick Serving,103102211,evolved,False,Ines,True,False,0,150,290,True,['CN Ines'],True,,,{'Ines Fujin': 2.5}
 Divine Speed,202551,gold,False,,True,True,200,200,400,True,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'CN Neo', 'JP Bourbon']",True,,,"{'Kitasan Black': 1.6, 'Ines Fujin': 1.9, 'Neo Universe': 2.6}"
 In Body and Mind,200511,gold,False,,True,True,170,170,340,False,"['JP Vodka (screenshot)', 'your extras']",True,,,{}
+Keep Going!,202151,gold,False,,False,True,160,160,320,False,['your extras (v4)'],True,['Neo Universe'],v4 user addition,{}
 Killer Tunes,200721,gold,False,,True,True,160,160,320,False,['your extras'],False,['Ines Fujin'],"niche card; not obtainable for Kitasan; kept for a dedicated Ines test, excluded from generation",{}
 Professor of Curvature,200331,gold,False,,True,True,180,180,360,False,"['CN Bourbon', 'JP Bourbon']",True,,,{}
 Solid Preparation,201602,gold,False,,True,True,180,180,280,True,['your legacy add (verified)'],True,"['Kitasan Black', 'Ines Fujin']",gold of Groundwork; fronts only,{}
@@ -31,9 +32,11 @@ All I've Got,201702,white,False,,True,True,160,160,160,False,['your extras'],Tru
 Be Still,201692,white,False,,False,True,180,180,180,False,['CN Neo'],True,,,{'Neo Universe': 0.3}
 Corner Adept ○,200332,white,False,,True,True,180,180,180,False,"['CN Ines', 'CN Kitasan']",True,,,"{'Kitasan Black': -0.0, 'Ines Fujin': 0.9}"
 Dodging Danger,201262,white,False,,True,False,110,110,110,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']",True,,,"{'Kitasan Black': 1.6, 'Ines Fujin': 1.3}"
+Downhill Speedster,202172,white,False,,True,True,170,170,170,False,['your extras (v4)'],True,"['Kitasan Black', 'Ines Fujin']",v4 user addition,{}
 Firm Resolve,202462,white,False,,True,False,180,180,180,False,['your extras'],True,,,{}
 Front Runner Corners ○,201252,white,False,,True,False,130,130,130,False,"['CN Bourbon', 'CN Kitasan', 'JP Bourbon']",True,,,{'Kitasan Black': 0.6}
 Front Runner Straightaways ◎,201241,white,False,,True,False,140,270,270,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']",True,,,"{'Kitasan Black': 0.9, 'Ines Fujin': 0.9}"
+Full Throttle,202152,white,False,,False,True,160,160,160,False,['your extras (v4)'],True,['Neo Universe'],v4 user addition,{}
 Groundwork,201601,white,False,,True,True,100,100,100,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']",True,,,"{'Kitasan Black': 2.8, 'Ines Fujin': 2.1}"
 Hesitant Front Runners,200851,white,False,,True,True,130,130,130,False,['CN Neo'],True,,,{'Neo Universe': 1.5}
 Ignited Spirit WIT,210052,white,False,,True,True,200,200,200,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']",True,,,"{'Kitasan Black': 1.1, 'Ines Fujin': 1.2}"
@@ -47,7 +50,9 @@ Nimble Navigator,200492,white,False,,True,True,150,150,150,False,"['CN Neo', 'JP
 Playtime's Over!,201661,white,False,,True,True,160,160,160,False,"['CN Ines', 'CN Neo']",True,,,"{'Ines Fujin': -0.0, 'Neo Universe': 1.2}"
 Position Pilfer,200592,white,False,,False,True,180,180,180,False,['CN Neo'],True,,,{'Neo Universe': 0.4}
 Prudent Positioning,200452,white,False,,True,True,120,120,120,False,"['CN Bourbon', 'CN Ines', 'CN Kitasan', 'JP Bourbon']",True,,,"{'Kitasan Black': -0.0, 'Ines Fujin': -0.7}"
+Racing Spirit: Speed,210091,white,False,,True,True,150,150,150,False,['your extras (v4)'],True,"['Kitasan Black', 'Ines Fujin']",v4 user addition,{}
 Racing Spirit: Stamina,210101,white,False,,True,True,150,150,150,False,['your extras'],True,,,{}
+Racing Spirit: Wit,210131,white,False,,True,True,150,150,150,False,['your extras (v4)'],True,"['Kitasan Black', 'Ines Fujin']",v4 user addition,{}
 Ramp Up,200462,white,False,,True,True,170,170,170,False,"['CN Kitasan', 'JP Bourbon']",True,,,{'Kitasan Black': 0.1}
 Slick Surge,200602,white,False,,False,True,180,180,180,False,['CN Neo'],True,,,{'Neo Universe': 0.7}
 Slipstream,201651,white,False,,True,True,160,160,160,False,"['CN Kitasan', 'CN Neo']",True,,,"{'Kitasan Black': 1.5, 'Neo Universe': 1.4}"

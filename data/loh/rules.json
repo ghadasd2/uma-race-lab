@@ -154,5 +154,86 @@
    ]
   },
   "objective": "team-average top-3 % (+ LoH points), reported in 175-race batches"
+ },
+ "v4": {
+  "date": "2026-11-20",
+  "pool_additions": {
+   "fronts": [
+    "Downhill Speedster",
+    "Racing Spirit: Wit",
+    "Racing Spirit: Speed"
+   ],
+   "Neo Universe": [
+    "Full Throttle",
+    "Keep Going!"
+   ]
+  },
+  "note_speed_star": "user wrote 'downhill speed star'; Speed Star is Pace-Chaser-only and cannot fire for fronts, so Downhill Speedster was added",
+  "front_start_accel_rule": "each front carries Groundwork or Solid Preparation AND >=1 gold/evo start accel (Taking the Lead, Solid Preparation, Introducing the Victor!)",
+  "legal_accel_sets": {
+   "Ines Fujin": [
+    [
+     "Groundwork",
+     "Taking the Lead"
+    ],
+    [
+     "Solid Preparation"
+    ],
+    [
+     "Solid Preparation",
+     "Taking the Lead"
+    ]
+   ],
+   "Kitasan Black": [
+    [
+     "Groundwork"
+    ],
+    [
+     "Solid Preparation"
+    ]
+   ],
+   "note": "Taking the Lead is the base of Kitasan's evolved Introducing the Victor! (itself a start accel), so Kitasan cannot also buy it"
+  },
+  "hp_out_floor": {
+   "max_races": 3,
+   "per_races": 175,
+   "rate": 0.01714,
+   "applies_to": "each of my umas, every stamina test and all data collection; builds over it are infeasible"
+  },
+  "stamina_drain_tests": {
+   "fronts": [
+    "Racing Spirit: Stamina",
+    "Mad Dash"
+   ],
+   "Neo Universe": [
+    "Racing Spirit: Stamina",
+    "Full Throttle",
+    "Keep Going!"
+   ]
+  },
+  "stamina_box_for_stamina_study": [
+   950,
+   1350
+  ],
+  "mocks": {
+   "logic": "unchanged from v3",
+   "target": "CN team 95-97 % team top-3",
+   "knobs": [
+    "MOCK_STAT_SHIFT",
+    "SHIFT_STAMINA",
+    "EXTRA_DROP"
+   ],
+   "chosen": null
+  },
+  "seed_blocks": {
+   "A2": 100000000,
+   "A3": 101000000,
+   "A4": 102000000,
+   "A5": 103000000,
+   "A6": 104000000,
+   "A7": "110000000 + g*1000000",
+   "A8": 190000000
+  },
+  "engine2": "same tests, same inputs, after the user provides it"
  }
 }

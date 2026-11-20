@@ -12,6 +12,10 @@ K, I, N = cn["team"]; B = cn["reference"][0]; JK, JB = jp["team"][0], jp["team"]
 VODKA = ["Red Shift/LP1211-M", "Moving Past, and Beyond", "Standard Distance ○", "Spring Runner ○", "Straightaway Adept",
          "In Body and Mind", "Medium Straightaways ◎", "Medium Corners ○", "Late Surger Straightaways ○", "Late Surger Corners ◎"]
 EXTRAS = ["Racing Spirit: Stamina", "Mad Dash", "In Body and Mind", "Firm Resolve", "Killer Tunes", "All I've Got", "With All My Soul"]
+# v4 user additions: fronts get Downhill Speedster, Racing Spirit: Wit/Speed; Neo gets Full Throttle and its gold Keep Going!
+EXTRAS_V4 = {"Downhill Speedster": ["Kitasan Black", "Ines Fujin"], "Racing Spirit: Wit": ["Kitasan Black", "Ines Fujin"],
+             "Racing Spirit: Speed": ["Kitasan Black", "Ines Fujin"], "Full Throttle": ["Neo Universe"],
+             "Keep Going!": ["Neo Universe"]}
 LOCKED = {"Introducing the Victor!": "Kitasan", "Leap Ahead to the Future": "Kitasan", "Perfect ♪ Order Up!": "Ines",
           "Slick Serving": "Ines", "Beyond the Stars with You": "Neo", "Cross the Sea of Stars": "Neo"}
 
@@ -21,12 +25,14 @@ for tag, u in builds:
     for s in u["skills"]: src[s].add(tag)
 for s in VODKA: src[s].add("JP Vodka (screenshot)")
 for s in EXTRAS: src[s].add("your extras")
+for s in EXTRAS_V4: src[s].add("your extras (v4)")
 src["Solid Preparation"].add("your legacy add (verified)")
 # user rules: skill -> {enabled, allowed_umas}
 RULES = {"Killer Tunes": {"enabled": False, "allowed_umas": ["Ines Fujin"],
                           "note": "niche card; not obtainable for Kitasan; kept for a dedicated Ines test, excluded from generation"},
          "Nimble Navigator": {"allowed_umas": ["Neo Universe"], "note": "never on fronts (user rule)"},
-         "Solid Preparation": {"allowed_umas": ["Kitasan Black", "Ines Fujin"], "note": "gold of Groundwork; fronts only"}}
+         "Solid Preparation": {"allowed_umas": ["Kitasan Black", "Ines Fujin"], "note": "gold of Groundwork; fronts only"},
+         **{k: {"allowed_umas": v, "note": "v4 user addition"} for k, v in EXTRAS_V4.items()}}
 
 print("ESP per build (listed = base costs, ◎ incl. ○, evolved = base gold; full = also white under each gold):")
 rows = []

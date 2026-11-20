@@ -5,6 +5,17 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-20 — A1 rules and pool
+- Skill pool 56 → 61: Downhill Speedster, Racing Spirit: Wit, Racing Spirit: Speed (fronts only);
+  Full Throttle and Keep Going! (Neo only). `Speed Star` not added: Pace-Chaser-only.
+- `umasim/buildgen.py`: front start-accel rule (`front_accel_ok`, `legal_accel_sets`) enforced in
+  `valid` and in random build generation. Kitasan's legal sets are {Groundwork} and {Solid
+  Preparation}: Taking the Lead is the base of her evolved Introducing the Victor!.
+- `umasim/mock.py`: per-uma HP-out columns (`hp0`–`hp2`) in `evaluate`; `summarize` reports per-uma
+  HP-out %, its 95 % Wilson upper bound and `hp_ok`; helpers `hp_ok`, `hp_status`, `wilson_ub`;
+  recalibration knobs `MOCK_STAT_SHIFT`, `SHIFT_STAMINA`, `EXTRA_DROP` (defaults = v3 field).
+- `data/loh/rules.json`: `v4` block. `tests/test_v4_rules.py` (5 tests).
+
 ### 2026-11-20 — A0 housekeeping
 - Added `docs/CONTEXT.md` (full project memory), `docs/MASTER_PROMPT.md` (step-by-step protocol),
   `docs/PROGRESS.md` (step checklist), this changelog.

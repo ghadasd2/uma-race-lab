@@ -37,6 +37,13 @@ P_DROP_GOLD = 0.4
 P_DIST_S = 0.7            # mock distance aptitude: S with 70%, else A
 FRONT_BANNED = {"Nimble Navigator"}
 NO_GATE1 = True
+# v4 recalibration knobs (step A2): every mock stat range bound is lowered by MOCK_STAT_SHIFT (stamina only if
+# SHIFT_STAMINA), and EXTRA_DROP more non-gold skills are dropped. 0/True/0 = the v3 field.
+MOCK_STAT_SHIFT = 0
+SHIFT_STAMINA = True
+EXTRA_DROP = 0
+# v4 user rule: each of my umas may run out of HP in at most 3 of 175 races
+HP_FLOOR = 3 / 175
 COST_BUDGET = 6400
 # my umas' stat box (speed, stamina, power, guts, wit)
 MY_BOX = [(1350, 1500), (950, 1250), (1100, 1250), (1000, 1250), (1100, 1250)]
@@ -71,14 +78,16 @@ def roll_stat(rng: random.Random, lo, hi, hlo, hhi) -> int:
 
 def mock_runner(rng: random.Random, uma: str) -> dict:
     b = copy.deepcopy(rng.choice(mocks()[uma]))
-    b["stats"] = [roll_stat(rng, *r) for r in MOCK_STATS]
+    b["stats"] = [roll_stat(rng, *[v - (MOCK_STAT_SHIFT if (k != 1 or SHIFT_STAMINA) else 0) for v in r])
+                  for k, r in enumerate(MOCK_STATS)]
     b["distance"] = "S" if rng.random() < P_DIST_S else "A"
     fixed = set(G.EVOLVED.get(uma, []))
     sk = [s for s in b["skills"] if not (b["strategy"] == "Front Runner" and s in FRONT_BANNED)]
     kinds = {s: esp.kind(C.resolve_skill(s)) for s in sk}
     golds = [s for s in sk if kinds[s] == "gold" and s not in fixed]
     others = [s for s in sk if kinds[s] != "gold" and s not in fixed]
-    drop = set(rng.sample(others, min(len(others), rng.randint(*DROP_N))))
+    n_drop = rng.randint(*DROP_N)
+    drop = set(rng.sample(others, min(len(others), n_drop + EXTRA_DROP)))
     if golds and rng.random() < P_DROP_GOLD:
         drop.add(rng.choice(golds))
     b["skills"] = [s for s in sk if s not in drop]
@@ -161,7 +170,8 @@ def evaluate(teams: dict[str, list[dict]], seeds: list[int], workers=None, chunk
             rows.append({"variant": key[0], "seed": key[1], "p0": pl[0], "p1": pl[1], "p2": pl[2],
                          "top3": sum(p <= 3 for p in pl) / 3, "points": sum(loh.points(p) for p in pl),
                          "opp_top3": sum(p <= 3 for p in op) / 3,
-                         "hp_empty": sum(bool(r.get("hpEmptyOnRace")) for r in res[:3])})
+                         "hp_empty": sum(bool(r.get("hpEmptyOnRace")) for r in res[:3]),
+                         **{f"hp{k}": bool(res[k].get("hpEmptyOnRace")) for k in range(3)}})
         batch.clear()
 
     ms = {name: MockMatchup(team) for name, team in teams.items()}
@@ -196,6 +206,9 @@ def summarize(df: pd.DataFrame, base: str = "base", batch: int = 175) -> pd.Data
         row = {"variant": v, "top3": 100 * x.top3.mean(), "points": x.points.mean(), "n": len(x),
                "ind0": 100 * (x.p0 <= 3).mean(), "ind1": 100 * (x.p1 <= 3).mean(), "ind2": 100 * (x.p2 <= 3).mean(),
                "hp_empty_per_race": x.hp_empty.mean(),
+               **({f"hp{k}%": 100 * x[f"hp{k}"].mean() for k in range(3)} if "hp0" in x else {}),
+               **({f"hp{k}_ub%": 100 * wilson_ub(x[f"hp{k}"].sum(), len(x)) for k in range(3)} if "hp0" in x else {}),
+               **({"hp_ok": hp_ok(x)} if "hp0" in x else {}),
                "batch_top3_p10": bt.team_top3.quantile(.1) if len(bt) else np.nan,
                "batch_top3_p90": bt.team_top3.quantile(.9) if len(bt) else np.nan}
         if v != base and base in df.variant.values:
@@ -204,3 +217,34 @@ def summarize(df: pd.DataFrame, base: str = "base", batch: int = 175) -> pd.Data
             row["d_points"] = S.paired_diff(piv["points"][base], piv["points"][v])["diff"]
         out.append(row)
     return pd.DataFrame(out).sort_values("top3", ascending=False).reset_index(drop=True)
+
+
+# ----------------------------------------------------------------------------- v4 HP-out floor
+
+def wilson_ub(k, n, z=1.96) -> float:
+    """95 % Wilson upper bound of a proportion k/n."""
+    if n == 0:
+        return float("nan")
+    p = k / n
+    den = 1 + z * z / n
+    centre = p + z * z / (2 * n)
+    half = z * ((p * (1 - p) + z * z / (4 * n)) / n) ** 0.5
+    return (centre + half) / den
+
+
+def hp_rates(x: pd.DataFrame) -> list[float]:
+    """Per-uma HP-out rate (0-1) for one variant's evaluate() rows."""
+    return [float(x[f"hp{k}"].mean()) for k in range(3)]
+
+
+def hp_ok(x: pd.DataFrame, floor: float = HP_FLOOR) -> bool:
+    """Every one of my umas runs out of HP in at most `floor` of races (point estimate)."""
+    return all(r <= floor + 1e-12 for r in hp_rates(x))
+
+
+def hp_status(x: pd.DataFrame, floor: float = HP_FLOOR) -> str:
+    """'ok' (point estimate and 95 % upper bound pass), 'marginal' (only the point estimate passes) or 'fail'."""
+    if not hp_ok(x, floor):
+        return "fail"
+    ub = [wilson_ub(x[f"hp{k}"].sum(), len(x)) for k in range(3)]
+    return "ok" if all(u <= floor for u in ub) else "marginal"

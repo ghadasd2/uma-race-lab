@@ -181,6 +181,28 @@
   "sim_value_pp": {}
  },
  {
+  "skill": "Keep Going!",
+  "id": "202151",
+  "type": "gold",
+  "inherited": false,
+  "locked_to": null,
+  "front": false,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 320,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras (v4)"
+  ],
+  "enabled": true,
+  "allowed_umas": [
+   "Neo Universe"
+  ],
+  "note": "v4 user addition",
+  "sim_value_pp": {}
+ },
+ {
   "skill": "Killer Tunes",
   "id": "200721",
   "type": "gold",
@@ -749,6 +771,29 @@
   }
  },
  {
+  "skill": "Downhill Speedster",
+  "id": "202172",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 170,
+  "esp_listed": 170,
+  "esp_full": 170,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras (v4)"
+  ],
+  "enabled": true,
+  "allowed_umas": [
+   "Kitasan Black",
+   "Ines Fujin"
+  ],
+  "note": "v4 user addition",
+  "sim_value_pp": {}
+ },
+ {
   "skill": "Firm Resolve",
   "id": "202462",
   "type": "white",
@@ -817,6 +862,28 @@
    "Kitasan Black": 0.9,
    "Ines Fujin": 0.9
   }
+ },
+ {
+  "skill": "Full Throttle",
+  "id": "202152",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": false,
+  "late": true,
+  "cost": 160,
+  "esp_listed": 160,
+  "esp_full": 160,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras (v4)"
+  ],
+  "enabled": true,
+  "allowed_umas": [
+   "Neo Universe"
+  ],
+  "note": "v4 user addition",
+  "sim_value_pp": {}
  },
  {
   "skill": "Groundwork",
@@ -1130,6 +1197,29 @@
   }
  },
  {
+  "skill": "Racing Spirit: Speed",
+  "id": "210091",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 150,
+  "esp_listed": 150,
+  "esp_full": 150,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras (v4)"
+  ],
+  "enabled": true,
+  "allowed_umas": [
+   "Kitasan Black",
+   "Ines Fujin"
+  ],
+  "note": "v4 user addition",
+  "sim_value_pp": {}
+ },
+ {
   "skill": "Racing Spirit: Stamina",
   "id": "210101",
   "type": "white",
@@ -1147,6 +1237,29 @@
   "enabled": true,
   "allowed_umas": null,
   "note": null,
+  "sim_value_pp": {}
+ },
+ {
+  "skill": "Racing Spirit: Wit",
+  "id": "210131",
+  "type": "white",
+  "inherited": false,
+  "locked_to": null,
+  "front": true,
+  "late": true,
+  "cost": 150,
+  "esp_listed": 150,
+  "esp_full": 150,
+  "verified_legacy": false,
+  "used_by": [
+   "your extras (v4)"
+  ],
+  "enabled": true,
+  "allowed_umas": [
+   "Kitasan Black",
+   "Ines Fujin"
+  ],
+  "note": "v4 user addition",
   "sim_value_pp": {}
  },
  {
