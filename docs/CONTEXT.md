@@ -207,6 +207,10 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   chosen setting → CN 96.00 % (batches ≥ 95 %: 94 %, ≥ 97.1 %: 8 %; 34,620 pts/batch); my v3 champion
   96.29 %, v3 base 94.86 %. HP-out under the new field: v3 champion Kitasan 3.15 %, Ines 4.41 %,
   Neo 1.49 % (fails the floor); CN team 4.31 / 1.79 / 6.15 %.
+- A3 v4 base (`data/loh/my_team_v4_base.json`, 3,500 races, seeds 101M): v3 champion skills; stamina
+  raised cost-neutrally until the floor held: Kitasan 1380/1200/1230/1175/1200, Ines
+  1380/1150/1245/1200/1200, Neo unchanged 1450/1000/1250/1200/1200. HP-out 1.17 / 1.60 / 1.63 %
+  (status marginal: point estimates pass, upper bounds don't at 3,500 races). Team top-3 96.25 → 96.17 %.
 
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search).

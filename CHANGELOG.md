@@ -5,6 +5,12 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-20 — A3 v4 base team
+- `scripts/loh_v4_a3_base.py` → `data/loh/my_team_v4_base.json`: the v3 champion with stamina raised
+  (paid by speed) until each uma meets the HP-out floor on 3,500 races: Kitasan 1380/1200/1230/1175/1200,
+  Ines 1380/1150/1245/1200/1200, Neo 1450/1000/1250/1200/1200. HP-out 1.17 / 1.60 / 1.63 %; team
+  top-3 96.17 % (96.25 % before the fix).
+
 ### 2026-11-20 — A2 mock recalibration
 - `scripts/loh_v4_a2_calibrate.py`: 39-setting grid (stat shift 0–300 × stamina shifted/kept × extra
   drops 0–2, 1,750 races each, seeds 100M) and a confirm of the 3 closest settings on 8,750 races

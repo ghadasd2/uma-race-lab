@@ -1,0 +1,14 @@
+Kitasan Black: valid=True (ok) stats [1430, 1100, 1230, 1175, 1200] cost 6395
+Ines Fujin: valid=True (ok) stats [1430, 1050, 1245, 1200, 1200] cost 6400
+Neo Universe: valid=True (ok) stats [1450, 1000, 1250, 1200, 1200] cost 6400
+iter 0: team top3 96.25  HP-out % 3.49 4.46 1.66  status fail
+   Kitasan Black: stamina +50 -> [1405, 1150, 1230, 1175, 1200] cost 6395
+   Ines Fujin: stamina +50 -> [1405, 1100, 1245, 1200, 1200] cost 6400
+iter 1: team top3 96.21  HP-out % 2.00 2.49 1.66  status fail
+   Kitasan Black: stamina +50 -> [1380, 1200, 1230, 1175, 1200] cost 6395
+   Ines Fujin: stamina +50 -> [1380, 1150, 1245, 1200, 1200] cost 6400
+iter 2: team top3 96.17  HP-out % 1.17 1.60 1.63  status marginal
+FINAL Kitasan Black: [1380, 1200, 1230, 1175, 1200] cost 6395
+FINAL Ines Fujin: [1380, 1150, 1245, 1200, 1200] cost 6400
+FINAL Neo Universe: [1450, 1000, 1250, 1200, 1200] cost 6400
+done /home/user/src/uma-race-lab/runs/20261120-225351-loh-v4-a3-base
