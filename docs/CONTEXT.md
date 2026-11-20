@@ -227,6 +227,16 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   top-3 when dueling 97–99 %; length +~0.3 s per 50 stamina; entry 1927 m fronts, ~2080 m Neo. Guts
   1000–1250 (cost-neutral): team top-3 within ±0.3 pp, duel rate/length unchanged; Spot Struggle
   9.5 → 10.3 s. Late start: Kitasan 20.8 %, Neo 20.4 %, Ines 1.3 %.
+- A5 stat exchange rates at the v4 base (4,000 races per variant, seeds 103M; `data/loh/results/v4/A5/`).
+  Base on these seeds: team 95.97 %, HP-out 1.20 / **1.95** / 1.25 % — Ines at 1150 stamina sits on the
+  floor (1.32–1.95 % across seed blocks); Ines +50 stamina → 1.52 % and +0.08 pp [0.03, 0.12].
+  In the weak field every rate is smaller (team near 96 %). pp per 100 cost (cut −50/−100 → add +50/+100):
+  speed 0.15–0.22; stamina ≤ 0.15; guts ≈ 0 (all CIs span 0); power below 1200 0.2–0.5, above 1200
+  +0.16–0.49 (Kitasan +50 pow 0.49 [0.18, 0.81]; Neo +50 pow 0.31); wit cut 0.17–0.57, wit above 1200
+  +0.16–0.37 (Kitasan +50 0.30, Ines +50 0.37). Unlike v3, power and wit above 1200 are worth as much as
+  or more than speed per cost point in this field.
+- A7 start team `data/loh/my_team_v4_a7_start.json` = v4 base with Ines stamina 1200 / speed 1355 (so the
+  search starts from a team that meets the floor).
 
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search).

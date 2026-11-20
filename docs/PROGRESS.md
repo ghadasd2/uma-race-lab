@@ -10,8 +10,8 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
 | A2 Mock recalibration (CN 95–97 %) | done | runs/20261120-224122-loh-v4-a2-calibrate | v4 A2 | Shift 150 (incl. stamina) + 2 extra drops → CN 96.00 % (8,750 races); v3 champion 96.29 % but fails HP floor (Kitasan 3.15 %, Ines 4.41 %) |
 | A3 v4 base team | done | runs/20261120-225351-loh-v4-a3-base | v4 A3 | Kitasan sta 1200 / spd 1380, Ines sta 1150 / spd 1380, Neo unchanged; HP-out 1.17 / 1.60 / 1.63 %; team 96.17 % |
 | A4 Stamina requirement study | done | runs/20261120-225551-loh-v4-a4-stamina | v4 A4 | Floor-meeting stamina: Kitasan 1200 (no drain set feasible ≤ 1350); Ines 1100 / RS 1150 / MD 1200; Neo 1000 / RS, FT, KG 1100 / RS+FT, RS+KG 1200 (best: RS+KG +0.99 pp) |
-| A5 Stat exchange rates | running | (chain) | | |
-| A6 Skill values + front accel test | todo | | | |
+| A5 Stat exchange rates | done | runs/20261120-232411-loh-v4-a5-exchange | v4 A5 | Weak field shrinks rates: speed 0.15–0.22 pp/100 cost; power & wit above 1200 now 0.16–0.49 (≥ speed); guts ≈ 0; Ines at 1150 sta is on the floor (1.95 % here) → A7 starts with Ines 1200 |
+| A6 Skill values + front accel test | running | (chain) | | |
 | A7 Constrained build search | todo | | | |
 | A8 Validation | todo | | | |
 | A9 v4 results summary | todo | | | |

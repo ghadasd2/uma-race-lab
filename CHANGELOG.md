@@ -5,6 +5,13 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-20 — A5 stat exchange rates
+- `scripts/loh_v4_a5_exchange.py` (61 variants × 4,000 races, seeds 103M) → `data/loh/results/v4/A5/`.
+- Speed 0.15–0.22 pp per 100 cost; power and wit above 1200 0.16–0.49 (as good as or better than speed in
+  the weak field); guts ≈ 0; stamina ≤ 0.15.
+- Ines at 1150 stamina measured 1.95 % HP-out here (floor 1.71 %): added
+  `data/loh/my_team_v4_a7_start.json` (Ines 1355/1200/1245/1200/1200) as the search start.
+
 ### 2026-11-20 — A4 stamina requirement study
 - `scripts/loh_v4_a4_stamina.py` (138 variants × 2,500 races, seeds 102M, resumable). Results:
   `data/loh/results/v4/A4/stamina.csv`, `requirements.csv`.
