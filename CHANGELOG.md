@@ -5,6 +5,9 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-20 — remote
+- Pushed the full history to https://github.com/ghadasd2/uma-race-lab (private), branch `master`.
+
 ### 2026-11-20 — A3 v4 base team
 - `scripts/loh_v4_a3_base.py` → `data/loh/my_team_v4_base.json`: the v3 champion with stamina raised
   (paid by speed) until each uma meets the HP-out floor on 3,500 races: Kitasan 1380/1200/1230/1175/1200,

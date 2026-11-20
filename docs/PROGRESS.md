@@ -5,7 +5,7 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
 
 | Step | Status | Run folder | Commit | Key result |
 | --- | --- | --- | --- | --- |
-| A0 Housekeeping (context, changelog, master prompt, archive, push) | done (local; push blocked) | — | see git log | Context saved; no GitHub remote exists yet — the user must create an empty repo |
+| A0 Housekeeping (context, changelog, master prompt, archive, push) | done | — | see git log | Context saved and pushed to github.com/ghadasd2/uma-race-lab (branch master) |
 | A1 Rules and pool | done | — | v4 A1 | Pool 56 → 61 skills; front accel rule in `buildgen.valid`; per-uma HP-out + floor helpers in `mock`; tests pass (10) |
 | A2 Mock recalibration (CN 95–97 %) | done | runs/20261120-224122-loh-v4-a2-calibrate | v4 A2 | Shift 150 (incl. stamina) + 2 extra drops → CN 96.00 % (8,750 races); v3 champion 96.29 % but fails HP floor (Kitasan 3.15 %, Ines 4.41 %) |
 | A3 v4 base team | done | runs/20261120-225351-loh-v4-a3-base | v4 A3 | Kitasan sta 1200 / spd 1380, Ines sta 1150 / spd 1380, Neo unchanged; HP-out 1.17 / 1.60 / 1.63 %; team 96.17 % |
@@ -21,6 +21,7 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
 | C2 Final cross-verified report | todo | | | |
 
 ## Notes
-- Push status: the repository has no remote. GitHub token in this container is invalid and no
-  `uma-race-lab` repo exists under the user's account. Once the user creates an empty private repo,
-  attach it with push access and `git push -u origin master`.
+- Remote: `origin` = https://github.com/ghadasd2/uma-race-lab (private), branch `master`. In a new cloud
+  session, attach the repo (add_repo, push access) and clone it; the working copy used so far is
+  `/home/user/src/uma-race-lab` with the engine at `/home/user/src/GlobalSim` (run `./setup.sh` in a
+  fresh clone to fetch, pin, patch and build it).
