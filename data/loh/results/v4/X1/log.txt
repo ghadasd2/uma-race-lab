@@ -1,0 +1,16 @@
+effects: {'full': [(28, 150), (8, 50000)], 'clone': [(28, 150), (8, 50000)], 'none': [(8, 0)], 'vision': [(8, 50000)], 'lane': [(28, 150)], 'lane_bonus': [(28, 1)]}
+part 1: 122500 races 539s
+      variant  team_top3  neo_top3  points  team_vs_none  team_vs_none_lo  team_vs_none_hi  neo_vs_none  neo_vs_none_lo  neo_vs_none_hi  identical_to_full_%  team_vs_full  team_vs_full_lo  team_vs_full_hi  neo_vs_full  neo_vs_full_lo  neo_vs_full_hi
+0        full      96.33     95.17  198.06          0.27             0.14             0.40         0.86            0.57            1.15               100.00           NaN              NaN              NaN          NaN             NaN             NaN
+1       clone      96.33     95.17  198.06          0.27             0.14             0.40         0.86            0.57            1.15               100.00          0.00             0.00             0.00         0.00            0.00            0.00
+2        none      96.06     94.31  197.91           NaN              NaN              NaN          NaN             NaN             NaN                69.36         -0.27            -0.40            -0.14        -0.86           -1.15           -0.57
+3      vision      96.06     94.31  197.91          0.01            -0.01             0.02         0.01           -0.03            0.04                69.35         -0.26            -0.39            -0.14        -0.85           -1.14           -0.56
+4        lane      96.33     95.14  198.05          0.27             0.14             0.40         0.83            0.54            1.13                99.73          0.00            -0.01             0.01        -0.02           -0.05            0.01
+5  lane_bonus      96.49     95.73  198.13          0.43             0.30             0.56         1.42            1.13            1.72                73.69          0.16             0.05             0.28         0.57            0.31            0.82
+6        drop      96.01     93.94  197.88         -0.05            -0.26             0.17        -0.37           -0.84            0.11                22.39         -0.32            -0.53            -0.10        -1.22           -1.68           -0.77
+part 2 full: 2500 races 115s
+part 2 none: 2500 races 227s
+part 2 vision: 2500 races 339s
+part 2 lane: 2500 races 453s
+part 2 lane_bonus: 2500 races 573s
+done /home/user/src/uma-race-lab/runs/20261121-035126-loh-v4-x1-ignited-wit

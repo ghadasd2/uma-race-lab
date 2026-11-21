@@ -286,6 +286,23 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   what every step used; a per-batch reading ("never more than 3 in a given 175") would need a rate ≤ 0.78 %
   for 95 % of batches (≤ 1.00 % for 90 %), i.e. more stamina than any v4 build carries — not studied yet.
 
+- X1 (extra) why Ignited Spirit WIT helps Neo (runs/20261121-035126-loh-v4-x1-ignited-wit; `data/loh/results/v4/X1/`;
+  scripts `loh_v4_x1_ignited_wit.py`, `loh_v4_x1_analyze.py`, `loh_v4_x1_example.py`). Skill 210052 (white, 200 SP,
+  wit-checked, random point in phase 0 = 0–400 m, 9.6 s): lane move speed +0.015 and vision +5 m. Method: clones of the
+  skill with the same lottery/condition but changed effects, so races are identical until it fires (clone = full in
+  100 % of 17,500 races; no-fire races identical to 0 s). Outcomes vs the no-effect clone (17,500 races, seeds 195M):
+  team top-3 +0.27 [0.14, 0.40], Neo top-3 +0.86 [0.57, 1.15], points +0.15/race. Vision only +0.01 (inert: overtake
+  targets must be 1–20 m ahead, so 20 → 25 m vision adds none). Lane effect only = the whole value. Mechanism (engine
+  race_solver.rs, mechanics doc v77): while a type-28 skill is active, each tick after lane movement gets target speed
+  + √(0.0002·P) ≈ +0.49 m/s for Neo. Frames (2,500 races, seeds 195.5M): fired 91.7 % (wit check 1 − 90/W ≈ 92.5 %),
+  at 2–392 m (median 184); Neo moves lanes 3.2 s of the 9.6 s window (4.2 s without: faster lateral speed ends the
+  move sooner), mean speed +0.10 m/s, +0.96 m by window end, +1.04 m 10 s later, rank −0.25 at 1600 m, finish −0.044 s.
+  Gain ∝ time spent moving (corr 0.75, 0.33 m per moving second); early fire (0–200 m) +1.3 m vs 300–400 m +0.5 m;
+  Neo top-3 gain by gate 2–3 +0.59, 4–6 +0.30, 7–9 +0.97, 10–12 +1.47 (outer gates move inward more). A bonus-only
+  clone (lane +0.0001) is worth more (+0.43 team, +1.42 Neo) because slower lateral movement means more bonus ticks.
+  Example seed 195501125 (gate 11): fires at 69 m, Neo reaches the rail ~4 s sooner at +0.49 m/s, +3.25 m by 350 m,
+  finishes 2nd vs 4th. Removing the skill (A6-style drop) is noisier because the RNG stream changes: −0.32 [−0.53, −0.10].
+
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
   no drain set that meets the floor up to 1350 stamina.

@@ -5,6 +5,12 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
 
+### 2026-11-21 — X1 Ignited Spirit WIT on Neo (extra analysis)
+- `scripts/loh_v4_x1_ignited_wit.py 17500 2500`, `loh_v4_x1_analyze.py`, `loh_v4_x1_example.py` →
+  `data/loh/results/v4/X1/`. Counterfactual skill clones (same lottery, changed effects) isolate the mechanism.
+- Neo top-3 +0.86 [0.57, 1.15], team +0.27 [0.14, 0.40]. All of it comes from the lane-move effect's target-speed
+  bonus (+√(0.0002·P) ≈ 0.49 m/s while changing lanes); the +5 m vision is inert in this engine.
+
 ### 2026-11-21 — A9 v4 results summary (track A done)
 - `scripts/loh_v4_a9_tables.py` → `docs/reports/v4_results.md`: every A2–A8 table (numbers only, run folders,
   seeds), the stamina requirements in words, and the two readings of the HP floor. Regenerate it rather than
