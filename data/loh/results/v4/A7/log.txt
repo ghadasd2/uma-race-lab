@@ -1,0 +1,15 @@
+skip hypothesis fill budget (speed) (identical to the start team)
+gen 0 round 0: 31 x 1500 = 46500 races 192s; base 95.82 (HP-out max 1.27%)
+   Kitasan +Tail Held High +0.89[+0.19] hp1.4 | Kitasan +Hesitant Front Runners +0.87[+0.15] hp1.2 | Neo RS+KG @ sta 1200 +0.49[-0.28] hp1.5 | Kitasan +Professor of Curvature +0.49[-0.26] hp1.9 | Neo: wit-25->guts +0.47[+0.02] hp1.2 | Ines +Prudent Positioning +0.42[-0.32] hp1.5
+gen 0 round 1: 9 x 4500 = 40500 races 175s; base 96.21 (HP-out max 1.44%)
+   Kitasan +Hesitant Front Runners +0.21[-0.20] hp1.6 | Kitasan +Professor of Curvature +0.18[-0.25] hp1.5 | Neo RS+KG @ sta 1200 +0.02[-0.39] hp1.3 | Ines +Prudent Positioning -0.07[-0.51] hp1.3 | Ines +Superb Gait -0.18[-0.61] hp1.6 | Ines: +Superb Gait -All I've Got/Slipstream -0.18[-0.61] hp1.6
+gen 0 round 2: 4 x 9000 = 36000 races 159s; base 95.89 (HP-out max 1.56%)
+   Kitasan +Hesitant Front Runners +0.43[+0.13] hp1.5 | Kitasan +Professor of Curvature +0.01[-0.30] hp1.7 | Neo RS+KG @ sta 1200 -0.01[-0.32] hp1.4
+GEN 0: ACCEPT Kitasan +Hesitant Front Runners +0.43 [+0.13,+0.74]
+gen 1 round 0: 31 x 1500 = 46500 races 209s; base 96.09 (HP-out max 1.13%)
+   Neo: +Corner Adept ○ -Slick Surge +0.51[-0.21] hp1.8 | Kitasan: sta-50->pow; Kitasan: spd-25->sta +0.47[+0.06] hp1.1 | Ines: +Playtime's Over!/Professor of Curvature -Corner Adept ○/Top Runner +0.36[-0.32] hp1.3 | Kitasan: pow-50->guts +0.31[-0.19] hp1.1 | Ines: pow-25->guts; Neo: +Medium Straightaways ◎ -Hesitant Front Runners/Slick Surge +0.29[-0.43] hp1.7 | Ines: +Spring Runner ○ -Spring Runner ◎/Tail Held High; Neo: +Late Surger Straightaways ○ -Slick Surge +0.29[-0.43] hp1.7
+gen 1 round 1: 9 x 4500 = 40500 races 189s; base 96.37 (HP-out max 1.20%)
+   Ines: +Spring Runner ○ -Spring Runner ◎/Tail Held High; Neo: +Late Surger Straightaways ○ -Slick Surge +0.32[-0.09] hp1.2 | Kitasan: sta-50->pow; Kitasan: spd-25->sta +0.21[-0.04] hp1.2 | Kitasan: +Restraint -Ramp Up +0.14[-0.26] hp1.3 | Kitasan: pow-50->guts +0.02[-0.27] hp1.2 | Neo: +Corner Adept ○ -Slick Surge -0.01[-0.42] hp1.4 | Ines: +Playtime's Over!/Professor of Curvature -Corner Adept ○/Top Runner -0.07[-0.45] hp1.5
+gen 1 round 2: 4 x 9000 = 36000 races 168s; base 96.54 (HP-out max 1.41%)
+   Ines: +Spring Runner ○ -Spring Runner ◎/Tail Held High; Neo: +Late Surger Straightaways ○ -Slick Surge +0.06[-0.23] hp1.5 | Kitasan: +Restraint -Ramp Up +0.01[-0.28] hp1.3 | Kitasan: sta-50->pow; Kitasan: spd-25->sta -0.06[-0.24] hp1.4
+GEN 1: keep champion Ines: +Spring Runner ○ -Spring Runner ◎/Tail Held High; Neo: +Late Surger Straightaways ○ -Slick Surge +0.06 [-0.23,+0.35]
