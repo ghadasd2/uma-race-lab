@@ -256,6 +256,22 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
     0.30, Red Shift 0.46 (borderline).
 - A7 start team `data/loh/my_team_v4_a7_start.json` (used by scripts/loh_v4_a7_search.py) = v4 base with Ines stamina 1200 / speed 1355 (so the
   search starts from a team that meets the floor).
+- A7 constrained build search (run runs/20261121-002043-loh-v4-a7-search; `data/loh/results/v4/A7/`): 8
+  generations × 30 candidates + base, successive halving 1,500 → 4,500 → 9,000 races (seeds 110M + g·1M),
+  HP floor enforced in the final round, accept only if lo > 0. Only gen 0 accepted: **Kitasan + Hesitant Front
+  Runners +0.43 [+0.13, +0.74]** (9,000 races). Gens 1–7 kept the champion (best: Neo Straightaway Adept for
+  Slick Surge +0.29 [−0.01, +0.58]; Ines Operation Cacao for All I've Got +0.19; Neo LS Straightaways ○ for
+  Slick Surge +0.17; Kitasan 25 sta → guts +0.15; Kitasan Playtime's Over! for Ramp Up +0.11).
+  Champion = `data/loh/my_team_v4_champion.json`: Kitasan 1380/1200/1230/1175/1200 (A3 base + HFR, ESP 4560),
+  Ines 1355/1200/1245/1200/1200 (ESP 4550), Neo 1450/1000/1250/1200/1200 (ESP 4600), base kits otherwise.
+  Drain skills under the real skill cap / ESP (they must replace a skill, stamina paid from speed):
+  Neo RS + Keep Going! @ 1200 −0.01 [−0.32, +0.30] (9,000 races), Neo FT @ 1100 +0.36, KG @ 1100 +0.22,
+  RS + FT @ 1200 −0.07 (1,500 races, eliminated); FT / KG at Neo's 1000 stamina +0.3–0.7 but 8–15 % HP-out
+  (fail). The A4/A6 values (+0.5 to +1.1) were measured adding on top of a full kit, so they overstate what
+  the skills are worth once something has to be dropped. Ines RS: Speed −0.04 / −0.24 / −0.31 when it
+  replaces a skill (A6 +0.68 on top); Downhill Speedster on Kitasan −0.05 for Slipstream (9,000 races).
+  Halving caveat: round 0 (1,500 races) CIs are ±0.7 pp, so true effects ≤ 0.3 pp can be dropped early;
+  e.g. Kitasan Tail Held High +0.89 in round 0 → −0.26 in round 1 (regression to the mean).
 
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search).

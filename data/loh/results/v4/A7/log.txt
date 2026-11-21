@@ -13,3 +13,49 @@ gen 1 round 1: 9 x 4500 = 40500 races 189s; base 96.37 (HP-out max 1.20%)
 gen 1 round 2: 4 x 9000 = 36000 races 168s; base 96.54 (HP-out max 1.41%)
    Ines: +Spring Runner ○ -Spring Runner ◎/Tail Held High; Neo: +Late Surger Straightaways ○ -Slick Surge +0.06[-0.23] hp1.5 | Kitasan: +Restraint -Ramp Up +0.01[-0.28] hp1.3 | Kitasan: sta-50->pow; Kitasan: spd-25->sta -0.06[-0.24] hp1.4
 GEN 1: keep champion Ines: +Spring Runner ○ -Spring Runner ◎/Tail Held High; Neo: +Late Surger Straightaways ○ -Slick Surge +0.06 [-0.23,+0.35]
+gen 2 round 0: 31 x 1500 = 46500 races 229s; base 97.00 (HP-out max 1.33%)
+   Neo: sta-25->wit +0.16[-0.09] hp2.0 | Ines: +Ramp Up -All I've Got; Ines: guts-25->sta +0.07[-0.48] hp1.3 | Ines: sta-25->spd +0.04[-0.02] hp1.5 | Kitasan: sta-25->spd +0.00[-0.09] hp1.5 | Ines: +Operation Cacao -All I've Got -0.02[-0.59] hp1.6 | Kitasan: spd-25->sta -0.02[-0.07] hp1.3
+gen 2 round 1: 9 x 4500 = 40500 races 194s; base 96.26 (HP-out max 1.49%)
+   Ines: +Operation Cacao -All I've Got +0.20[-0.15] hp1.4 | Kitasan: sta-25->spd +0.10[+0.04] hp1.8 | Kitasan: pow-25->wit +0.04[-0.22] hp1.4 | Ines: sta-25->spd -0.01[-0.05] hp1.6 | Kitasan: pow-25->guts -0.06[-0.34] hp1.4 | Kitasan: spd-25->sta -0.08[-0.14] hp1.4
+gen 2 round 2: 4 x 9000 = 36000 races 171s; base 96.17 (HP-out max 1.32%)
+   Ines: +Operation Cacao -All I've Got +0.19[-0.06] hp1.4 | Kitasan: sta-25->spd +0.04[+0.01] hp1.5 | Kitasan: pow-25->wit -0.04[-0.23] hp1.2
+GEN 2: keep champion Ines: +Operation Cacao -All I've Got +0.19 [-0.06,+0.43]
+gen 3 round 0: 31 x 1500 = 46500 races 214s; base 96.73 (HP-out max 1.47%)
+   Ines: sta-25->spd -0.04[-0.11] hp1.6 | Neo: guts-50->pow -0.09[-0.48] hp1.5 | Ines: sta-25->wit -0.09[-0.43] hp1.6 | Ines: +Playtime's Over! -All I've Got; Ines: + - -0.09[-0.62] hp1.5 | Ines: pow-50->spd -0.22[-0.72] hp1.5 | Kitasan: sta-25->guts -0.24[-0.69] hp1.7
+gen 3 round 1: 9 x 4500 = 40500 races 187s; base 96.29 (HP-out max 1.58%)
+   Kitasan: sta-25->guts +0.10[-0.17] hp1.6 | Ines: pow-50->spd +0.03[-0.27] hp1.4 | Ines: sta-25->spd -0.01[-0.06] hp1.6 | Kitasan: +Straightaway Adept -Operation Cacao -0.03[-0.43] hp1.6 | Ines: sta-25->wit -0.04[-0.23] hp1.6 | Ines: +Playtime's Over! -All I've Got; Ines: + - -0.10[-0.43] hp1.4
+gen 3 round 2: 4 x 9000 = 36000 races 175s; base 96.29 (HP-out max 1.34%)
+   Kitasan: sta-25->guts +0.15[-0.04] hp1.6 | Ines: sta-25->spd +0.01[-0.01] hp1.3 | Ines: pow-50->spd -0.10[-0.32] hp1.4
+GEN 3: keep champion Kitasan: sta-25->guts +0.15 [-0.04,+0.34]
+gen 4 round 0: 31 x 1500 = 46500 races 222s; base 96.58 (HP-out max 1.53%)
+   Ines: +Playtime's Over! -All I've Got; Ines: +Moving Past, and Beyond -Slipstream +0.44[-0.07] hp1.7 | Kitasan: +Downhill Speedster -Slipstream +0.18[-0.49] hp1.7 | Kitasan: +Tail Held High -Standard Distance ○; Ines: wit-25->spd +0.16[-0.51] hp1.7 | Ines: guts-25->sta +0.11[-0.35] hp1.8 | Ines: +Straightaway Adept -Corner Adept ○ +0.09[-0.59] hp1.5 | Kitasan: +Straightaway Adept -Front Runner Corners ○ +0.09[-0.61] hp1.4
+gen 4 round 1: 9 x 4500 = 40500 races 199s; base 96.56 (HP-out max 1.24%)
+   Kitasan: +Downhill Speedster -Slipstream +0.01[-0.38] hp1.2 | Ines: guts-25->sta -0.07[-0.34] hp1.2 | Ines: +Straightaway Adept -Corner Adept ○ -0.11[-0.51] hp1.3 | Neo: pow-50->guts -0.16[-0.39] hp1.2 | Neo: + -; Ines: wit-50->sta -0.21[-0.53] hp1.2 | Kitasan: +Tail Held High -Standard Distance ○; Ines: wit-25->spd -0.21[-0.62] hp1.6
+gen 4 round 2: 4 x 9000 = 36000 races 176s; base 96.39 (HP-out max 1.28%)
+   Kitasan: +Downhill Speedster -Slipstream -0.05[-0.33] hp1.1 | Ines: guts-25->sta -0.10[-0.29] hp1.4 | Ines: +Straightaway Adept -Corner Adept ○ -0.17[-0.47] hp1.3
+GEN 4: keep champion Kitasan: +Downhill Speedster -Slipstream -0.05 [-0.33,+0.23]
+gen 5 round 0: 31 x 1500 = 46500 races 229s; base 96.13 (HP-out max 1.33%)
+   Ines: +Wisdom of the Sun -All I've Got/Slipstream/Tail Held High +0.33[-0.36] hp1.6 | Neo: +Groundwork -Slick Surge +0.31[-0.39] hp1.5 | Kitasan: +Spring Runner ◎ -Ramp Up/Spring Runner ○ +0.27[-0.44] hp1.3 | Kitasan: wit-25->spd; Kitasan: +Racing Spirit: Speed -Ramp Up +0.22[-0.50] hp1.8 | Kitasan: +Playtime's Over! -Slipstream +0.20[-0.31] hp1.3 | Neo: +Late Surger Straightaways ○ -Slick Surge +0.20[-0.53] hp1.9
+gen 5 round 1: 9 x 4500 = 40500 races 205s; base 96.27 (HP-out max 1.27%)
+   Neo: +Groundwork -Slick Surge +0.41[-0.00] hp1.3 | Neo: +Late Surger Straightaways ○ -Slick Surge +0.33[-0.09] hp1.2 | Kitasan: wit-25->spd; Kitasan: +Racing Spirit: Speed -Ramp Up +0.25[-0.16] hp1.6 | Kitasan: +Playtime's Over! -Slipstream +0.09[-0.23] hp1.3 | Neo: +Medium Straightaways ○/With All My Soul -Nimble Navigator/Red Shift/LP1211-M; Neo: +Groundwork -Tail Held High +0.06[-0.36] hp1.2 | Neo: +Late Surger Corners ◎ -Slick Surge/Slipstream -0.03[-0.45] hp1.4
+gen 5 round 2: 4 x 9000 = 36000 races 184s; base 96.31 (HP-out max 1.42%)
+   Neo: +Late Surger Straightaways ○ -Slick Surge +0.17[-0.12] hp1.3 | Neo: +Groundwork -Slick Surge +0.08[-0.21] hp1.3 | Kitasan: wit-25->spd; Kitasan: +Racing Spirit: Speed -Ramp Up -0.10[-0.39] hp1.5
+GEN 5: keep champion Neo: +Late Surger Straightaways ○ -Slick Surge +0.17 [-0.12,+0.47]
+gen 6 round 0: 31 x 1500 = 46500 races 236s; base 96.04 (HP-out max 1.33%)
+   Neo: +Straightaway Adept -Slick Surge +0.64[-0.09] hp1.5 | Neo: +Standard Distance ○ -Slick Surge +0.36[-0.37] hp1.2 | Neo: +Corner Adept ○ -Into High Gear! +0.33[-0.40] hp1.5 | Kitasan: +Prudent Positioning -Ramp Up; Ines: +Standard Distance ○ -Tail Held High +0.31[-0.41] hp1.1 | Kitasan: sta-25->guts +0.27[-0.20] hp1.7 | Neo: +In Body and Mind -Red Shift/LP1211-M/Slick Surge +0.24[-0.48] hp1.3
+gen 6 round 1: 9 x 4500 = 40500 races 197s; base 96.07 (HP-out max 1.44%)
+   Neo: +In Body and Mind -Red Shift/LP1211-M/Slick Surge +0.32[-0.09] hp1.3 | Kitasan: sta-25->guts +0.30[+0.04] hp1.7 | Neo: +Straightaway Adept -Slick Surge +0.27[-0.15] hp1.5 | Kitasan: guts-50->pow -0.03[-0.32] hp1.5 | Neo: +Standard Distance ○ -Slick Surge -0.06[-0.49] hp1.4 | Kitasan: +With All My Soul -Medium Straightaways ◎ -0.08[-0.52] hp1.4
+gen 6 round 2: 4 x 9000 = 36000 races 178s; base 96.30 (HP-out max 1.21%)
+   Neo: +Straightaway Adept -Slick Surge +0.29[-0.01] hp1.5 | Neo: +In Body and Mind -Red Shift/LP1211-M/Slick Surge +0.23[-0.06] hp1.3 | Kitasan: sta-25->guts +0.12[-0.08] hp1.4
+GEN 6: keep champion Neo: +Straightaway Adept -Slick Surge +0.29 [-0.01,+0.58]
+gen 7 round 0: 31 x 1500 = 46500 races 240s; base 96.40 (HP-out max 1.60%)
+   Kitasan: +Playtime's Over! -Ramp Up +0.29[-0.31] hp1.8 | Ines: sta-25->pow +0.29[-0.08] hp1.5 | Kitasan: +Medium Corners ○ -Standard Distance ○ +0.27[-0.45] hp2.2 | Kitasan: +All I've Got -Ramp Up +0.22[-0.34] hp2.1 | Kitasan: guts-50->wit +0.16[-0.38] hp1.4 | Neo: +Prudent Positioning/Straightaway Adept -Restraint/Slick Surge +0.13[-0.59] hp1.6
+gen 7 round 1: 9 x 4500 = 40500 races 211s; base 96.32 (HP-out max 1.42%)
+   Neo: +Prudent Positioning/Straightaway Adept -Restraint/Slick Surge +0.19[-0.22] hp2.0 | Kitasan: +Medium Corners ○ -Standard Distance ○ +0.13[-0.29] hp2.0 | Kitasan: +Playtime's Over! -Ramp Up +0.10[-0.23] hp1.4 | Kitasan: +All I've Got -Ramp Up +0.10[-0.21] hp1.4 | Ines: +Professor of Curvature -All I've Got/Corner Adept ○; Neo: +Groundwork -Slick Surge +0.01[-0.40] hp1.4 | Ines: sta-25->pow -0.09[-0.29] hp1.4
+gen 7 round 2: 4 x 9000 = 36000 races 201s; base 96.36 (HP-out max 1.48%)
+   Kitasan: +Playtime's Over! -Ramp Up +0.11[-0.12] hp1.5 | Neo: +Prudent Positioning/Straightaway Adept -Restraint/Slick Surge -0.04[-0.33] hp1.8 | Kitasan: +Medium Corners ○ -Standard Distance ○ -0.04[-0.34] hp1.8
+GEN 7: keep champion Kitasan: +Playtime's Over! -Ramp Up +0.11 [-0.12,+0.35]
+FINAL Kitasan Black: stats [1380, 1200, 1230, 1175, 1200] cost 6395 ESP 4560 21 skills ['Introducing the Victor!', 'Leap Ahead to the Future', 'Red Shift/LP1211-M', 'Operation Cacao', 'Left-Handed ◎', 'Standard Distance ○', 'Spring Runner ○', 'Ramp Up', 'Medium Straightaways ◎', 'Front Runner Straightaways ◎', 'Front Runner Corners ○', 'Dodging Danger', 'Top Runner', 'Slipstream', 'Superb Gait', 'Divine Speed', 'Ignited Spirit WIT', 'Wisdom of the Sun', 'Solid Preparation', 'Hesitant Front Runners']
+FINAL Ines Fujin: stats [1355, 1200, 1245, 1200, 1200] cost 6400 ESP 4550 23 skills ['Perfect ♪ Order Up!', 'Slick Serving', 'With All My Soul', 'Red Shift/LP1211-M', 'Left-Handed ◎', 'Ignited Spirit WIT', 'Dodging Danger', "All I've Got", 'Medium Straightaways ◎', 'Corner Adept ○', 'Solid Preparation', 'Front Runner Straightaways ◎', 'Spring Runner ◎', 'Front Runner Savvy ○', 'Top Runner', 'Divine Speed', 'Slipstream', 'Taking the Lead', 'Tail Held High', 'Uma Stan', 'Racing Spirit: Stamina', 'Hesitant Front Runners']
+FINAL Neo Universe: stats [1450, 1000, 1250, 1200, 1200] cost 6400 ESP 4600 23 skills ['Beyond the Stars with You', 'Cross the Sea of Stars', 'Red Shift/LP1211-M', 'Moving Past, and Beyond', 'Into High Gear!', 'Left-Handed ◎', 'Spring Runner ◎', 'Nimble Navigator', 'Position Pilfer', 'Slick Surge', 'Hesitant Front Runners', 'Medium Corners ○', '1,500,000 CC', 'Uma Stan', 'Tail Held High', 'Slipstream', "Playtime's Over!", 'Restraint', 'Superb Gait', 'Divine Speed', 'Wisdom of the Sun', 'Ignited Spirit WIT']
+done /home/user/src/uma-race-lab/runs/20261121-002043-loh-v4-a7-search

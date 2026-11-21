@@ -5,6 +5,13 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-21 — A7 constrained build search
+- `scripts/loh_v4_a7_search.py 8 30 1500` (8 generations, ~123k races each). Outputs `data/loh/results/v4/A7/`.
+- Accepted only Kitasan + Hesitant Front Runners (+0.43 [0.13, 0.74], 9,000 races). Champion saved as
+  `data/loh/my_team_v4_champion.json`. No other candidate cleared lo > 0 in gens 1–7.
+- Drain skills tested under the real skill cap and ESP (with stamina from A4) gave ≈ 0: Neo RS + Keep Going!
+  @ 1200 −0.01 [−0.32, 0.30].
+
 ### 2026-11-21 — A6 skill values and front accel test
 - `scripts/loh_v4_a6_skill_values.py` (129 variants × 4,000 races + accel test 3 × 6,000; 544k races).
   `scripts/loh_v4_skill_table.py` → `data/loh/results/v4/A6/skill_table.csv`.
