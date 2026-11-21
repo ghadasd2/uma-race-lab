@@ -3,7 +3,12 @@
 All notable changes to the project: code, rules, data and results. Newest first.
 Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward).
 
-## v4 — new rules, weaker mocks, full re-run (in progress)
+## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
+
+### 2026-11-21 — A9 v4 results summary (track A done)
+- `scripts/loh_v4_a9_tables.py` → `docs/reports/v4_results.md`: every A2–A8 table (numbers only, run folders,
+  seeds), the stamina requirements in words, and the two readings of the HP floor. Regenerate it rather than
+  editing it by hand; it is the input for the engine-2 cross-check.
 
 ### 2026-11-21 — A8 validation
 - `scripts/loh_v4_a8_validate.py 17500` (seeds 190M) → `data/loh/results/v4/A8/` (summary, batch

@@ -302,5 +302,5 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
 | Mock builds | `data/loh/mocks.json` |
 | Archived small run outputs | `data/loh/archive/<run>/` (runs/ itself is git-ignored) |
 | Curated results | `data/loh/results/` |
-| Reports | `docs/reports/` |
+| Reports | `docs/reports/` (`v3_research_report.md`; `v4_results.md` ← `scripts/loh_v4_a9_tables.py`) |
 | Plan and progress | `docs/MASTER_PROMPT.md`, `docs/PROGRESS.md`, `CHANGELOG.md` |

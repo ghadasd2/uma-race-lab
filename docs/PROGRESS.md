@@ -14,7 +14,7 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
 | A6 Skill values + front accel test | done | runs/20261120-234112-loh-v4-a6-skill-values | v4 A6 | Keep SP (Kitasan) and SP + TtL (Ines): every other legal accel set loses 0.4–0.9 pp; Ines RS: Speed +0.68 and Downhill Speedster +0.54; Neo Keep Going! +1.09 / Full Throttle +0.84 (need 1100 stamina); Killer Tunes on Ines +0.62 |
 | A7 Constrained build search | done | runs/20261121-002043-loh-v4-a7-search | v4 A7 | 8 gens; only gen 0 accepted (Kitasan + Hesitant Front Runners +0.43 [0.13, 0.74]); champion → `data/loh/my_team_v4_champion.json`; drain sets under the real cap ≈ 0 (Neo RS + KG @ 1200 −0.01) |
 | A8 Validation | done | runs/20261121-014012-loh-v4-a8-validate | v4 A8 | 17,500 races: champion 96.31 % (HP floor ok), base 96.17 % (Ines 1.76 % fail), v3 champion 96.22 % (fail), CN 96.05 %; champion − base +0.14 [−0.07, 0.36] |
-| A9 v4 results summary | todo | | | |
+| A9 v4 results summary | done | — | v4 A9 | `docs/reports/v4_results.md` generated from `data/loh/results/v4/` by `scripts/loh_v4_a9_tables.py`; track A complete, waiting for engine 2 |
 | B1 Engine 2 intake + adapter | blocked | | | waiting for the user to provide engine 2 |
 | B2 Engine 2 re-run of A2–A8 | todo | | | |
 | C1 Cross-verification analysis | todo | | | |
