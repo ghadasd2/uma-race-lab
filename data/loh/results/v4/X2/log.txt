@@ -1,0 +1,7 @@
+effects: {'full': [(28, 150), (8, 50000)], 'none': [(8, 0)], 'placebo': [(9, 1)]}
+part A full: 17500 races 94s
+part A none: 17500 races 190s
+part A placebo: 17500 races 285s
+part B full: 5000 races 522s
+part B none: 5000 races 764s
+done /home/user/src/uma-race-lab/runs/20261121-075514-loh-v4-x2-ignited-wit-effects

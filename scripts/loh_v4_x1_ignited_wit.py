@@ -2,7 +2,7 @@
 
 Ignited Spirit WIT (210052, white, wit-checked, random point in phase 0, 4 s base -> 9.6 s at 2400 m):
   type 28 lane move speed +0.015 and type 8 vision +5 m.
-Engine (race_solver.rs): lateral speed = base 0.02*(0.3+0.001*P)*mod + sum(type-28 modifiers); and while any
+Engine (retail runtime used by the v77 profile: retail_physics.rs / retail lane movement; same rules in race_solver.rs): lateral speed = base 0.02*(0.3+0.001*P)*mod + sum(type-28 modifiers); and while any
 type-28 skill is active, every tick after a tick with lane movement gets target speed + sqrt(0.0002*P).
 
 Counterfactual clones of the skill keep its lottery, condition and duration and change only the effects, so a

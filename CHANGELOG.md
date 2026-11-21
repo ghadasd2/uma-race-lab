@@ -5,6 +5,15 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
 
+### 2026-11-21 — X2 Ignited Spirit WIT side effects (pace down, blocking, hurt rate)
+- Engine observation patch: `posKeepLog` (position-keep mode changes with gap to pacemaker), in both the retail
+  and legacy solvers; observation only, results byte-identical (checked on 500 races); applies to the pinned commit.
+- `scripts/loh_v4_x2_ignited_wit_effects.py 17500 5000`, `loh_v4_x2_analyze.py` → `data/loh/results/v4/X2/`.
+- Pace down: tiny increase (+0.012 s per race; extra entry in 0.73 %). Blocking: more early front blocks (window
+  27.7 % vs 21.2 % of races), none extra after 400 m. Hurt: Neo lower in 9.2 % of races vs higher in 14.6 %; top 3
+  lost 1.5 % vs gained 2.4 %.
+- X1 notes corrected: the lane-move speed bonus that runs is in `retail_physics.rs` (retail runtime), same formula.
+
 ### 2026-11-21 — X1 Ignited Spirit WIT on Neo (extra analysis)
 - `scripts/loh_v4_x1_ignited_wit.py 17500 2500`, `loh_v4_x1_analyze.py`, `loh_v4_x1_example.py` →
   `data/loh/results/v4/X1/`. Counterfactual skill clones (same lottery, changed effects) isolate the mechanism.

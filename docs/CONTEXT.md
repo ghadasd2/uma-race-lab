@@ -293,7 +293,7 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   100 % of 17,500 races; no-fire races identical to 0 s). Outcomes vs the no-effect clone (17,500 races, seeds 195M):
   team top-3 +0.27 [0.14, 0.40], Neo top-3 +0.86 [0.57, 1.15], points +0.15/race. Vision only +0.01 (inert: overtake
   targets must be 1–20 m ahead, so 20 → 25 m vision adds none). Lane effect only = the whole value. Mechanism (engine
-  race_solver.rs, mechanics doc v77): while a type-28 skill is active, each tick after lane movement gets target speed
+  retail_physics.rs — the v77 profile runs the retail runtime; same rule in race_solver.rs; mechanics doc v77): while a type-28 skill is active, each tick after lane movement gets target speed
   + √(0.0002·P) ≈ +0.49 m/s for Neo. Frames (2,500 races, seeds 195.5M): fired 91.7 % (wit check 1 − 90/W ≈ 92.5 %),
   at 2–392 m (median 184); Neo moves lanes 3.2 s of the 9.6 s window (4.2 s without: faster lateral speed ends the
   move sooner), mean speed +0.10 m/s, +0.96 m by window end, +1.04 m 10 s later, rank −0.25 at 1600 m, finish −0.044 s.
@@ -302,6 +302,27 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   clone (lane +0.0001) is worth more (+0.43 team, +1.42 Neo) because slower lateral movement means more bonus ticks.
   Example seed 195501125 (gate 11): fires at 69 m, Neo reaches the rail ~4 s sooner at +0.49 m/s, +3.25 m by 350 m,
   finishes 2nd vs 4th. Removing the skill (A6-style drop) is noisier because the RNG stream changes: −0.32 [−0.53, −0.10].
+
+- X2 (extra) side effects of Ignited Spirit WIT on Neo (runs/20261121-075514-loh-v4-x2-ignited-wit-effects;
+  `data/loh/results/v4/X2/`; scripts `loh_v4_x2_ignited_wit_effects.py`, `loh_v4_x2_analyze.py`). Engine observation
+  patch now also logs position-keep mode changes (`posKeepLog`, indexed by gate like duelLog; retail runtime in
+  race_solver_retail.rs); verified byte-identical results. Paired full vs no-effect clone, 17,500 races (seeds 195M)
+  + 5,000 dense-frame races (seeds 195.5M). Placebo (HP +0.01 %) leaves Neo's place unchanged in 99.99 %.
+  Position keep (0–1000 m): Neo starts every race in pace down (field bunched at the gate, gap ~0.26 m), 3.4 s on
+  average, and never enters it after the skill window. The skill lengthens pace down by +0.012 s per race (+0.038 s
+  when it fires while the opening pace down is still running, 18.5 % of races) and adds a second entry in 0.73 % of
+  races (−1 in 0.10 %); pace-up time −0.044 s (she is closer to the pacemaker). Rough give-back ≈ 0.05 m of the
+  ~1 m gained. Engine rules: the lane-move bonus is added after the pace coefficient and does not count as a speed
+  skill for the pace-down check; pace down needs no wit roll, pace up does.
+  Blocking: during the window blocked +0.093 s and 27.7 % vs 21.2 % of races see a front block (she runs up behind
+  runners sooner); opening 0–400 m +0.11 s, 37.7 % vs 33.0 %; middle, late and final phases unchanged (−0.04, −0.01,
+  0.00 s, all CIs span 0); whole race +0.065 s.
+  Hurt cases: Neo finishes lower in 9.22 % of races, higher in 14.61 %, same 76.17 %; loses top 3 in 1.51 %, gains in
+  2.37 %; team top-3 count down 2.83 % / up 3.62 %; points down 3.40 % / up 4.23 %. In hurt races the skill still
+  gained 1.24 m by the window end; causes (5,000-race frames, first match): 52 % ahead at 1600 m but lost later,
+  27 % blocked ≥ 0.5 s more after 400 m, 12 % worse at 1600 m, 6.6 % behind at window end, 2.4 % more pace down.
+  Only 2.4 % of fired races end the window behind. Outer gates reshuffle more both ways (10–12: lower 11.4 %,
+  higher 20.7 %); top-3 lost is flat at 1.4–1.6 % across gates.
 
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
