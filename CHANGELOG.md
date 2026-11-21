@@ -5,6 +5,13 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-21 — A8 validation
+- `scripts/loh_v4_a8_validate.py 17500` (seeds 190M) → `data/loh/results/v4/A8/` (summary, batch
+  distribution, per-batch files, races, log, telemetry).
+- Champion 96.31 % and the only team meeting the HP floor (1.38 / 1.17 / 1.15 %); base 96.17 % fails on Ines
+  (1.76 %); v3 champion 96.22 % fails (3.23 / 4.58 %); CN 96.05 %. Champion − base +0.14 [−0.07, 0.36].
+- HP-outs per 175-race batch follow the binomial model; the per-batch reading of the floor would need ≤ 0.78 %.
+
 ### 2026-11-21 — A7 constrained build search
 - `scripts/loh_v4_a7_search.py 8 30 1500` (8 generations, ~123k races each). Outputs `data/loh/results/v4/A7/`.
 - Accepted only Kitasan + Hesitant Front Runners (+0.43 [0.13, 0.74], 9,000 races). Champion saved as

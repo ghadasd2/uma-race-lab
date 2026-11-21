@@ -272,9 +272,24 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   replaces a skill (A6 +0.68 on top); Downhill Speedster on Kitasan −0.05 for Slipstream (9,000 races).
   Halving caveat: round 0 (1,500 races) CIs are ±0.7 pp, so true effects ≤ 0.3 pp can be dropped early;
   e.g. Kitasan Tail Held High +0.89 in round 0 → −0.26 in round 1 (regression to the mean).
+- A8 validation (runs/20261121-014012-loh-v4-a8-validate; `data/loh/results/v4/A8/`): 17,500 unseen races
+  (seeds 190M, 100 batches). Team top-3 / HP-out % (Kitasan, Ines, Neo) / status:
+  champion 96.31 % / 1.38, 1.17, 1.15 / **ok**; v4 base 96.17 % / 1.38, **1.76**, 1.29 / fail (Ines at 1150);
+  v3 champion 96.22 % / **3.23, 4.58**, 1.31 / fail; CN team 96.05 % / 4.33, 2.13, 6.00 (target 95–97 % ✓).
+  Champion − base +0.14 [−0.07, +0.36] (the A7 +0.43 shrank on fresh seeds: selection effect). P(batch ≥ 95 %)
+  97 % for champion and base, P(≥ 97.1 %) 19 % vs 15 %. Points 198.09 per race (34,665 per batch).
+  Champion per uma: top-3 Ines 97.0, Kitasan 96.7, Neo 95.2; late start Kitasan 20.0 %, Neo 20.0 %, Ines 1.6 %
+  (top-3 after a late start −2 to −4 pp); duel rate 38 / 33 / 18 % (top-3 when dueling 98.6 / 97.8 / 96.1);
+  Neo worse from inner gates (2–3: 93.6 %, 10–12: 96.0 %); mood −2 → +2 spans ~4.5–7 pp; ground and weather ≤ 1 pp.
+  HP floor readings: batches with > 3 HP-outs match the binomial prediction (e.g. champion Kitasan 21 % observed
+  vs 22.5 % predicted), so HP-outs are independent across races. The rate reading (≤ 3/175 on average) is
+  what every step used; a per-batch reading ("never more than 3 in a given 175") would need a rate ≤ 0.78 %
+  for 95 % of batches (≤ 1.00 % for 90 %), i.e. more stamina than any v4 build carries — not studied yet.
 
 ## 5. Open questions / leads
-- Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search).
+- Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
+  no drain set that meets the floor up to 1350 stamina.
+- Per-batch reading of the HP floor (rate ≤ 0.78–1.00 %): stamina needed per uma not yet measured.
 - Killer Tunes on Ines (never tested).
 - Second engine: not yet provided by the user.
 

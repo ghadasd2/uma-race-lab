@@ -1,0 +1,59 @@
+       variant   top3  points      n   ind0   ind1   ind2  hp_empty_per_race  hp0%  hp1%  hp2%  hp0_ub%  hp1_ub%  hp2_ub%  hp_ok  batch_top3_p10  batch_top3_p90  d_top3  d_top3_lo  d_top3_hi     p  d_points
+0     champion  96.31  198.09  17500  96.73  97.03  95.18               0.04  1.38  1.17  1.15     1.57     1.34     1.32   True           95.43           97.16    0.14      -0.07       0.36  0.19      0.19
+1  v3_champion  96.22  197.90  17500  97.05  96.93  94.67               0.09  3.23  4.58  1.31     3.50     4.90     1.49  False           95.22           97.14    0.04      -0.02       0.11  0.17      0.01
+2         base  96.17  197.89  17500  97.02  96.92  94.57               0.04  1.38  1.76  1.29     1.57     1.97     1.47  False           95.24           97.33     NaN        NaN        NaN   NaN       NaN
+3      cn_team  96.05  197.81  17500  97.15  95.18  95.83               0.12  4.33  2.13  6.00     4.64     2.35     6.36  False           95.03           97.33   -0.12      -0.34       0.10  0.30     -0.08
+70000 races 321s
+       variant  batches   mean    p10    p50    p90    max  pts_mean  pts_p10  pts_p90  P>=80  P>=85  P>=90  P>=95  P>=97.1  hp0%  hp0_ub%  batches_hp0>3%  hp1%  hp1_ub%  batches_hp1>3%  hp2%  hp2_ub%  batches_hp2>3% hp_status
+0         base      100  96.17  95.24  96.00  97.33  97.71   34631.1  34529.0  34741.0  100.0  100.0  100.0   97.0     15.0  1.38     1.57            21.0  1.76     1.97            36.0  1.29     1.47            18.0      fail
+1     champion      100  96.31  95.43  96.38  97.16  97.90   34665.2  34560.0  34780.0  100.0  100.0  100.0   97.0     19.0  1.38     1.57            21.0  1.17     1.34            15.0  1.15     1.32            16.0        ok
+2  v3_champion      100  96.22  95.22  96.19  97.14  97.90   34632.3  34530.0  34741.0  100.0  100.0  100.0   96.0     15.0  3.23     3.50            80.0  4.58     4.90           100.0  1.31     1.49            20.0      fail
+3      cn_team      100  96.05  95.03  96.00  97.33  98.10   34616.7  34478.0  34771.0  100.0  100.0  100.0   90.0     18.0  4.33     4.64            92.0  2.13     2.35            53.0  6.00     6.36           100.0      fail
+                  top3   win  second  third  late  hp_empty  full_spurt  duel  spot   pts
+runner                                                                                   
+me:Ines Fujin     97.0  31.6    36.7   28.8   1.6       1.2        99.7  38.4  88.7  65.9
+me:Kitasan Black  96.7  36.2    39.2   21.3  20.0       1.4        99.5  33.1  85.8  69.1
+me:Neo Universe   95.2  32.0    22.7   40.5  20.0       1.1        99.9  17.8   0.0  63.1
+
+top3% by mood
+mood                -2    -1     0     1     2
+runner                                        
+me:Ines Fujin     94.3  96.4  97.3  98.4  98.8
+me:Kitasan Black  93.7  96.1  97.5  98.0  98.4
+me:Neo Universe   90.6  94.1  96.4  97.1  97.9
+
+top3% by ground
+ground            Good  Heavy  Soft  Yielding
+runner                                       
+me:Ines Fujin     96.7   97.2  97.3      96.9
+me:Kitasan Black  96.2   97.1  96.7      97.0
+me:Neo Universe   95.0   95.5  95.1      95.1
+
+top3% by weather
+weather           Cloudy  Rainy  Sunny
+runner                                
+me:Ines Fujin       97.1   96.9   97.1
+me:Kitasan Black    96.6   97.1   96.5
+me:Neo Universe     95.3   95.1   95.2
+
+top3% by late_start
+late_start        False  True 
+runner                        
+me:Ines Fujin      97.1   93.2
+me:Kitasan Black   97.1   95.2
+me:Neo Universe    95.6   93.6
+
+top3% by dueled
+dueled            False  True 
+runner                        
+me:Ines Fujin      96.1   98.6
+me:Kitasan Black   96.2   97.8
+me:Neo Universe    95.0   96.1
+
+top3% by gate
+gate_band          2-3   4-6   7-9  10-12
+runner                                   
+me:Ines Fujin     97.0  97.3  97.1   96.7
+me:Kitasan Black  96.4  96.9  96.8   96.7
+me:Neo Universe   93.6  94.8  95.7   96.0
+done /home/user/src/uma-race-lab/runs/20261121-014012-loh-v4-a8-validate
