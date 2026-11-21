@@ -1,0 +1,140 @@
+=== A6 Fri Nov 20 23:41:12 UTC 2026
+129 variants
+               uma      test                         skill  esp_delta  v4_new  accel_rule_ok  d_team_top3    lo    hi  d_points  d_ind_top3  pp_per_100esp  hp_own% hp_status
+3       Ines Fujin       add              In Body and Mind        340   False           True         0.83  0.40  1.27      0.54        1.48           0.25     1.60  marginal
+7       Ines Fujin       add          Racing Spirit: Speed        150    True           True         0.68  0.25  1.12      0.44        1.03           0.46     1.55  marginal
+8       Ines Fujin       add           Prudent Positioning        120   False           True         0.67  0.22  1.11      0.40        0.35           0.56     1.52  marginal
+10      Ines Fujin       add                   Superb Gait        360   False           True         0.64  0.20  1.09      0.60        1.33           0.18     1.40  marginal
+12      Ines Fujin       add             Wisdom of the Sun        400   False           True         0.63  0.18  1.07      0.52        1.20           0.16     1.62  marginal
+15      Ines Fujin       add               Operation Cacao        200   False           True         0.61  0.17  1.05      0.48        1.15           0.30     1.38  marginal
+17      Ines Fujin       add            Downhill Speedster        170    True           True         0.54  0.09  0.99      0.51        0.95           0.32     1.38  marginal
+18      Ines Fujin       add            Straightaway Adept        170   False           True         0.48  0.03  0.94      0.43        0.85           0.28     1.30        ok
+25      Ines Fujin       add              Medium Corners ○        100   False           True         0.43 -0.04  0.89      0.42        0.65           0.43     1.52  marginal
+28      Ines Fujin       add         Bring on the Banquet!        200   False           True         0.38 -0.07  0.82      0.38        1.10           0.19     1.68  marginal
+34      Ines Fujin       add                       Ramp Up        170   False           True         0.32 -0.13  0.76      0.34        0.78           0.19     1.60  marginal
+37      Ines Fujin       add              Playtime's Over!        160   False           True         0.30 -0.14  0.74      0.28        0.68           0.19     1.65  marginal
+36      Ines Fujin       add                      Mad Dash        180   False           True         0.30 -0.15  0.75      0.23        0.30           0.17    12.48      fail
+43      Ines Fujin       add            Racing Spirit: Wit        150    True           True         0.23 -0.23  0.68      0.29        0.72           0.15     1.65  marginal
+45      Ines Fujin       add                     Restraint        160   False           True         0.20 -0.14  0.54      0.15        0.72           0.12     1.18  marginal
+50      Ines Fujin       add                  Firm Resolve        180   False           True         0.14 -0.31  0.59      0.24        0.48           0.08     1.70  marginal
+59      Ines Fujin       add       Moving Past, and Beyond        200   False           True         0.09 -0.36  0.55      0.20        0.40           0.05     1.68  marginal
+60      Ines Fujin       add               Into High Gear!        200   False           True         0.08 -0.37  0.54      0.20        0.38           0.04     1.68  marginal
+67      Ines Fujin       add           Standard Distance ○         90   False           True         0.03  0.00  0.07      0.03        0.12           0.04     1.40  marginal
+29      Ines Fujin      drop                  All I've Got       -160   False           True         0.36 -0.08  0.80      0.39       -0.22          -0.22     1.30        ok
+31      Ines Fujin      drop                    Slipstream       -160   False           True         0.33 -0.11  0.78      0.33       -0.20          -0.21     1.50  marginal
+41      Ines Fujin      drop                      Uma Stan       -160   False           True         0.24 -0.21  0.69      0.28       -0.40          -0.15     1.52  marginal
+54      Ines Fujin      drop                Tail Held High       -100   False           True         0.12 -0.32  0.57      0.16       -0.65          -0.12     1.42  marginal
+61      Ines Fujin      drop        Racing Spirit: Stamina       -150   False           True         0.08 -0.37  0.54      0.22       -0.35          -0.06     1.08        ok
+70      Ines Fujin      drop                Dodging Danger       -110   False           True         0.03 -0.44  0.49      0.13       -0.72          -0.02     1.60  marginal
+68      Ines Fujin      drop  Front Runner Straightaways ◎       -270   False           True         0.02 -0.44  0.49      0.18       -0.70          -0.01     1.52  marginal
+74      Ines Fujin      drop          Front Runner Savvy ○       -110   False           True        -0.01 -0.32  0.31     -0.03        0.08           0.01     1.68  marginal
+86      Ines Fujin      drop        Medium Straightaways ◎       -210   False           True        -0.10 -0.57  0.37      0.11       -1.02           0.05     1.78      fail
+93      Ines Fujin      drop                Corner Adept ○       -180   False           True        -0.15 -0.62  0.32      0.01       -0.47           0.08     1.70  marginal
+97      Ines Fujin      drop              With All My Soul       -160   False           True        -0.19 -0.66  0.28      0.04       -0.05           0.12     1.62  marginal
+99      Ines Fujin      drop                  Divine Speed       -400   False           True        -0.20 -0.66  0.26     -0.09       -1.45           0.05     2.70      fail
+101     Ines Fujin      drop        Hesitant Front Runners       -130   False           True        -0.24 -0.70  0.22     -0.03        0.03           0.19     1.62  marginal
+108     Ines Fujin      drop               Spring Runner ◎       -200   False           True        -0.32 -0.44 -0.21     -0.25       -1.02           0.16     1.52  marginal
+109     Ines Fujin      drop                 Left-Handed ◎       -200   False           True        -0.32 -0.44 -0.21     -0.25       -1.02           0.16     1.52  marginal
+111     Ines Fujin      drop                    Top Runner       -360   False           True        -0.35 -0.81  0.11     -0.09       -1.72           0.10     1.23  marginal
+114     Ines Fujin      drop            Ignited Spirit WIT       -200   False           True        -0.38 -0.84  0.09     -0.06       -1.42           0.19     1.68  marginal
+124     Ines Fujin      drop            Red Shift/LP1211-M       -200   False           True        -0.68 -1.14 -0.21     -0.22       -3.37           0.34     1.25        ok
+125     Ines Fujin      drop               Taking the Lead       -240   False           True        -0.70 -1.16 -0.24     -0.15       -2.75           0.29     1.30  marginal
+128     Ines Fujin      drop             Solid Preparation       -280   False          False        -1.65 -2.14 -1.16     -0.79       -4.90           0.59     0.98        ok
+11      Ines Fujin  optional                  Killer Tunes        320   False           True         0.62  0.19  1.06      0.56        1.38           0.20     1.58  marginal
+49      Ines Fujin      swap        Professor of Curvature        180   False           True         0.15 -0.26  0.56      0.29        0.68           0.08     1.42  marginal
+71      Ines Fujin      swap        Medium Straightaways ○       -110   False           True         0.02 -0.41  0.44      0.06       -0.10          -0.02     1.48  marginal
+83      Ines Fujin      swap                 Left-Handed ○       -110   False           True        -0.09 -0.16 -0.02     -0.08       -0.28           0.08     1.50  marginal
+84      Ines Fujin      swap               Spring Runner ○       -110   False           True        -0.09 -0.16 -0.02     -0.08       -0.28           0.08     1.50  marginal
+82      Ines Fujin      swap                    Groundwork       -180   False           True        -0.09 -0.52  0.34      0.06       -0.90           0.05     1.45  marginal
+13   Kitasan Black       add        Hesitant Front Runners        130   False           True         0.63  0.18  1.07      0.53        0.50           0.48     1.25      fail
+19   Kitasan Black       add                Tail Held High        100   False           True         0.48  0.03  0.92      0.36        0.60           0.48     1.20      fail
+22   Kitasan Black       add        Professor of Curvature        360   False           True         0.46  0.01  0.91      0.45        1.07           0.13     1.30      fail
+27   Kitasan Black       add              In Body and Mind        340   False           True         0.39 -0.06  0.84      0.41        0.80           0.12     1.32      fail
+30   Kitasan Black       add              Playtime's Over!        160   False           True         0.33 -0.12  0.78      0.33        0.17           0.21     1.10      fail
+33   Kitasan Black       add              With All My Soul        160   False           True         0.32 -0.13  0.76      0.30        0.37           0.20     1.25      fail
+32   Kitasan Black       add          Racing Spirit: Speed        150    True           True         0.32 -0.13  0.77      0.37        0.67           0.21     1.25      fail
+35   Kitasan Black       add        Racing Spirit: Stamina        150   False           True         0.31 -0.14  0.76      0.33        0.52           0.21     2.70      fail
+38   Kitasan Black       add                      Mad Dash        180   False           True         0.30 -0.15  0.75      0.32        0.57           0.17     8.30      fail
+42   Kitasan Black       add                  All I've Got        160   False           True         0.23 -0.22  0.68      0.33        0.40           0.15     1.25      fail
+44   Kitasan Black       add              Medium Corners ○        100   False           True         0.21 -0.25  0.66      0.36        0.55           0.21     1.30      fail
+47   Kitasan Black       add                Corner Adept ○        180   False           True         0.18 -0.28  0.63      0.32        0.50           0.10     1.32      fail
+48   Kitasan Black       add                     Restraint        160   False           True         0.17 -0.17  0.51      0.24        0.45           0.10     0.75  marginal
+53   Kitasan Black       add                      Uma Stan        160   False           True         0.13 -0.32  0.59      0.23        0.15           0.08     1.20      fail
+58   Kitasan Black       add           Prudent Positioning        120   False           True         0.12 -0.35  0.58      0.29        0.02           0.10     1.20      fail
+57   Kitasan Black       add            Downhill Speedster        170    True           True         0.12 -0.34  0.57      0.28        0.12           0.07     1.50  marginal
+55   Kitasan Black       add            Racing Spirit: Wit        150    True           True         0.12 -0.34  0.57      0.30       -0.08           0.08     1.23      fail
+62   Kitasan Black       add                  Firm Resolve        180   False           True         0.08 -0.38  0.53      0.27       -0.08           0.04     1.25      fail
+69   Kitasan Black       add       Moving Past, and Beyond        200   False           True         0.03 -0.43  0.48      0.21       -0.23           0.01     1.25      fail
+72   Kitasan Black       add               Into High Gear!        200   False           True         0.02 -0.44  0.47      0.22       -0.25           0.01     1.25      fail
+75   Kitasan Black       add          Front Runner Savvy ○        110   False           True        -0.03 -0.34  0.28      0.11        0.22          -0.03     1.18  marginal
+51   Kitasan Black      drop            Straightaway Adept       -170   False           True         0.13 -0.33  0.60      0.14       -0.90          -0.08     1.23  marginal
+56   Kitasan Black      drop                       Ramp Up       -170   False           True         0.12 -0.34  0.57      0.20       -0.20          -0.07     1.38  marginal
+65   Kitasan Black      drop           Standard Distance ○        -90   False           True         0.05 -0.08  0.18     -0.00       -0.03          -0.06     1.50  marginal
+73   Kitasan Black      drop             Wisdom of the Sun       -400   False           True        -0.01 -0.46  0.45      0.01       -0.92           0.00     1.25  marginal
+77   Kitasan Black      drop               Operation Cacao       -200   False           True        -0.06 -0.52  0.40      0.04       -0.90           0.03     1.40  marginal
+81   Kitasan Black      drop        Front Runner Corners ○       -130   False           True        -0.08 -0.54  0.39      0.10       -1.03           0.06     1.38  marginal
+88   Kitasan Black      drop                    Slipstream       -160   False           True        -0.12 -0.58  0.35     -0.02       -0.60           0.07     1.38  marginal
+95   Kitasan Black      drop               Spring Runner ○        -90   False           True        -0.16 -0.32  0.01     -0.14       -0.58           0.18     1.12  marginal
+100  Kitasan Black      drop                  Divine Speed       -400   False           True        -0.22 -0.70  0.25     -0.12       -1.30           0.06     2.05      fail
+102  Kitasan Black      drop                   Superb Gait       -360   False           True        -0.24 -0.71  0.23     -0.04       -1.45           0.07     1.25  marginal
+103  Kitasan Black      drop  Front Runner Straightaways ◎       -270   False           True        -0.25 -0.72  0.22     -0.05       -1.42           0.09     1.12      fail
+104  Kitasan Black      drop        Medium Straightaways ◎       -210   False           True        -0.25 -0.72  0.22     -0.05       -1.42           0.12     1.12      fail
+106  Kitasan Black      drop                Dodging Danger       -110   False           True        -0.30 -0.75  0.15     -0.09       -1.55           0.27     1.23  marginal
+107  Kitasan Black      drop                 Left-Handed ◎       -200   False           True        -0.30 -0.48 -0.12     -0.25       -1.05           0.15     1.12  marginal
+115  Kitasan Black      drop                    Top Runner       -360   False           True        -0.42 -0.88  0.05     -0.14       -1.80           0.12     1.30  marginal
+118  Kitasan Black      drop            Ignited Spirit WIT       -200   False           True        -0.44 -0.91  0.03     -0.06       -0.95           0.22     1.23  marginal
+120  Kitasan Black      drop            Red Shift/LP1211-M       -200   False           True        -0.46 -0.93  0.02     -0.20       -2.18           0.23     1.32  marginal
+127  Kitasan Black      drop             Solid Preparation       -280   False          False        -1.12 -1.59 -0.64     -0.56       -4.25           0.40     1.03  marginal
+63   Kitasan Black      swap               Spring Runner ◎        110   False           True         0.07  0.02  0.12      0.08        0.25           0.06     1.25  marginal
+66   Kitasan Black      swap                    Groundwork       -180   False           True         0.05 -0.35  0.45      0.06       -0.75          -0.03     1.30        ok
+90   Kitasan Black      swap        Medium Straightaways ○       -110   False           True        -0.14 -0.57  0.28      0.11       -0.23           0.13     1.12  marginal
+94   Kitasan Black      swap                 Left-Handed ○       -110   False           True        -0.15 -0.24 -0.06     -0.08       -0.38           0.14     1.20  marginal
+0     Neo Universe       add                   Keep Going!        320    True           True         1.09  0.66  1.53      0.60        3.17           0.34    10.08      fail
+1     Neo Universe       add        Medium Straightaways ◎        210   False           True         0.88  0.43  1.32      0.64        2.33           0.42     1.70  marginal
+2     Neo Universe       add                 Full Throttle        160    True           True         0.84  0.40  1.28      0.41        2.17           0.53     9.85      fail
+4     Neo Universe       add        Medium Straightaways ○        100   False           True         0.73  0.28  1.17      0.58        1.70           0.73     1.40  marginal
+5     Neo Universe       add            Straightaway Adept        170   False           True         0.73  0.28  1.17      0.58        1.70           0.43     1.40  marginal
+6     Neo Universe       add   Late Surger Straightaways ○        130   False           True         0.73  0.28  1.17      0.58        1.70           0.56     1.40  marginal
+9     Neo Universe       add        Professor of Curvature        360   False           True         0.65  0.20  1.10      0.41        1.50           0.18     1.60      fail
+14    Neo Universe       add              In Body and Mind        340   False           True         0.61  0.17  1.05      0.33        1.67           0.18     1.40      fail
+16    Neo Universe       add         Late Surger Corners ◎        270   False           True         0.61  0.16  1.06      0.43        1.50           0.23     1.55      fail
+20    Neo Universe       add                    Groundwork        100   False           True         0.47  0.03  0.91      0.40        2.10           0.47     0.88  marginal
+21    Neo Universe       add           Prudent Positioning        120   False           True         0.47  0.02  0.91      0.18        0.83           0.39     1.23      fail
+23    Neo Universe       add                Corner Adept ○        180   False           True         0.45 -0.00  0.90      0.30        1.20           0.25     1.55      fail
+24    Neo Universe       add        Racing Spirit: Stamina        150   False           True         0.43 -0.01  0.88      0.23        1.20           0.29    10.17      fail
+26    Neo Universe       add                      Be Still        180   False           True         0.42 -0.03  0.86      0.17        1.00           0.23     0.27      fail
+39    Neo Universe       add              With All My Soul        160   False           True         0.29 -0.16  0.74      0.06        0.80           0.18     1.05      fail
+52    Neo Universe       add           Standard Distance ○         90   False           True         0.13 -0.01  0.27      0.05        0.42           0.15     0.50  marginal
+64    Neo Universe       add                       Ramp Up        170   False           True         0.07 -0.39  0.52      0.20        1.20           0.04     1.00  marginal
+76    Neo Universe       add         Bring on the Banquet!        200   False           True        -0.06 -0.52  0.40      0.05        0.40          -0.03     0.85  marginal
+79    Neo Universe       add               Operation Cacao        200   False           True        -0.06 -0.52  0.40      0.05        0.38          -0.03     0.82  marginal
+40    Neo Universe      drop                   Slick Surge       -180   False           True         0.27 -0.20  0.73      0.32       -0.25          -0.15     1.10      fail
+46    Neo Universe      drop            Red Shift/LP1211-M       -200   False           True         0.18 -0.27  0.62      0.18        0.17          -0.09     1.08  marginal
+78    Neo Universe      drop                    Slipstream       -160   False           True        -0.06 -0.51  0.39      0.02       -0.58           0.04     1.18  marginal
+80    Neo Universe      drop               Position Pilfer       -180   False           True        -0.08 -0.55  0.40      0.18       -1.22           0.04     1.30      fail
+87    Neo Universe      drop        Hesitant Front Runners       -130   False           True        -0.10 -0.57  0.37      0.20       -0.23           0.08     1.30      fail
+85    Neo Universe      drop              Nimble Navigator       -150   False           True        -0.10 -0.56  0.36      0.05       -0.95           0.07     0.88  marginal
+89    Neo Universe      drop                Tail Held High       -100   False           True        -0.13 -0.59  0.32      0.02       -0.70           0.13     1.18  marginal
+96    Neo Universe      drop              Playtime's Over!       -160   False           True        -0.17 -0.62  0.29      0.07       -0.88           0.10     1.32  marginal
+98    Neo Universe      drop       Moving Past, and Beyond       -200   False           True        -0.20 -0.66  0.26      0.01       -1.35           0.10     1.05  marginal
+105   Neo Universe      drop              Medium Corners ○       -100   False           True        -0.29 -0.77  0.18      0.06       -1.08           0.29     1.10  marginal
+110   Neo Universe      drop             Wisdom of the Sun       -400   False           True        -0.35 -0.81  0.11     -0.09       -1.28           0.09     1.45  marginal
+112   Neo Universe      drop                     Restraint       -160   False           True        -0.36 -0.64 -0.08     -0.10       -1.67           0.22     1.95      fail
+113   Neo Universe      drop            Ignited Spirit WIT       -200   False           True        -0.36 -0.82  0.11     -0.11       -1.02           0.18     1.10      fail
+116   Neo Universe      drop               Spring Runner ◎       -200   False           True        -0.43 -0.60 -0.27     -0.22       -1.67           0.22     1.18  marginal
+117   Neo Universe      drop                 Left-Handed ◎       -200   False           True        -0.43 -0.60 -0.27     -0.22       -1.67           0.22     1.18  marginal
+119   Neo Universe      drop               Into High Gear!       -200   False           True        -0.45 -0.91  0.01     -0.14       -2.08           0.23     0.98  marginal
+121   Neo Universe      drop                  Divine Speed       -400   False           True        -0.53 -1.00 -0.07     -0.28       -2.00           0.13     5.58      fail
+122   Neo Universe      drop                      Uma Stan       -160   False           True        -0.60 -1.06 -0.14     -0.29       -2.12           0.38     1.10  marginal
+123   Neo Universe      drop                   Superb Gait       -360   False           True        -0.65 -1.12 -0.18     -0.27       -2.05           0.18     1.27      fail
+126   Neo Universe      drop                  1,500,000 CC       -120   False           True        -0.93 -1.41 -0.46     -0.36       -2.62           0.78     0.92      fail
+91    Neo Universe      swap               Spring Runner ○       -110   False           True        -0.14 -0.23 -0.06     -0.11       -0.58           0.13     1.40  marginal
+92    Neo Universe      swap                 Left-Handed ○       -110   False           True        -0.14 -0.23 -0.06     -0.11       -0.58           0.13     1.40  marginal
+base: team top3 95.88, HP-out % 1.23 1.52 1.52
+             uma                           set  esp_delta  accel_rule_ok  d_team_top3    lo    hi  d_points  d_ind_top3  hp_own% hp_status
+0  Kitasan Black                    Groundwork       -180           True        -0.43 -0.75 -0.11     -0.26       -1.22     1.03      fail
+1     Ines Fujin  Groundwork + Taking the Lead       -180           True        -0.56 -0.91 -0.21     -0.34       -0.80     1.55  marginal
+2     Ines Fujin             Solid Preparation       -240           True        -0.92 -1.30 -0.53     -0.69       -2.92     1.58  marginal
+544000 races 2319s
+done /home/user/src/uma-race-lab/runs/20261120-234112-loh-v4-a6-skill-values
+=== CHAIN DONE Sat Nov 21 00:19:52 UTC 2026

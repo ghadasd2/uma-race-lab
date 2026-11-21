@@ -11,8 +11,8 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
 | A3 v4 base team | done | runs/20261120-225351-loh-v4-a3-base | v4 A3 | Kitasan sta 1200 / spd 1380, Ines sta 1150 / spd 1380, Neo unchanged; HP-out 1.17 / 1.60 / 1.63 %; team 96.17 % |
 | A4 Stamina requirement study | done | runs/20261120-225551-loh-v4-a4-stamina | v4 A4 | Floor-meeting stamina: Kitasan 1200 (no drain set feasible ≤ 1350); Ines 1100 / RS 1150 / MD 1200; Neo 1000 / RS, FT, KG 1100 / RS+FT, RS+KG 1200 (best: RS+KG +0.99 pp) |
 | A5 Stat exchange rates | done | runs/20261120-232411-loh-v4-a5-exchange | v4 A5 | Weak field shrinks rates: speed 0.15–0.22 pp/100 cost; power & wit above 1200 now 0.16–0.49 (≥ speed); guts ≈ 0; Ines at 1150 sta is on the floor (1.95 % here) → A7 starts with Ines 1200 |
-| A6 Skill values + front accel test | running | (chain) | | |
-| A7 Constrained build search | todo | | | |
+| A6 Skill values + front accel test | done | runs/20261120-234112-loh-v4-a6-skill-values | v4 A6 | Keep SP (Kitasan) and SP + TtL (Ines): every other legal accel set loses 0.4–0.9 pp; Ines RS: Speed +0.68 and Downhill Speedster +0.54; Neo Keep Going! +1.09 / Full Throttle +0.84 (need 1100 stamina); Killer Tunes on Ines +0.62 |
+| A7 Constrained build search | running | | | |
 | A8 Validation | todo | | | |
 | A9 v4 results summary | todo | | | |
 | B1 Engine 2 intake + adapter | blocked | | | waiting for the user to provide engine 2 |

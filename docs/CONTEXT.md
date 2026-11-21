@@ -235,6 +235,25 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   +0.16–0.49 (Kitasan +50 pow 0.49 [0.18, 0.81]; Neo +50 pow 0.31); wit cut 0.17–0.57, wit above 1200
   +0.16–0.37 (Kitasan +50 0.30, Ines +50 0.37). Unlike v3, power and wit above 1200 are worth as much as
   or more than speed per cost point in this field.
+- A6 skill values at the v4 base (4,000 races per variant, seeds 104M; accel test 6,000 races, seeds 104.5M;
+  `data/loh/results/v4/A6/`, per-skill table `skill_table.csv` with SP, m/s per 100 SP, pp per 100 SP, own HP-out).
+  Base on these seeds: 95.88 %, HP-out 1.23 / 1.52 / 1.52 %. Effects are smaller than v3 (ceiling near 96 %);
+  most single-skill CIs are ±0.45 pp.
+  - Front accel test (legal sets): Kitasan Groundwork instead of SP −0.43 [−0.75, −0.11]; Ines GW + TtL −0.56
+    [−0.91, −0.21], SP only −0.92 [−1.30, −0.53] → keep SP (Kitasan) and SP + TtL (Ines). Holding SP is worth
+    1.65 pp on Ines and 1.12 pp on Kitasan; TtL 0.70 pp on Ines.
+  - New skills: Ines Racing Spirit: Speed +0.68 [0.25, 1.12], Downhill Speedster +0.54 [0.09, 0.99], RS: Wit
+    +0.22 (ns); Kitasan RS: Speed +0.32, Downhill +0.12, RS: Wit +0.12 (all ns); Neo Keep Going! +1.09 [0.66,
+    1.53] and Full Throttle +0.84 [0.40, 1.28] but at stamina 1000 Neo then runs out of HP in ~10 % (A4: they
+    need 1100).
+  - Other adds with CI > 0: Ines In Body and Mind +0.83, Prudent Positioning +0.67, Superb Gait +0.64, Wisdom of
+    the Sun +0.63, Operation Cacao +0.61, Straightaway Adept +0.48; Kitasan Hesitant FR +0.63, Tail Held High
+    +0.48, Professor +0.46; Neo Medium Straightaways ◎ +0.88, straightaway whites +0.73, Professor +0.65, LS
+    Corners ◎ +0.61, In Body and Mind +0.61, Groundwork +0.47, Prudent Positioning +0.47.
+  - Optional: Killer Tunes on Ines +0.62 [0.19, 1.06].
+  - Holding values with CI > 0: Neo 1,500,000 CC 0.93, Superb Gait 0.65, Uma Stan 0.60, Divine Speed 0.53,
+    ◎ greens 0.43, Restraint 0.36; Ines Taking the Lead 0.70, Red Shift 0.68, ◎ greens 0.32; Kitasan ◎ Left-Handed
+    0.30, Red Shift 0.46 (borderline).
 - A7 start team `data/loh/my_team_v4_a7_start.json` (used by scripts/loh_v4_a7_search.py) = v4 base with Ines stamina 1200 / speed 1355 (so the
   search starts from a team that meets the floor).
 

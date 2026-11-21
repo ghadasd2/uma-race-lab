@@ -5,6 +5,14 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (in progress)
 
+### 2026-11-21 — A6 skill values and front accel test
+- `scripts/loh_v4_a6_skill_values.py` (129 variants × 4,000 races + accel test 3 × 6,000; 544k races).
+  `scripts/loh_v4_skill_table.py` → `data/loh/results/v4/A6/skill_table.csv`.
+- Accel: Solid Preparation (Kitasan) and Solid Preparation + Taking the Lead (Ines) beat every other legal set
+  by 0.43–0.92 pp. New skills: Ines Racing Spirit: Speed +0.68, Downhill Speedster +0.54; Neo Keep Going! +1.09,
+  Full Throttle +0.84 (both need stamina 1100 for the HP floor). Killer Tunes on Ines (optional) +0.62.
+- `scripts/loh_v4_a7_search.py`: robust skill repair (`force_set`) and hypotheses from A4/A6.
+
 ### 2026-11-20 — A5 stat exchange rates
 - `scripts/loh_v4_a5_exchange.py` (61 variants × 4,000 races, seeds 103M) → `data/loh/results/v4/A5/`.
 - Speed 0.15–0.22 pp per 100 cost; power and wit above 1200 0.16–0.49 (as good as or better than speed in
