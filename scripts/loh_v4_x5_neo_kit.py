@@ -226,7 +226,7 @@ if not f3.exists():
         rows.append({"variant": v, "P>=95": 100 * (bt.team_top3 >= 95).mean(), "P>=97.1": 100 * (bt.team_top3 >= 97.1).mean()})
     pd.DataFrame(rows).to_csv(out / "stage3_batches.csv", index=False)
     log(f"stage 3 validation: {len(teams)} x 17500 races {time.time() - t0:.0f}s")
-    log(s[["variant", "top3", "d_top3", "d_top3_lo", "d_top3_hi", "points", "neo_top3", "d_neo", "hp0%", "hp1%", "hp2%", "neo_hp_ub%", "hp_status"]].round(2).to_string(index=False))
+    log(s[["variant", "top3", "d_top3", "d_top3_lo", "d_top3_hi", "points", "neo_top3", "d_neo", "hp0%", "hp1%", "hp2%", "neo_hp_ub%"]].round(2).to_string(index=False))
     log(pd.DataFrame(rows).to_string(index=False))
 final = team_with(meta[win]["skills"], final_stats)
 opt.save_team(out / "neo_final_team.json", final)

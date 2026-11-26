@@ -351,6 +351,25 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   Acceleration 93 % anywhere 100–2240 m (median 1115 m). Adding a late speed skill on top: Neo HP-out 1.66–1.67 %
   (marginal); swaps ok.
 
+- X5 (extra) best Neo kit and stats WITHOUT Ignited Spirit WIT (user rule: no skills that risk losing position;
+  run runs/20261126-210313-loh-v4-x5-neo-kit; `data/loh/results/v4/X5/`; script `loh_v4_x5_neo_kit.py`). Also excluded:
+  Prudent Positioning (same opening lane-move mechanism), drains, Pedal to the Metal; Nimble Navigator (lane +0.005)
+  optional. Pool = Neo's pool + X3/X4 skills. 1,955 legal kits (best removal per add set, diversity-capped) → 56 →
+  14 → 8 by halving (2,000 / 6,000 / 17,500 races, seeds 198.0/198.1/198.2M); stats 9 variants x 9,000 (198.4M);
+  validation 17,500 unseen races (199M), vs current champion (with IS WIT):
+    final kit `data/loh/my_team_v4_neo_no_isw.json` (stats unchanged 1450/1000/1250/1200/1200, ESP 4540, 23 skills,
+    inherited Moving Past / Into High Gear! / Condor's Fury): −IS WIT −Red Shift −Position Pilfer −Slipstream
+    +Condor's Fury +Groundwork +Medium Straightaways ◎ +Straightaway Adept → team 96.80 %, +0.41 [0.21, 0.61],
+    Neo top-3 +1.53, points +0.17; Neo HP-out 1.45 % (ub 1.64, ok); P(batch ≥ 95) 100 %, ≥ 97.1 43 % (base 98 / 15).
+    without Nimble Navigator `my_team_v4_neo_no_isw_no_nn.json` (ESP 4510): −IS WIT −Red Shift −Nimble Navigator
+    −Slipstream +Corner Adept ○ +Groundwork +Late Surger Straightaways ○ +Medium Straightaways ◎ → +0.33 [0.13, 0.54],
+    HP-out 1.14 %.  Dropping IS WIT and adding nothing: −0.50 [−0.72, −0.29].
+  Search-round gain +0.71 shrank to +0.41 on fresh seeds (selection effect). For Neo on this course Medium
+  Straightaways ○ (100 SP), Late Surger Straightaways ○ (130) and Straightaway Adept (170) are the same effect
+  (+0.15 m/s, 7.2 s, random straight; identical results in round 2), so the cheapest legal one should fill that role.
+  Stats: no cost-neutral move beat 1450/1000/1250/1200/1200; guts −50 → stamina +50 costs −0.05 [−0.20, 0.09] and cuts
+  Neo HP-out 1.43 → 0.41 % (free safety margin).
+
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
   no drain set that meets the floor up to 1350 stamina.
@@ -364,7 +383,7 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
 | Rules (machine-readable) | `data/loh/rules.json` (`v3`, `v4` blocks) |
 | Skill pool | `data/loh/skill_pool.json/.csv` ← `scripts/loh_skill_pool.py` |
 | Skill fixes (in-game verified) | `data/loh/skill_overrides.json` (applied by `catalog.skill_table()`), specs in `data/loh/skill_specs.json` |
-| Teams | `data/loh/my_team_v3_base.json`, `my_team_v3_champion.json`, `cn_team.json`, `jp_team.json` |
+| Teams | `data/loh/my_team_v3_base.json`, `my_team_v3_champion.json`, `my_team_v4_base.json`, `my_team_v4_champion.json`, `my_team_v4_neo_no_isw*.json`, `cn_team.json`, `jp_team.json` |
 | Mock builds | `data/loh/mocks.json` |
 | Archived small run outputs | `data/loh/archive/<run>/` (runs/ itself is git-ignored) |
 | Curated results | `data/loh/results/` |

@@ -5,6 +5,12 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
 
+### 2026-11-26 — X5 best Neo kit without Ignited Spirit WIT
+- `scripts/loh_v4_x5_neo_kit.py` (Neo-only kit search: enumeration + diversity + halving, stat stage, validation)
+  → `data/loh/results/v4/X5/`, teams `data/loh/my_team_v4_neo_no_isw.json` and `..._no_nn.json`.
+- Final kit +0.41 [0.21, 0.61] team top-3 vs the current champion on 17,500 unseen races (Neo +1.53); without Nimble
+  Navigator +0.33; dropping IS WIT alone −0.50. Stats unchanged.
+
 ### 2026-11-26 — X4 more Neo skills
 - `scripts/loh_v4_x3_neo_skills.py` gains `--skills`, `--drop`, `--tag` (defaults reproduce X3; skill set saved to
   `skills.json`); `loh_v4_x3_analyze.py` reads it and reports drop (holding) values.
