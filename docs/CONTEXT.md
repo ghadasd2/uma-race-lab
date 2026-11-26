@@ -324,6 +324,21 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   Only 2.4 % of fired races end the window behind. Outer gates reshuffle more both ways (10–12: lower 11.4 %,
   higher 20.7 %); top-3 lost is flat at 1.4–1.6 % across gates.
 
+- X3 (extra) niche skill tests on Neo (runs/20261126-191610-loh-v4-x3-neo-skills; `data/loh/results/v4/X3/`;
+  scripts `loh_v4_x3_neo_skills.py`, `loh_v4_x3_analyze.py`). v4 champion, only Neo's kit changes; 17,500 paired races
+  per variant (seeds 197M). Break the Mold condition fixed from the in-game page (order_rate>=40, legacy had >=50) via
+  new `data/loh/skill_overrides.json` (applied in catalog.skill_table(); no runner held it before, so earlier results are
+  unchanged); Beautiful Form (gold) still has the legacy >=50, unverified. Team top-3 vs base (Neo top-3):
+  add on top — Condor's Fury (inh.) +0.47 [0.27, 0.68] (+1.15), Latch On +0.47 [0.26, 0.67] (+1.07), RS: Power +0.34
+  [0.14, 0.55] (+0.86), Break the Mold +0.33 [0.12, 0.54] (+0.98), Pedal to the Metal +0.14 [−0.07, 0.35] (+0.22).
+  Swap for Slick Surge — Condor's +0.28 [0.07, 0.49] (+0.77; +20 SP → ESP 4620), Latch On +0.16 [−0.05, 0.37],
+  Break the Mold +0.14 [−0.08, 0.35], RS: Power −0.01, Pedal −0.18 [−0.40, 0.04] (Neo −0.61). Slick Surge itself
+  worth +0.26 [0.05, 0.48] on these seeds (A6 had −0.27 ns). Slot value (swap − drop Slick Surge): Condor's +0.55,
+  Latch On +0.43, Break the Mold +0.40, RS: Power +0.25, Pedal +0.09 (ns). Firing (Neo): Latch On 93 % at ~1214 m,
+  Break the Mold 91 % at 1376–1588 m (3rd corner), Condor's 91 % at ~1626 m (final-corner entry), Pedal 66 % at
+  1876–2291 m (needs ≤ 10 m from the leader), RS: Power 70 % at ~2002 m. HP-out: base 1.22 %; adding a late
+  skill on top raises it to 1.55–1.61 % (marginal), swaps stay ok (≤ 1.48 %).
+
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
   no drain set that meets the floor up to 1350 stamina.
@@ -336,6 +351,7 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
 | --- | --- |
 | Rules (machine-readable) | `data/loh/rules.json` (`v3`, `v4` blocks) |
 | Skill pool | `data/loh/skill_pool.json/.csv` ← `scripts/loh_skill_pool.py` |
+| Skill fixes (in-game verified) | `data/loh/skill_overrides.json` (applied by `catalog.skill_table()`), specs in `data/loh/skill_specs.json` |
 | Teams | `data/loh/my_team_v3_base.json`, `my_team_v3_champion.json`, `cn_team.json`, `jp_team.json` |
 | Mock builds | `data/loh/mocks.json` |
 | Archived small run outputs | `data/loh/archive/<run>/` (runs/ itself is git-ignored) |

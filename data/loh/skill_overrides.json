@@ -1,0 +1,13 @@
+{
+ "_note": "Corrections to converted legacy skills, verified against in-game skill pages. Applied by umasim.catalog.skill_table().",
+ "202522": {
+  "name": "Break the Mold",
+  "source": "user screenshot 2026-11-26 (in-game skill page: Normal, wit check, base cost 180, 3 s, current speed +0.15)",
+  "was": "distance_type==3&corner_random==3&order_rate>=50@distance_type==4&corner_random==3&order_rate>=50",
+  "alternatives": {
+   "0": {
+    "condition": "distance_type==3&corner_random==3&order_rate>=40@distance_type==4&corner_random==3&order_rate>=40"
+   }
+  }
+ }
+}

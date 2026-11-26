@@ -145,6 +145,24 @@ def skill_table() -> dict:
                 t[sid] = _convert_legacy(sid, e)
             except (KeyError, TypeError):
                 pass
+    return _apply_overrides(t)
+
+
+SKILL_OVERRIDES = ROOT / "data" / "loh" / "skill_overrides.json"
+
+
+def _apply_overrides(t: dict) -> dict:
+    """Corrections to converted legacy skills, verified against in-game skill pages (user screenshots).
+    Format: {skill_id: {"alternatives": {"<index>": {field: value}}, "source": ..., "was": ...}}."""
+    if not SKILL_OVERRIDES.exists():
+        return t
+    for sid, o in json.loads(SKILL_OVERRIDES.read_text()).items():
+        if sid.startswith("_") or sid not in t:
+            continue
+        e = json.loads(json.dumps(t[sid]))
+        for idx, fields in o.get("alternatives", {}).items():
+            e["alternatives"][int(idx)].update(fields)
+        t[sid] = e
     return t
 
 

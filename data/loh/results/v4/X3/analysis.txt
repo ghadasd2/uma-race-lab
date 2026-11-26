@@ -1,0 +1,43 @@
+17500 paired races per variant (seeds 197M); v4 champion, only Neo's kit changes; Slick Surge = 180 SP; Neo ESP 4600 before changes
+
+                       variant  team_top3               d_team  neo_top3                d_neo             d_points    sp  neo_esp  pp_per_100sp  neo_hp_out%  neo_hp_ub% neo_floor  team_hp_max%
+                          base      96.26                  NaN     95.05                  NaN                  NaN   NaN      NaN           NaN         1.22        1.40        ok          1.48
+              drop Slick Surge      96.00 -0.26 [-0.48, -0.05]     94.24 -0.81 [-1.27, -0.35] -0.17 [-0.31, -0.03]   NaN      NaN           NaN         1.09        1.26        ok          1.40
+ add Condor's Fury (inherited)      96.73 +0.47 [+0.27, +0.68]     96.21 +1.15 [+0.75, +1.56] +0.20 [+0.07, +0.33] 200.0   4800.0          0.24         1.61        1.81  marginal          1.61
+swap Condor's Fury (inherited)      96.54 +0.28 [+0.07, +0.49]     95.82 +0.77 [+0.34, +1.19] +0.14 [+0.00, +0.28]  20.0   4620.0          1.41         1.48        1.67        ok          1.48
+            add Break the Mold      96.59 +0.33 [+0.12, +0.54]     96.03 +0.98 [+0.57, +1.40] +0.11 [-0.02, +0.25] 180.0   4780.0          0.18         1.24        1.41        ok          1.37
+           swap Break the Mold      96.40 +0.14 [-0.08, +0.35]     95.47 +0.42 [-0.01, +0.85] +0.07 [-0.07, +0.21]   0.0   4600.0           NaN         1.22        1.40        ok          1.28
+      add Racing Spirit: Power      96.60 +0.34 [+0.14, +0.55]     95.91 +0.86 [+0.45, +1.27] +0.13 [+0.00, +0.27] 150.0   4750.0          0.23         1.58        1.77  marginal          1.58
+     swap Racing Spirit: Power      96.25 -0.01 [-0.23, +0.20]     95.01 -0.05 [-0.49, +0.39] -0.01 [-0.15, +0.13] -30.0   4570.0          0.04         1.41        1.59        ok          1.41
+                  add Latch On      96.73 +0.47 [+0.26, +0.67]     96.13 +1.07 [+0.67, +1.48] +0.20 [+0.07, +0.34] 180.0   4780.0          0.26         1.55        1.75  marginal          1.55
+                 swap Latch On      96.42 +0.16 [-0.05, +0.37]     95.37 +0.31 [-0.12, +0.75] +0.05 [-0.09, +0.19]   0.0   4600.0           NaN         1.31        1.49        ok          1.34
+        add Pedal to the Metal      96.40 +0.14 [-0.07, +0.35]     95.27 +0.22 [-0.20, +0.65] +0.04 [-0.10, +0.18] 180.0   4780.0          0.08         1.59        1.78  marginal          1.59
+       swap Pedal to the Metal      96.08 -0.18 [-0.40, +0.04]     94.45 -0.61 [-1.06, -0.15] -0.09 [-0.23, +0.05]   0.0   4600.0           NaN         1.38        1.57        ok          1.38
+
+activation (Neo):
+                       variant  fired%  fire_m_p10  fire_m_median  fire_m_p90  neo_top3_if_fired  neo_top3_if_not
+ add Condor's Fury (inherited)    91.2      1625.2         1625.9      1656.5               96.4             94.5
+swap Condor's Fury (inherited)    91.5      1625.2         1625.9      1660.8               96.0             93.4
+            add Break the Mold    90.6      1376.0         1481.9      1587.6               96.1             95.9
+           swap Break the Mold    90.7      1378.2         1484.0      1589.2               95.5             95.7
+      add Racing Spirit: Power    69.5      2001.8         2002.6      2003.3               95.3             97.2
+     swap Racing Spirit: Power    70.2      2001.9         2002.6      2003.3               94.4             96.4
+                  add Latch On    92.5      1200.3         1213.6      1355.3               96.2             95.6
+                 swap Latch On    92.8      1200.3         1213.7      1349.3               95.4             95.5
+        add Pedal to the Metal    66.6      1876.2         2032.2      2290.9               99.2             87.4
+       swap Pedal to the Metal    65.2      1876.3         2036.9      2293.0               99.2             85.5
+
+value in Neo's Slick Surge slot (swap vs drop Slick Surge, paired):
+  Condor's Fury (inherited): team +0.55 [+0.34, +0.75], Neo +1.58 [+1.14, +2.02]
+  Break the Mold: team +0.40 [+0.19, +0.61], Neo +1.23 [+0.79, +1.68]
+  Racing Spirit: Power: team +0.25 [+0.04, +0.46], Neo +0.77 [+0.31, +1.22]
+  Latch On: team +0.43 [+0.22, +0.63], Neo +1.13 [+0.68, +1.57]
+  Pedal to the Metal: team +0.09 [-0.13, +0.30], Neo +0.21 [-0.26, +0.67]
+
+Neo top-3 change by gate (swap vs base):
+       Condor's Fury (inherited)  Break the Mold  Racing Spirit: Power  Latch On  Pedal to the Metal
+gate                                                                                                
+2-3                         1.40            0.55                  0.64      0.55               -0.18
+4-6                         0.63            0.32                 -0.13      0.27               -0.63
+7-9                         0.81            0.68                  0.00      0.41               -0.41
+10-12                       0.42            0.19                 -0.48      0.10               -1.06

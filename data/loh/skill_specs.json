@@ -147,6 +147,16 @@
     "accel +0.4"
    ],
    "legacy_match": true
+  },
+  "202522 Break the Mold": {
+   "condition": "distance_type==3&corner_random==3&order_rate>=40@distance_type==4&corner_random==3&order_rate>=40",
+   "wit_check": true,
+   "duration_s": 3,
+   "effects": [
+    "current speed +0.15"
+   ],
+   "base_cost": 180,
+   "legacy_match": "no: legacy had order_rate>=50; fixed by data/loh/skill_overrides.json (2026-11-26)"
   }
  },
  "status": "all 13 non-validated opponent skills verified against user screenshots (Wisdom of the Sun fixed at 0.42 = 20+ skills)"

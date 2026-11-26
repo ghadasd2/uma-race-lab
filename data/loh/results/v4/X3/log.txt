@@ -1,0 +1,19 @@
+Condor's Fury (inherited) 910141: inherited 200 SP, wit check True, 5.76 s at 2400 m, effects [(31, 0.2)], condition is_finalcorner==1&corner!=0&is_overtake==1&order>=4&order_rate<=75
+Break the Mold 202522: white 180 SP, wit check True, 7.20 s at 2400 m, effects [(22, 0.15)], condition distance_type==3&corner_random==3&order_rate>=40@distance_type==4&corner_random==3&order_rate>=40
+Racing Spirit: Power 210111: white 150 SP, wit check True, 9.60 s at 2400 m, effects [(27, 0.15)], condition phase==3&is_overtake==1&is_lastspurt==1
+Latch On 202472: white 180 SP, wit check True, 5.76 s at 2400 m, effects [(27, 0.15)], condition running_style==2&distance_rate>=50&is_overtake==1@running_style==3&distance_rate>=50&is_overtake==1
+Pedal to the Metal 202452: white 180 SP, wit check True, 5.76 s at 2400 m, effects [(27, 0.25)], condition running_style==3&is_finalcorner==1&corner==0&order>=2&distance_diff_top<=10
+Neo ESP base 4600; Slick Surge 180 SP
+base: 17500 races 115s
+drop Slick Surge: 17500 races 226s
+add Condor's Fury (inherited): 17500 races 342s
+swap Condor's Fury (inherited): 17500 races 456s
+add Break the Mold: 17500 races 578s
+swap Break the Mold: 17500 races 697s
+add Racing Spirit: Power: 17500 races 814s
+swap Racing Spirit: Power: 17500 races 933s
+add Latch On: 17500 races 1050s
+swap Latch On: 17500 races 1166s
+add Pedal to the Metal: 17500 races 1281s
+swap Pedal to the Metal: 17500 races 1399s
+done /home/user/src/uma-race-lab/runs/20261126-191610-loh-v4-x3-neo-skills

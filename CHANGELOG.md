@@ -5,6 +5,14 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
 
+### 2026-11-26 — X3 niche skill tests on Neo
+- New `data/loh/skill_overrides.json` + `catalog._apply_overrides`: in-game-verified fixes to converted legacy skills.
+  First entry: Break the Mold (202522) condition order_rate>=40 (legacy >=50), from the user's screenshot; recorded in
+  `skill_specs.json`; test `tests/test_skill_overrides.py`.
+- `scripts/loh_v4_x3_neo_skills.py 17500`, `loh_v4_x3_analyze.py` → `data/loh/results/v4/X3/`: Condor's Fury
+  (inherited), Break the Mold, Racing Spirit: Power, Latch On, Pedal to the Metal on Neo, added on top and swapped
+  for Slick Surge. Best: Condor's Fury (+0.28 team as a swap, +0.47 on top); Pedal to the Metal worst.
+
 ### 2026-11-21 — X2 Ignited Spirit WIT side effects (pace down, blocking, hurt rate)
 - Engine observation patch: `posKeepLog` (position-keep mode changes with gap to pacemaker), in both the retail
   and legacy solvers; observation only, results byte-identical (checked on 500 races); applies to the pinned commit.
