@@ -4,15 +4,25 @@ data/loh/skill_overrides.json), Racing Spirit: Power (210111), Latch On (202472)
 Variants: base; drop Slick Surge (Neo's weakest held skill in A6); each skill added on top (cap/ESP ignored) and
 swapped in for Slick Surge. Paired on the same seeds (197M). Per race: team top-3, points, Neo place, HP-out per
 uma, and whether / where the tested skill fired for Neo.
-Usage: loh_v4_x3_neo_skills.py N [RUN_DIR_TO_RESUME]"""
+Usage: loh_v4_x3_neo_skills.py N [RUN_DIR_TO_RESUME] [--skills JSON] [--drop "A;B"] [--tag NAME]
+  --skills  {"name": "skill id", ...} to test instead of the X3 set (each added on top and swapped for Slick Surge)
+  --drop    held skills of Neo to remove (value of holding them), separated by ';'
+  --tag     run-folder tag (default v4-x3-neo-skills)
+The skill set is written to RUN_DIR/skills.json for the analysis script."""
 import copy, json, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import pandas as pd
 from umasim import buildgen as G, catalog as C, engine, esp, loh, mock, opt
 
-N = int(sys.argv[1])
-out = Path(sys.argv[2]) if len(sys.argv) > 2 else opt.run_dir("v4-x3-neo-skills")
+args = sys.argv[1:]
+def opt_arg(flag, default=None):
+    if flag in args:
+        k = args.index(flag); v = args[k + 1]; del args[k:k + 2]; return v
+    return default
+SKILLS_ARG, DROP_ARG, TAG = opt_arg("--skills"), opt_arg("--drop", ""), opt_arg("--tag", "v4-x3-neo-skills")
+N = int(args[0])
+out = Path(args[1]) if len(args) > 1 else opt.run_dir(TAG)
 logf = open(out / "log.txt", "a")
 def log(*a):
     m = " ".join(str(x) for x in a); print(m, flush=True); logf.write(m + "\n"); logf.flush()
@@ -20,11 +30,20 @@ def log(*a):
 NEO, SWAP_OUT = 2, "Slick Surge"
 SKILLS = {"Condor's Fury (inherited)": "910141", "Break the Mold": "202522", "Racing Spirit: Power": "210111",
           "Latch On": "202472", "Pedal to the Metal": "202452"}
+if SKILLS_ARG:
+    SKILLS = json.loads(SKILLS_ARG)
+DROPS = [x for x in DROP_ARG.split(";") if x]
+(out / "skills.json").write_text(json.dumps({"skills": SKILLS, "drops": DROPS}, ensure_ascii=False, indent=1) + "\n")
 champ = json.loads(Path("data/loh/my_team_v4_champion.json").read_text())
 base_sk = champ[NEO]["skills"]
 def team(skills):
     t = copy.deepcopy(champ); t[NEO]["skills"] = skills; return t
-V = {"base": (team(list(base_sk)), None), f"drop {SWAP_OUT}": (team([s for s in base_sk if s != SWAP_OUT]), None)}
+# with --drop, the base variant records where the first dropped (held) skill fires
+V = {"base": (team(list(base_sk)), C.resolve_skill(DROPS[0]) if DROPS else None),
+     f"drop {SWAP_OUT}": (team([s for s in base_sk if s != SWAP_OUT]), None)}
+for d in DROPS:
+    assert d in base_sk, d
+    V[f"drop {d}"] = (team([s for s in base_sk if s != d]), None)
 for name, sid in SKILLS.items():
     V[f"add {name}"] = (team(base_sk + [sid]), sid)
     V[f"swap {name}"] = (team([sid if s == SWAP_OUT else s for s in base_sk]), sid)

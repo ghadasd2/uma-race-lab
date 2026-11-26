@@ -5,6 +5,12 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
 
+### 2026-11-26 — X4 more Neo skills
+- `scripts/loh_v4_x3_neo_skills.py` gains `--skills`, `--drop`, `--tag` (defaults reproduce X3; skill set saved to
+  `skills.json`); `loh_v4_x3_analyze.py` reads it and reports drop (holding) values.
+- X4 → `data/loh/results/v4/X4/`: Into High Gear! is worth +0.73 team to hold; Triumphant Pulse and Barcarole (inh.)
+  ≈ Slick Surge as swaps (+0.09 / +0.03), good on top (+0.44 / +0.39); Straightaway Acceleration weak.
+
 ### 2026-11-26 — X3 niche skill tests on Neo
 - New `data/loh/skill_overrides.json` + `catalog._apply_overrides`: in-game-verified fixes to converted legacy skills.
   First entry: Break the Mold (202522) condition order_rate>=40 (legacy >=50), from the user's screenshot; recorded in

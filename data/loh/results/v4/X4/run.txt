@@ -1,0 +1,2 @@
+runs/20261126-200217-loh-v4-x4-neo-skills
+command: python3 scripts/loh_v4_x3_neo_skills.py 17500 --tag v4-x4-neo-skills --drop "Into High Gear!" --skills '{"Straightaway Acceleration": "200372", "Triumphant Pulse (inherited)": "900061", "Barcarole of Blessings (inherited)": "910151"}'

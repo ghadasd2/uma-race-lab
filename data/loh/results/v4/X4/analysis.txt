@@ -1,0 +1,36 @@
+17500 paired races per variant (seeds 197M); v4 champion, only Neo's kit changes; Slick Surge = 180 SP; Neo ESP 4600 before changes
+
+                                variant  team_top3               d_team  neo_top3                d_neo             d_points    sp  neo_esp  pp_per_100sp  neo_hp_out%  neo_hp_ub% neo_floor  team_hp_max%
+                                   base      96.26                  NaN     95.05                  NaN                  NaN   NaN      NaN           NaN         1.22        1.40        ok          1.48
+                       drop Slick Surge      96.00 -0.26 [-0.48, -0.05]     94.24 -0.81 [-1.27, -0.35] -0.17 [-0.31, -0.03]   NaN      NaN           NaN         1.09        1.26        ok          1.40
+                   drop Into High Gear!      95.53 -0.73 [-0.95, -0.52]     92.79 -2.26 [-2.73, -1.79] -0.43 [-0.57, -0.29]   NaN      NaN           NaN         1.08        1.24        ok          1.37
+          add Straightaway Acceleration      96.43 +0.17 [-0.04, +0.38]     95.53 +0.47 [+0.05, +0.90] +0.01 [-0.13, +0.15] 170.0   4770.0          0.10         1.27        1.45        ok          1.39
+         swap Straightaway Acceleration      96.16 -0.10 [-0.32, +0.11]     94.56 -0.49 [-0.94, -0.04] -0.08 [-0.22, +0.07] -10.0   4590.0          1.03         1.27        1.45        ok          1.28
+       add Triumphant Pulse (inherited)      96.70 +0.44 [+0.23, +0.64]     96.19 +1.14 [+0.73, +1.54] +0.16 [+0.03, +0.30] 200.0   4800.0          0.22         1.67        1.87  marginal          1.67
+      swap Triumphant Pulse (inherited)      96.35 +0.09 [-0.12, +0.30]     95.34 +0.29 [-0.15, +0.72] +0.02 [-0.12, +0.16]  20.0   4620.0          0.46         1.49        1.68        ok          1.49
+ add Barcarole of Blessings (inherited)      96.65 +0.39 [+0.18, +0.59]     96.03 +0.98 [+0.57, +1.38] +0.14 [+0.01, +0.28] 200.0   4800.0          0.19         1.66        1.86  marginal          1.66
+swap Barcarole of Blessings (inherited)      96.29 +0.03 [-0.18, +0.25]     95.15 +0.10 [-0.33, +0.54] +0.00 [-0.14, +0.14]  20.0   4620.0          0.16         1.45        1.63        ok          1.45
+
+activation (Neo):
+                                variant  fired%  fire_m_p10  fire_m_median  fire_m_p90  neo_top3_if_fired  neo_top3_if_not
+          add Straightaway Acceleration    92.5        98.2         1115.5      2235.7               95.6             94.8
+         swap Straightaway Acceleration    92.6        99.0         1133.3      2238.9               94.6             94.7
+       add Triumphant Pulse (inherited)    78.2      2199.2         2199.8      2200.5               96.4             95.4
+      swap Triumphant Pulse (inherited)    79.5      2199.2         2199.8      2200.5               95.6             94.3
+ add Barcarole of Blessings (inherited)    90.1      1999.2         1999.9      2000.5               97.8             80.3
+swap Barcarole of Blessings (inherited)    89.7      1999.2         1999.8      2000.5               97.4             75.6
+  Into High Gear! (held) fires in 85.4 % of base races, at 1500 / 1501 / 1501 m (p10 / median / p90)
+  value of holding Into High Gear! (base - drop): team +0.73 [+0.52, +0.95], Neo +2.26 [+1.79, +2.73], points +0.43 [+0.29, +0.57]
+
+value in Neo's Slick Surge slot (swap vs drop Slick Surge, paired):
+  Straightaway Acceleration: team +0.16 [-0.05, +0.38], Neo +0.32 [-0.14, +0.78]
+  Triumphant Pulse (inherited): team +0.36 [+0.15, +0.57], Neo +1.10 [+0.65, +1.54]
+  Barcarole of Blessings (inherited): team +0.30 [+0.09, +0.51], Neo +0.91 [+0.47, +1.36]
+
+Neo top-3 change by gate (swap vs base):
+       Straightaway Acceleration  Triumphant Pulse (inherited)  Barcarole of Blessings (inherited)
+gate                                                                                              
+2-3                        -0.46                          0.94                                0.55
+4-6                        -0.49                          0.23                                0.21
+7-9                        -0.06                          0.53                                0.28
+10-12                      -0.94                         -0.35                               -0.48

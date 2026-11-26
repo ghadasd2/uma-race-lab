@@ -339,6 +339,18 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   1876–2291 m (needs ≤ 10 m from the leader), RS: Power 70 % at ~2002 m. HP-out: base 1.22 %; adding a late
   skill on top raises it to 1.55–1.61 % (marginal), swaps stay ok (≤ 1.48 %).
 
+- X4 (extra) more Neo skills, same script/seeds as X3 (`--skills/--drop` options; run
+  runs/20261126-200217-loh-v4-x4-neo-skills; `data/loh/results/v4/X4/`). Base and drop-Slick-Surge identical to X3
+  (96.26 / 96.00 %), so X3 and X4 are directly comparable. Holding Into High Gear! (inh., already in Neo's kit) is worth
+  team +0.73 [0.52, 0.95], Neo +2.26, points +0.43 (fires 85 % at ~1500 m). Add on top / swap for Slick Surge (team):
+  Triumphant Pulse (inh.) +0.44 [0.23, 0.64] / +0.09, Barcarole of Blessings (inh.) +0.39 [0.18, 0.59] / +0.03,
+  Straightaway Acceleration +0.17 [−0.04, 0.38] / −0.10 (Neo −0.49). Slot values (swap − drop Slick Surge) across
+  X3+X4: Condor's Fury +0.55, Latch On +0.43, Break the Mold +0.40, Triumphant Pulse +0.36, Barcarole +0.30,
+  Slick Surge +0.26, RS: Power +0.25, Straightaway Acceleration +0.16, Pedal to the Metal +0.09 (each ±0.21).
+  Firing: Triumphant Pulse 79 % at 2200 m (needs 2nd–5th), Barcarole 90 % at 2000 m (needs top 4), Straightaway
+  Acceleration 93 % anywhere 100–2240 m (median 1115 m). Adding a late speed skill on top: Neo HP-out 1.66–1.67 %
+  (marginal); swaps ok.
+
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
   no drain set that meets the floor up to 1350 stamina.

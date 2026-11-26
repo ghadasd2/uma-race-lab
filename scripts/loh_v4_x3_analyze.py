@@ -14,6 +14,10 @@ X["neo_top3"] = (X.p2 <= 3) * 100.0
 W = {c: X.pivot(index="seed", columns="variant", values=c) for c in ("team_top3", "neo_top3", "points")}
 SID = {"Condor's Fury (inherited)": "910141", "Break the Mold": "202522", "Racing Spirit: Power": "210111",
        "Latch On": "202472", "Pedal to the Metal": "202452"}
+DROPS = []
+if (run / "skills.json").exists():
+    import json
+    cfg = json.loads((run / "skills.json").read_text()); SID, DROPS = cfg["skills"], cfg.get("drops", [])
 SLICK = esp.esp(C.resolve_skill("Slick Surge"), True)
 
 def ci(d):
@@ -53,6 +57,13 @@ out.append(R[[c for c in cols if c in R]].round(2).to_string(index=False))
 out += ["", "activation (Neo):"]
 out.append(R[R["fired%"].notna()][["variant", "fired%", "fire_m_p10", "fire_m_median", "fire_m_p90", "neo_top3_if_fired",
                                    "neo_top3_if_not"]].round(1).to_string(index=False))
+if DROPS:
+    b = X[X.variant == "base"]
+    out.append(f"  {DROPS[0]} (held) fires in {100 * b.fired.mean():.1f} % of base races, at {b.fire_pos.quantile(.1):.0f} / "
+               f"{b.fire_pos.median():.0f} / {b.fire_pos.quantile(.9):.0f} m (p10 / median / p90)")
+for d in DROPS:
+    out.append(f"  value of holding {d} (base - drop): team {fmt(ci(W['team_top3']['base'] - W['team_top3'][f'drop {d}']))}, "
+               f"Neo {fmt(ci(W['neo_top3']['base'] - W['neo_top3'][f'drop {d}']))}, points {fmt(ci(W['points']['base'] - W['points'][f'drop {d}']))}")
 # value of each skill in the Slick Surge slot = swap - drop
 out += ["", "value in Neo's Slick Surge slot (swap vs drop Slick Surge, paired):"]
 for name in SID:

@@ -1,0 +1,14 @@
+Straightaway Acceleration 200372: white 170 SP, wit check True, 7.20 s at 2400 m, effects [(31, 0.2)], condition straight_random==1
+Triumphant Pulse (inherited) 900061: inherited 200 SP, wit check True, 7.20 s at 2400 m, effects [(27, 0.25)], condition order>=2&order<=5&order_rate<=50&remain_distance<=201&remain_distance>=199
+Barcarole of Blessings (inherited) 910151: inherited 200 SP, wit check True, 7.20 s at 2400 m, effects [(27, 0.25)], condition remain_distance<=401&remain_distance>=399&order_rate<=40&activate_count_all>=7
+Neo ESP base 4600; Slick Surge 180 SP
+base: 17500 races 118s
+drop Slick Surge: 17500 races 234s
+drop Into High Gear!: 17500 races 347s
+add Straightaway Acceleration: 17500 races 458s
+swap Straightaway Acceleration: 17500 races 570s
+add Triumphant Pulse (inherited): 17500 races 683s
+swap Triumphant Pulse (inherited): 17500 races 802s
+add Barcarole of Blessings (inherited): 17500 races 920s
+swap Barcarole of Blessings (inherited): 17500 races 1036s
+done /home/user/src/uma-race-lab/runs/20261126-200217-loh-v4-x4-neo-skills
