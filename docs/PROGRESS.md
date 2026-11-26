@@ -25,3 +25,4 @@ Status values: `todo`, `running` (a job is in flight — check its run folder be
   session, attach the repo (add_repo, push access) and clone it; the working copy used so far is
   `/home/user/src/uma-race-lab` with the engine at `/home/user/src/GlobalSim` (run `./setup.sh` in a
   fresh clone to fetch, pin, patch and build it).
+- X5 (extra, running): best Neo kit and stats without Ignited Spirit WIT — `scripts/loh_v4_x5_neo_kit.py`, run `runs/20261126-210313-loh-v4-x5-neo-kit` (resume: `python3 scripts/loh_v4_x5_neo_kit.py runs/20261126-210313-loh-v4-x5-neo-kit`; stages are checkpointed).
