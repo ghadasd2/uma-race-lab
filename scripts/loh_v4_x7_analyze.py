@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 run = Path(sys.argv[1])
-X = pd.read_csv(run / "races.csv.gz")
+X = pd.read_csv(run / "races.csv.gz", low_memory=False)
 X["k_top3"] = (X.p0 <= 3) * 100.0; X["i_top3"] = (X.p1 <= 3) * 100.0; X["n_top3"] = (X.p2 <= 3) * 100.0
 X["mine_win"] = (X.winner == "mine") * 100.0; X["mock_win"] = (X.winner == "mock") * 100.0
 X["mock_leads_1600"] = (X.leader_1600 == "mock") * 100.0; X["mock_leads_1875"] = (X.leader_1875 == "mock") * 100.0

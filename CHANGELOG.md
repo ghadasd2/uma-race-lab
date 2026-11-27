@@ -5,6 +5,11 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
 
+### 2026-11-27 — X7 Angling and Scheming on the mocks
+- `scripts/loh_v4_x7_angling_mocks.py 17500`, `loh_v4_x7_analyze.py` → `data/loh/results/v4/X7/`.
+- Mocks holding it cost my team −0.54 team top-3 and −0.38 points per race (fires in 9 % of races, −5.9 pp in those);
+  taking it on my fronts too recovers only +0.15 (ns).
+
 ### 2026-11-27 — X6 Angling and Scheming on the fronts (dueling theory)
 - `scripts/loh_v4_x6_angling.py 17500`, `loh_v4_x6_analyze.py` → `data/loh/results/v4/X6/` (duel partners from the
   duel log, front gap/speed at 1625/1875 m, no-effect clone twins for clean causal effects).

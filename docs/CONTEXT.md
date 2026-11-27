@@ -385,6 +385,17 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   replaces the duel. The plain add-vs-base comparison showed −0.18/−0.19 team, but the no-effect clone shows the same
   (−0.20/−0.23): that is the engine's RNG reshuffle when any skill is added, not the skill.
 
+- X7 (extra) Angling and Scheming on the MOCKS instead (run in `data/loh/results/v4/X7/run.txt`; scripts
+  `loh_v4_x7_angling_mocks.py`, `loh_v4_x7_analyze.py`; same team/seeds as X6, base identical to X6 base). Skill
+  appended to every mock (and in "all" also to my two fronts); real vs no-effect twin, 17,500 races each.
+  Mocks hold it: team top-3 −0.54 [−0.60, −0.47], points −0.38/race, Ines −0.83, Kitasan −0.47, Neo −0.31, mock top-3
+  +0.54. It fires only when a mock front leads at 1600 m (9.1 % of races; mock leads at 1600 m 8.5 % in base); in those
+  races team top-3 −5.9 pp (Ines −9.1, Kitasan −5.2), the mock's lead at 1875 m +1.0 m, my fronts duel more (+5.5 pp,
+  with a mock +10.9 pp) but still lose the podium spot. Taking it back on my fronts too ("all"): vs mocks-only
+  +0.15 [−0.06, +0.35] team (ns), +0.16 points — little counter, because mine fires only when my front leads, i.e. in
+  the races where the mock's does not. Asymmetry vs X6: when my leader accelerates, the runner left behind is usually
+  my other front (top-3 count unchanged); when a mock leader does, it keeps a podium spot from my team.
+
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
   no drain set that meets the floor up to 1350 stamina.

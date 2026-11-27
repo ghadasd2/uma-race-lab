@@ -1,0 +1,6 @@
+base: 17500 races 163s
+mocks +A&S: 17500 races 332s
+mocks +null: 17500 races 498s
+all +A&S: 17500 races 674s
+all +null: 17500 races 849s
+done /home/user/src/uma-race-lab/runs/20261127-025419-loh-v4-x7-angling-mocks

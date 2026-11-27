@@ -1,0 +1,49 @@
+17500 paired races per variant (seeds 200M). Fronts = v4 champion, Neo = X5 build, mocks as calibrated (CN 96 %).
+                                    measure   base  mocks +A&S  all +A&S   mocks: A&S vs twin       all: A&S vs twin all vs mocks-only (A&S)
+                               team top-3 %  96.90       96.24     96.39 -0.54 [-0.60, -0.47]   -0.43 [-0.50, -0.35]    +0.15 [-0.06, +0.35]
+                         team points / race 198.39      197.96    198.12 -0.38 [-0.43, -0.33]   -0.22 [-0.27, -0.17]    +0.16 [+0.03, +0.30]
+                            Kitasan top-3 %  96.75       96.09     96.26 -0.47 [-0.59, -0.34]   -0.39 [-0.56, -0.23]    +0.18 [-0.21, +0.56]
+                               Ines top-3 %  97.29       96.23     96.57 -0.83 [-0.98, -0.68]   -0.57 [-0.73, -0.40]    +0.33 [-0.04, +0.70]
+                                Neo top-3 %  96.67       96.40     96.33 -0.31 [-0.41, -0.21]   -0.32 [-0.43, -0.21]    -0.07 [-0.44, +0.31]
+                               mock top-3 %   3.10        3.76      3.61 +0.54 [+0.47, +0.60]   +0.43 [+0.35, +0.50]    -0.15 [-0.35, +0.06]
+                             my team wins %  99.81       99.73     99.80 -0.10 [-0.16, -0.05]   -0.03 [-0.09, +0.03]    +0.07 [-0.03, +0.17]
+                              a mock wins %   0.19        0.27      0.20 +0.10 [+0.05, +0.16]   +0.03 [-0.03, +0.09]    -0.07 [-0.17, +0.03]
+                            my fronts 1-2 %  40.34       39.93     38.00 -0.23 [-0.35, -0.10]   -2.56 [-3.01, -2.11]    -1.93 [-2.85, -1.00]
+                      A&S fired by a mock %   0.00        9.10      8.18 +0.00 [+0.00, +0.00]   -0.73 [-0.86, -0.60]    -0.92 [-1.47, -0.37]
+                    A&S fired by my front %   0.00        0.00     91.10 +0.00 [+0.00, +0.00]   -1.66 [-1.85, -1.46] +91.10 [+90.68, +91.52]
+                     mock leads at 1600 m %   8.47        8.67      8.50 +0.01 [-0.01, +0.02]   +0.01 [-0.02, +0.03]    -0.17 [-0.72, +0.38]
+                     mock leads at 1875 m %   1.97        4.16      3.49 +2.30 [+2.07, +2.52]   +1.61 [+1.40, +1.82]    -0.67 [-1.06, -0.29]
+                either of my fronts duels %  44.35       44.51     34.50 +0.50 [+0.31, +0.69] -10.29 [-10.87, -9.70]  -10.01 [-10.99, -9.02]
+                my fronts duel each other %  26.43       26.04     16.35 -0.08 [-0.19, +0.03] -10.43 [-10.99, -9.87]   -9.69 [-10.51, -8.86]
+                    my front duels a mock %  10.33       11.37     10.41 +0.99 [+0.75, +1.24]   +0.42 [+0.15, +0.68]    -0.96 [-1.59, -0.33]
+                 Kitasan-Ines gap at 1875 m   7.15        7.24      9.03 -0.00 [-0.01, +0.00]   +1.87 [+1.84, +1.91]    +1.79 [+1.68, +1.90]
+leader ahead of my best front at 1875 m (m)   0.07        0.16      0.15 +0.09 [+0.09, +0.10]   +0.08 [+0.07, +0.08]    -0.02 [-0.04, +0.00]
+RNG reshuffle check mocks +null vs base: team -0.13 [-0.32, +0.07]
+RNG reshuffle check all +null vs base: team -0.09 [-0.28, +0.11]
+
+mock firings by strategy: {'Front Runner': 1592}; position median 1603 m
+races with 0/1/2/3 mock front runners: {2: 13148, 3: 4352}
+
+races where a mock fired it (clean: vs the identical-until-then twin):
+pair                                        mocks +A&S               all +A&S
+races %                                       9.097143               8.177143
+team top-3 (twin)                            90.180067              89.401351
+team top-3 diff                   -5.88 [-6.56, -5.21]   -5.50 [-6.28, -4.71]
+Kitasan top-3 (twin)                         86.494975              86.722572
+Kitasan top-3 diff                -5.15 [-6.51, -3.79]   -4.96 [-6.60, -3.32]
+Ines top-3 (twin)                            90.452261              88.539483
+Ines top-3 diff                  -9.11 [-10.69, -7.52]   -8.04 [-9.75, -6.33]
+mock wins % (twin)                            0.753769               0.698812
+mock wins % diff                  +1.13 [+0.51, +1.76]   +0.70 [+0.12, +1.28]
+my team wins % (twin)                        99.246231              99.301188
+my team wins % diff               -1.13 [-1.76, -0.51]   -0.70 [-1.28, -0.12]
+my fronts duel % (twin)                      69.974874              68.483578
+my fronts duel % diff             +5.53 [+3.44, +7.61]   +3.14 [+0.85, +5.44]
+my front duels a mock % (twin)               41.959799              41.020266
+my front duels a mock % diff    +10.93 [+8.31, +13.55]  +8.46 [+5.61, +11.31]
+leader lead at 1875 m (twin)                  0.672365               0.695589
+leader lead at 1875 m diff        +1.03 [+0.95, +1.11]   +0.99 [+0.90, +1.07]
+points (twin)                                194.51005             194.109015
+points diff                       -4.16 [-4.67, -3.65]   -3.47 [-4.01, -2.92]
+
+base by number of mock front runners: 2: team 96.84 %, mock leads at 1600 m 7.8 %; 3: team 97.07 %, mock leads at 1600 m 10.6 %
