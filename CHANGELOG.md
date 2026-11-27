@@ -5,6 +5,12 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
 
+### 2026-11-27 — X6 Angling and Scheming on the fronts (dueling theory)
+- `scripts/loh_v4_x6_angling.py 17500`, `loh_v4_x6_analyze.py` → `data/loh/results/v4/X6/` (duel partners from the
+  duel log, front gap/speed at 1625/1875 m, no-effect clone twins for clean causal effects).
+- Both fronts holding it: dueling −10.6 pp of races, fronts separate +1.9 m at the final straight, front wins +6.7 pp;
+  team top-3 unchanged (+0.03), points +0.08 per race.
+
 ### 2026-11-26 — X5 best Neo kit without Ignited Spirit WIT
 - `scripts/loh_v4_x5_neo_kit.py` (Neo-only kit search: enumeration + diversity + halving, stat stage, validation)
   → `data/loh/results/v4/X5/`, teams `data/loh/my_team_v4_neo_no_isw.json` and `..._no_nn.json`.

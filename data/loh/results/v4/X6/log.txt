@@ -1,0 +1,9 @@
+base: 17500 races 140s
+Kitasan +A&S: 17500 races 284s
+Ines +A&S: 17500 races 432s
+both +A&S: 17500 races 585s
+done /home/user/src/uma-race-lab/runs/20261127-012527-loh-v4-x6-angling
+Kitasan +null: 17500 races 145s
+Ines +null: 17500 races 294s
+both +null: 17500 races 447s
+done runs/20261127-012527-loh-v4-x6-angling

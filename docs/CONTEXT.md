@@ -370,6 +370,21 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   Stats: no cost-neutral move beat 1450/1000/1250/1200/1200; guts −50 → stamina +50 costs −0.05 [−0.20, 0.09] and cuts
   Neo HP-out 1.43 → 0.41 % (free safety margin).
 
+- X6 (extra) theory test: Angling and Scheming (inh. 900201, +0.2 m/s² for 5.76 s when 1st on a corner in the final
+  leg; fires at ~1603 m for whichever front leads) on the fronts reduces dueling (run
+  runs/20261127-012527-loh-v4-x6-angling; `data/loh/results/v4/X6/`; scripts `loh_v4_x6_angling.py`,
+  `loh_v4_x6_analyze.py`). Team = v4 champion fronts + Neo X5 build; added on top (Ines 24 skills, over the cap);
+  17,500 races per variant (seeds 200M), downsampled frames; duel partner = runner with the same duel start time.
+  Clean causal comparison vs a no-effect clone (identical race until it fires; no-fire races identical to 0 s),
+  both fronts holding it: either front duels −10.6 pp [−11.2, −10.1] (base 44 %), Kitasan and Ines duel each other
+  −10.4 pp (base 26 %), duel time −1.7 / −1.8 s per race, gap at 1875 m +1.87 m, within 3 m at 1875 m −8.6 pp; a front
+  wins +6.7 pp, fronts finish 1-2 −2.3 pp; team top-3 +0.03 [−0.00, +0.07] (no change), points +0.08 [0.05, 0.11].
+  Kitasan only: duels −3.2 pp, wins +4.3, team +0.01. Ines only: duels −7.6 pp, wins +2.7, team +0.03. When it fires the
+  holder's win rate rises +10–14 pp, own top-3 +0.15–0.34, the other front's top-3 −0.08 to −0.20. Verdict: the theory's
+  mechanism is right (less dueling, fronts separate) but it does not cost team top-3 — the leader's acceleration
+  replaces the duel. The plain add-vs-base comparison showed −0.18/−0.19 team, but the no-effect clone shows the same
+  (−0.20/−0.23): that is the engine's RNG reshuffle when any skill is added, not the skill.
+
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
   no drain set that meets the floor up to 1350 stamina.
