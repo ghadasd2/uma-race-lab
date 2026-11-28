@@ -5,6 +5,10 @@ Each entry names the step from `docs/MASTER_PROMPT.md` it belongs to (v4 onward)
 
 ## v4 — new rules, weaker mocks, full re-run (track A done; engine 2 pending)
 
+### 2026-11-28 — X8 Keep Going! stamina requirement on Neo
+- `scripts/loh_v4_x8_neo_keep_going.py 17500` → `data/loh/results/v4/X8/`. Neo needs 1100 stamina for Keep Going! on her
+  current build; on top it is worth +0.48 team top-3, as a realistic swap ≈ 0.
+
 ### 2026-11-27 — X7 Angling and Scheming on the mocks
 - `scripts/loh_v4_x7_angling_mocks.py 17500`, `loh_v4_x7_analyze.py` → `data/loh/results/v4/X7/`.
 - Mocks holding it cost my team −0.54 team top-3 and −0.38 points per race (fires in 9 % of races, −5.9 pp in those);

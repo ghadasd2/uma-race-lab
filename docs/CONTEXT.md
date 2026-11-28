@@ -396,6 +396,16 @@ mood −2 → +2 ≈ 65–74 → 86–93 %; ground/weather < 1.5 pp; Neo −5 pp
   the races where the mock's does not. Asymmetry vs X6: when my leader accelerates, the runner left behind is usually
   my other front (top-3 count unchanged); when a mock leader does, it keeps a podium spot from my team.
 
+- X8 (extra) Keep Going! (gold Full Throttle: +0.45 m/s 5.76 s, −2 % HP, random point mid-race) stamina requirement on
+  Neo's current X5 build (run runs/20261128-075421-loh-v4-x8-neo-keep-going; `data/loh/results/v4/X8/`; script
+  `loh_v4_x8_neo_keep_going.py`; 17,500 races each, seeds 201M, stamina paid by speed). Neo HP-out on top of the kit:
+  1050 3.46 % (fail), 1075 1.66 % (marginal, ub 1.86, 32 % of batches > 3), 1100 0.86 % (ok, ub 1.00, 8 % of batches
+  > 3), 1125 0.42 %, 1150 0.21 %, 1200 0.05 %. Requirement = 1100 (1125-1150 for the per-batch reading). Value on top
+  (cap/ESP ignored) vs the current build: +0.48 [0.29, 0.67] team top-3 at 1100 (Neo +1.14, points +0.23), falling
+  to +0.40 at 1200. Realistic swap for Slick Surge + Tail Held High (ESP 4580): +0.03 [−0.16, 0.23] at 1100, 0.00 at
+  1125, −0.03 at 1150 — no gain, but Neo HP-out 0.79 % vs 1.63 % for the current build on these seeds (current build
+  itself is marginal here: ub 1.83 %, 34 % of batches > 3).
+
 ## 5. Open questions / leads
 - Kitasan RS + Mad Dash at 1200 stamina vs the final team (dropped early in v3 search). v4 A4: Kitasan has
   no drain set that meets the floor up to 1350 stamina.
